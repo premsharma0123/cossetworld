@@ -189,7 +189,7 @@ main header .Nav-wrp nav .nav-item ul {
 
 main header .Nav-wrp nav .nav-item ul li {
   list-style-type: none;
-  margin: 0 .7rem;
+  margin: 0 .9rem;
 }
 
 main header .Nav-wrp nav .nav-item ul li a {
@@ -232,6 +232,7 @@ main header .Nav-wrp nav .nav-item ul .hair-care .drop_down {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  display: none;
 }
 
 main header .Nav-wrp nav .nav-item ul .hair-care .drop_down li {
