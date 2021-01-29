@@ -949,5 +949,14 @@ main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 a {
   border-radius: 100px;
   -webkit-box-shadow: 0px 3px 3px 2px #000;
           box-shadow: 0px 3px 3px 2px #000;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 a:active, main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 a:focus {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-box-shadow: inset 0px 0px 9px 0px #000;
+          box-shadow: inset 0px 0px 9px 0px #000;
 }
 /*# sourceMappingURL=style.css.map */
