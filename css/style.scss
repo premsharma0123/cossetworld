@@ -316,19 +316,20 @@
 // ----service---sectionnn---
     .Service_wrapper{
         width: 100%;
+        padding: 3rem 0 1rem;
         .Service_heading{
             width: 100%;
             @include flex;
             justify-content: $between;
+            padding: 2rem 0 3rem;
             h2{
                 width: 30%;
-                font-size: 2em;
+                font-size: 2.3em;
                 line-height: 1.5;
                 letter-spacing: 1px;
                 word-spacing: 1px;
                 text-transform: $cap;
                 font-weight: bold;
-                padding: 2rem 0 1rem;
                 span{
                     color: $red;
                 }
@@ -351,36 +352,15 @@
                   width: 100%;
                 //   height: 300px;
                  position: relative;
-                 &:hover{
-                    .grid-hvr-content{
-                        opacity: 1;
-                        transition: $transition;
-                        .Hvr_cnt{
-                            &::before{
-                                width: 245px;
-                                height: 245px;
-                                transition: all .5s ease-in-out;
-                            }
-                            &::after{
-                                width: 245px;
-                                height: 245px;
-                                transition: all .5s ease-in-out;
-                            }
-                        }
-                    }
-                    .bottom_Bar{
-                       // opacity: 0;
-                        transition: $transition;
-                    }
-                 }
+                 @include grid-Hvr;
                  .bottom_Bar{
                      position: absolute;
                      bottom: 0;
                      width: 100%;
                      padding: .5rem .5rem;
                      background: #0000008f;
-                     @include flex;
-                     justify-content:$between;
+                    //  @include flex;
+                    //  justify-content:$between;
                      transition: $transition;
                      z-index: 9;
                     h2{
@@ -402,85 +382,13 @@
                         box-shadow: inset 0px 0px 4px 1px #000000d6;
                         font-size: 1.1em;
                         text-transform: $upper;
+                        display: none;
                     }
                     .hvr-radial-out{
                         &::before{
                             background: #000000;
                         }
                     }
-                 }
-                 .grid-hvr-content{
-                     width: 100%;
-                     height: 100%;
-                     position: absolute;
-                     @include flex;
-                     background: #f736249c;
-                     z-index: 4;
-                     opacity: 0;
-                     transition: $transition;
-                     .Hvr_cnt{
-                         text-align: center;
-                         position: relative;
-                         &::before{
-                             content: '';
-                             width: 0px;
-                             height: 0px;
-                             position: absolute;
-                             left: -100px;
-                             top: -213px;
-                             border-top: 2px solid #fff;
-                             border-left: 2px solid #fff;
-                             transition: all .5s ease-in-out;
-                         }
-                         &::after{
-                            content: '';
-                            width: 0px;
-                            height: 0px;
-                            position: absolute;
-                            right: -100px;
-                            bottom: -156px;//-213px;
-                            border-bottom: 2px solid #fff;
-                            border-right: 2px solid #fff;
-                            transition: all .5s ease-in-out;
-                        }
-                         h2{
-                             font-size: 1.9em;
-                             line-height: 1.5;
-                             letter-spacing: 1px;
-                             text-transform: $upper;
-                             color: $white;
-                         }
-                         p{
-                             font-size: 1em;
-                            line-height: 1.5;
-                            letter-spacing: 1px;
-                            text-transform: $cap;
-                            color: $white;
-                            padding: 1rem 0;
-                         }
-                         a{
-                             display: inline-block;
-                             padding: .9rem 1.8rem;
-                             border-radius: 5px;
-                             background: #000000;
-                             color: $white;
-                             text-transform: $cap;
-                             word-spacing: 1px;
-                             letter-spacing: 1px;
-                             z-index: 5;
-                             &:hover{
-                                 color: $red;
-                                 transition: $transition;
-                                 font-weight: bold;
-                             }
-                         }
-                         .hvr-radial-out{
-                            transition: $transition;
-                            &::before{
-                                background: #fff;
-                            }
-                        }
-                     }
                  }
               } 
           }
@@ -497,69 +405,6 @@
             background-size: 100% 100%;
             background-position: center;
             height: 300px;
-            &:hover{
-                .Hvr_cnt{
-                    &::before{
-                        width: 102px!important;
-                        height: 102px!important;
-                        transition: all .5s ease-in-out;
-                    }
-                    &::after{
-                        width: 102px!important;
-                        height: 102px!important;
-                        transition: all .5s ease-in-out;
-                    }
-                }
-            }
-            .grid-hvr-content{
-                .Hvr_cnt{
-                    &::before{
-                        left: -100px!important;
-                        top: -60px!important;
-                    }
-                    &::after{
-                       right: -100px!important;
-                       bottom: -2px!important;//-213px;
-                   }
-                    h2{
-                        font-size: 1.9em;
-                        line-height: 1.5;
-                        letter-spacing: 1px;
-                        text-transform: $upper;
-                        color: $white;
-                    }
-                    p{
-                       font-size: 1em;
-                       line-height: 1.5;
-                       letter-spacing: 1px;
-                       text-transform: $cap;
-                       color: $white;
-                       padding: 1rem 0;
-                    }
-                    a{
-                        display: inline-block;
-                        padding: .9rem 1.8rem;
-                        border-radius: 5px;
-                        background: #000000;
-                        color: $white;
-                        text-transform: $cap;
-                        word-spacing: 1px;
-                        letter-spacing: 1px;
-                        z-index: 5;
-                        &:hover{
-                            color: $red;
-                            transition: $transition;
-                            font-weight: bold;
-                        }
-                    }
-                    .hvr-radial-out{
-                       transition: $transition;
-                       &::before{
-                           background: #fff;
-                       }
-                   }
-                }
-            }
         }
         .Grid-item3 { background: url(../image/grid3.png)no-repeat;
             background-size: 100% 100%;
@@ -572,8 +417,91 @@
         .Grid-item5 {  background: url(../image/grid5.png)no-repeat;
             background-size: 100% 100%;
             background-position: left;
-            height: 300px;  }
+            height: 300px;
+         }
+         .Grid__hvr0001{
+             @include grid-Hvr2;
+         }
        }    
+    }
+    
+//   -----About---section----//
+    .About_Wrapper{
+        width: 100%;
+        padding: 2rem 0 1rem;
+        position: relative;
+        overflow: hidden;
+        &::before{
+            content: '';
+            width: 51%;
+            height: 121%;
+            left: -245px;
+            top: -203px;
+            background: url(../image/bg1.png)no-repeat;
+            background-size: cover;
+            position: absolute;
+            z-index: -1;
+            animation: bganime 5s linear;
+        }
+        .About_Content{
+            @include flex;
+            justify-content: $between;
+            .Abt_cmn01{
+                h2{
+                    font-size: 3.2em;
+                    letter-spacing: 1px;
+                    word-spacing: 1px;
+                    line-height: 1.5;
+                    text-transform: $upper;
+                    font-weight: bold;
+                    span{
+                        color: $red;
+                    }
+                }
+                p{
+                font-size: 1.1em;
+                letter-spacing: 1px;
+                word-spacing: 1px;
+                line-height: 1.8;
+                padding: 1rem 0;
+                }
+                a{
+                    font-size: 1em;
+                    padding: .8rem 1.9rem;
+                    border-radius: 5px;
+                    display: inline-block;
+                    background: $red;
+                    color: $white;
+                    margin: 1.4rem 0 0;
+                }
+                .hvr-bounce-to-right{
+                    &::before{
+                        border-radius: 5px;
+                        color: #fff;
+                        background: #000000;
+                    } 
+                }
+            }
+            .Abt_left{
+                width: 65%;
+            }
+            .Abt_right{
+                width: 30%;
+                img{
+                    max-width: 85%;
+                }
+            }
+        }
+        @keyframes bganime {
+            0%{
+                transform: translateX(-100%);
+                transition: $transition;
+            }
+            100%{
+                transform: translateX(5%);
+                transition: $transition;
+            }
+        }
     }
 
 }
