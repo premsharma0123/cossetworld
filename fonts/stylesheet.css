@@ -20,6 +20,18 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Ralewaythin';
+    src: url('Raleway-Thin.eot');
+    src: url('Raleway-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Raleway-Thin.woff2') format('woff2'),
+        url('Raleway-Thin.woff') format('woff'),
+        url('Raleway-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 
 @font-face {

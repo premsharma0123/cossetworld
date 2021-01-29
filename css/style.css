@@ -136,6 +136,7 @@ main header .Nav-wrp {
   background: #ffffffa8;
   position: absolute;
   padding: .2rem 0;
+  z-index: 3;
 }
 
 main header .Nav-wrp nav {
@@ -185,6 +186,7 @@ main header .Nav-wrp nav .nav-item ul {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+  position: relative;
 }
 
 main header .Nav-wrp nav .nav-item ul li {
@@ -223,10 +225,10 @@ main header .Nav-wrp nav .nav-item ul .hair-care {
   position: relative;
 }
 
-main header .Nav-wrp nav .nav-item ul .hair-care .drop_down {
+main header .Nav-wrp nav .nav-item ul .drop_down {
   position: absolute;
   top: 89px;
-  left: -61px;
+  left: 36%;
   width: 281px;
   background: #f73624a6;
   -webkit-box-pack: start;
@@ -235,28 +237,49 @@ main header .Nav-wrp nav .nav-item ul .hair-care .drop_down {
   display: none;
 }
 
-main header .Nav-wrp nav .nav-item ul .hair-care .drop_down li {
+main header .Nav-wrp nav .nav-item ul .drop_down li {
   padding: 1rem 0;
   margin: 0 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   width: 100%;
   border-bottom: 1px solid #ffffff78;
 }
 
-main header .Nav-wrp nav .nav-item ul .hair-care .drop_down li a {
+main header .Nav-wrp nav .nav-item ul .drop_down li:hover {
+  background: #f73624;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding-left: .5rem;
+}
+
+main header .Nav-wrp nav .nav-item ul .drop_down li a {
   color: #fff;
   padding: 0 0 0 1rem;
   font-size: 1em;
   font-weight: 500;
 }
 
-main .Banner_Wrapper {
+main .Banner_Wrapper .banner-child:hover .owl-nav {
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+main .Banner_Wrapper .banner-child .owl-nav {
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+main .Banner_Wrapper .banner-child .banner-sub-child {
   background: url(../image/banner.png) no-repeat;
   background-size: 100% 100%;
   height: 700px;
   width: 100%;
 }
 
-main .Banner_Wrapper .Banner_Content {
+main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content {
   /* padding: 10rem 0 0; */
   display: -webkit-box;
   display: -ms-flexbox;
@@ -275,11 +298,11 @@ main .Banner_Wrapper .Banner_Content {
   height: 700px;
 }
 
-main .Banner_Wrapper .Banner_Content .Banner_child {
+main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child {
   width: 50%;
 }
 
-main .Banner_Wrapper .Banner_Content .Banner_child h1 {
+main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child h1 {
   font-size: 3.1em;
   line-height: 1.5;
   letter-spacing: 1px;
@@ -287,7 +310,7 @@ main .Banner_Wrapper .Banner_Content .Banner_child h1 {
   font-weight: 550;
 }
 
-main .Banner_Wrapper .Banner_Content .Banner_child p {
+main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child p {
   font-size: 1.3em;
   letter-spacing: 1px;
   word-spacing: 1px;
@@ -296,7 +319,7 @@ main .Banner_Wrapper .Banner_Content .Banner_child p {
   padding: 1rem 0 2rem;
 }
 
-main .Banner_Wrapper .Banner_Content .Banner_child a {
+main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child a {
   padding: 1rem 2rem;
   font-size: 1.2em;
   display: inline-block;
@@ -306,24 +329,422 @@ main .Banner_Wrapper .Banner_Content .Banner_child a {
   margin: 1rem 0 0;
 }
 
-main .Banner_Wrapper .Banner_Content .Banner_child a i.fas.fa-chevron-right {
+main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child a i.fas.fa-chevron-right {
   font-size: 14px;
   padding: 0 0 0 .5rem;
 }
 
-main .Banner_Wrapper .Banner_Content .Banner_child a:hover {
+main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child a:hover {
   color: #fff;
 }
 
-main .Banner_Wrapper .Banner_Content .Banner_child .hvr-bounce-to-right:hover::before {
+main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child .hvr-bounce-to-right:hover::before {
   border-radius: 100px;
   color: #fff;
   background: #000000;
 }
 
-main .Banner_Wrapper .Banner_Content .Banner_child .hvr-bounce-to-right::before {
+main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child .hvr-bounce-to-right::before {
   border-radius: 100px;
   color: #fff;
   background: #000000;
+}
+
+main .Banner_Wrapper .banner-child .banner-sub-child2 {
+  background: url(../image/banner2.png) no-repeat;
+  background-size: 100% 100%;
+  height: 700px;
+  width: 100%;
+}
+
+main .Banner_Wrapper .banner-child .banner-sub-child3 {
+  background: url(../image/banner3.png) no-repeat;
+  background-size: 100% 100%;
+  height: 700px;
+  width: 100%;
+}
+
+main .Banner_Wrapper .banner-child .owl-dots {
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+}
+
+main .Banner_Wrapper .banner-child .owl-dots .owl-dot {
+  width: 15px;
+  height: 15px;
+  background: #f7362459 !important;
+  border-radius: 50%;
+  margin: 0 .5rem;
+  outline: none;
+  border: none;
+  /* border: 4px solid #f9bcbc!important; */
+}
+
+main .Banner_Wrapper .banner-child .owl-dots .owl-dot.active {
+  background: #f73624 !important;
+}
+
+main .Banner_Wrapper .banner-child .owl-next, main .Banner_Wrapper .banner-child .owl-prev {
+  position: absolute;
+  right: 28px;
+  top: 44%;
+  font-size: 6em !important;
+  color: #f7362487 !important;
+  outline: none;
+  border: none;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+main .Banner_Wrapper .banner-child .owl-next:hover, main .Banner_Wrapper .banner-child .owl-prev:hover {
+  color: #f73624 !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+main .Banner_Wrapper .banner-child .owl-prev {
+  left: 28px;
+}
+
+main .Service_wrapper {
+  width: 100%;
+}
+
+main .Service_wrapper .Service_heading {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .Service_wrapper .Service_heading h2 {
+  width: 30%;
+  font-size: 2em;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  text-transform: capitalize;
+  font-weight: bold;
+  padding: 2rem 0 1rem;
+}
+
+main .Service_wrapper .Service_heading h2 span {
+  color: #F73624;
+}
+
+main .Service_wrapper .Service_heading p {
+  width: 65%;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+main .Service_wrapper .Service_content .Grid_wrp {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  grid-template-columns: auto auto auto;
+}
+
+main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 {
+  width: 100%;
+  position: relative;
+}
+
+main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content {
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
+  width: 245px;
+  height: 245px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::after {
+  width: 245px;
+  height: 245px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .bottom_Bar {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .bottom_Bar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: .5rem .5rem;
+  background: #0000008f;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index: 9;
+}
+
+main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .bottom_Bar h2 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Ralewaythin';
+  font-size: 1.275em;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .bottom_Bar a {
+  display: inline-block;
+  background: #f73624;
+  padding: .7rem 1rem;
+  border-radius: 5px;
+  color: #fff;
+  -webkit-box-shadow: inset 0px 0px 4px 1px #000000d6;
+          box-shadow: inset 0px 0px 4px 1px #000000d6;
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+
+main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .bottom_Bar .hvr-radial-out::before {
+  background: #000000;
+}
+
+main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #f736249c;
+  z-index: 4;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt {
+  text-align: center;
+  position: relative;
+}
+
+main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
+  content: '';
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  left: -100px;
+  top: -213px;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
+  content: '';
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  right: -100px;
+  bottom: -156px;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt h2 {
+  font-size: 1.9em;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt p {
+  font-size: 1em;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt a {
+  display: inline-block;
+  padding: .9rem 1.8rem;
+  border-radius: 5px;
+  background: #000000;
+  color: #fff;
+  text-transform: capitalize;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  z-index: 5;
+}
+
+main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt a:hover {
+  color: #F73624;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt .hvr-radial-out {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt .hvr-radial-out::before {
+  background: #fff;
+}
+
+main .Service_wrapper .Service_content .Grid-item1 {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 5;
+  background: url(../image/grid1.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 610px;
+}
+
+main .Service_wrapper .Service_content .Grid-item2 {
+  background: url(../image/grid2.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 300px;
+}
+
+main .Service_wrapper .Service_content .Grid-item2:hover .Hvr_cnt::before {
+  width: 102px !important;
+  height: 102px !important;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+main .Service_wrapper .Service_content .Grid-item2:hover .Hvr_cnt::after {
+  width: 102px !important;
+  height: 102px !important;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+main .Service_wrapper .Service_content .Grid-item2 .grid-hvr-content .Hvr_cnt::before {
+  left: -100px !important;
+  top: -60px !important;
+}
+
+main .Service_wrapper .Service_content .Grid-item2 .grid-hvr-content .Hvr_cnt::after {
+  right: -100px !important;
+  bottom: -2px !important;
+}
+
+main .Service_wrapper .Service_content .Grid-item2 .grid-hvr-content .Hvr_cnt h2 {
+  font-size: 1.9em;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+main .Service_wrapper .Service_content .Grid-item2 .grid-hvr-content .Hvr_cnt p {
+  font-size: 1em;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+main .Service_wrapper .Service_content .Grid-item2 .grid-hvr-content .Hvr_cnt a {
+  display: inline-block;
+  padding: .9rem 1.8rem;
+  border-radius: 5px;
+  background: #000000;
+  color: #fff;
+  text-transform: capitalize;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  z-index: 5;
+}
+
+main .Service_wrapper .Service_content .Grid-item2 .grid-hvr-content .Hvr_cnt a:hover {
+  color: #F73624;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+main .Service_wrapper .Service_content .Grid-item2 .grid-hvr-content .Hvr_cnt .hvr-radial-out {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+main .Service_wrapper .Service_content .Grid-item2 .grid-hvr-content .Hvr_cnt .hvr-radial-out::before {
+  background: #fff;
+}
+
+main .Service_wrapper .Service_content .Grid-item3 {
+  background: url(../image/grid3.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 300px;
+}
+
+main .Service_wrapper .Service_content .Grid-item4 {
+  background: url(../image/grid4.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: left;
+  height: 300px;
+}
+
+main .Service_wrapper .Service_content .Grid-item5 {
+  background: url(../image/grid5.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: left;
+  height: 300px;
 }
 /*# sourceMappingURL=style.css.map */
