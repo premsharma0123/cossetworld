@@ -520,16 +520,15 @@
         background: url(../image/Ap_bg1.png)no-repeat;
         background-size: cover;
         background-position: center;
-       //@debug position: relative;
-        // z-index: 3;
+        z-index: 3;
         // &::before{
         //     content: '';
         //     width: 100%;
-        //     height: 100%;
-        //     background: $red;
+        //     height: 400px;
+        //     background: red;
+        //     left: 0;
+        //     top: 105px;
         //     position: absolute;
-        //     left:0;
-        //     top:0;
         //     z-index: -1;
         // }
         .Appointment_Content{
@@ -600,6 +599,407 @@
         }
   }
 }
+// ----end-----here-----
 
+// ------Testimonial-----//
+
+.Testimonial_Wrapper{
+    padding:2rem 0 1rem;
+    position: relative;
+    overflow: hidden;
+    &::after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        left:  0;//-245px;
+        top: 0;//-120px;
+        background: url(../image/bg1.png) no-repeat;//no-repeat;
+        background-size: contain;
+        position: absolute;
+        z-index: -1;
+       // transform: rotate( 203deg);
+        z-index: -1;
+        animation: Bganime 30s linear infinite;
+        animation-direction: reverse;
+    }
+    .Testimonial_heading{
+        h2{
+            font-size: 2.3em;
+            line-height: 1.5;
+            letter-spacing: 1px;
+            word-spacing: 1px;
+            text-transform: $upper;
+            font-weight: bold;
+            span{
+                color: $red;
+            }
+        }
+    }
+    
+    .Testimonial_Content{
+        ul{
+            @include flex;
+            width: 80%;
+            margin: 0 auto;
+            padding: 4rem 0 0;
+            li.Tst02.Tst_cmn02 {
+                margin: 0.5rem 1rem 2rem 8rem!important;
+            }
+            .Tst01{
+                img{
+                    object-position: right!important;
+                }
+            }
+            
+            .Tst_cmn02{
+                width: 40%;
+                list-style-type: $none;
+                padding: 1rem 1rem;
+                text-align: center;
+                border: 2px solid $red;
+                margin: 0.5rem 1rem 2rem;  
+                border-radius: 5px;
+                position: relative;
+                figure{
+                    position: absolute;
+                    left: -97px;
+                    top: -13px;
+                    border-radius: 50%;
+                    width: 150px;
+                    height: 150px;
+                    /* border: 2px solid; */
+                    overflow: hidden;
+                    img{
+                        max-width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                }
+                p{
+                    font-size: 1em;
+                    line-height: 1.6;
+                    letter-spacing: 1px;
+                    word-spacing: 2px;
+                    padding: 0 0 1rem 2.8rem;
+                }
+                h2{
+                    font-size: 1.3em;
+                    line-height: 1.5;
+                    letter-spacing: 1px;
+                    word-spacing: 1px;
+                    text-transform: $cap;
+                    color: #000;
+                    font-weight: 590;
+                }
+            }
+        }
+    }
+    @keyframes Bganime {
+        0%{
+            background-position-x: -640px;
+            transition: $transition;
+            opacity: .98;
+        }
+        50%{
+            transition: $transition;
+            background-position-x: 340px;
+            transform: scale(1.1);
+        }
+        100%{
+            background-position-x: 1140px;
+            transition: $transition;
+        }
+    }
+}
+// ----Appointment---form---//
+    .Appointment_Form_wrp{
+        position: relative;
+        overflow: hidden;
+        padding: 1rem 0 0;
+        &::after{
+            content: '';
+            width: 74%;
+            height: 131%;
+            // right: -245px;
+            // top: -120px;
+            right: -394px;
+            top: -147px;
+            background: url(../image/bg1.png) no-repeat;
+            background-size: contain;
+            position: absolute;
+            z-index: -1;
+            //transform: rotate( 203deg);
+            // animation: Bganime 3s linear infinite;
+        }
+        .Apt_heading{
+            img{
+                max-width: 35%;
+                animation: imganime 3s linear infinite;
+            }
+            h2{
+                font-size: 2.3em;
+                line-height: 1.5;
+                letter-spacing: 1px;
+                word-spacing: 1px;
+                text-transform: $upper;
+                font-weight: bold;
+                padding: 2rem 0 1rem;
+                width: 90%;
+                margin: 0 auto;
+                span{
+                    color: $red;
+                }
+            }
+        }
+     @keyframes imganime {
+        0%,100%{
+           transform: translateY(-5px);
+        }
+        50%{
+            transform: translateY(5px);
+        }
+    }
+        .Form_wrp{
+            width: 100%;
+            form{
+              width: 90%;
+              margin: 0 auto;
+              .form_content{
+                  @include flex;
+                  justify-content: $between;
+                  .Frm_cmn01{
+                      width: 23%;
+                      label{
+                          padding:.7rem 0;
+                          font-size: 1em;
+                          line-height: 1.5;
+                          word-spacing: 1px;
+                          text-transform: $upper;
+                          margin: 0 .5rem;
+                          display: inline-block;
+                      }
+                      input[type="number"]{
+                        -moz-appearance:textfield;
+                      }
+                        input::-webkit-outer-spin-button,
+                        input::-webkit-inner-spin-button {
+                            -webkit-appearance: none;
+                             margin: 0;
+                        }
+
+                      input,select{
+                        width: 100%;
+                        border: 1px solid #a3a3a3;
+                        color: #000;
+                        text-transform: $cap;
+                        padding: .8rem 1rem;
+                        margin: .5rem .5rem;
+                        border-radius: 5px;
+                        outline: none;
+                        transition: $transition;
+                        &:focus{
+                            box-shadow: 0 0 3px 2px #0000001f;
+                            transition: $transition;
+                            animation: focus .4s;
+                        }
+                    }
+                    @keyframes focus {
+                        0%{
+                            transform: scale(0.95);
+                            transition: $transition;
+                        }
+                        100%{
+                            transform: scale(1);
+                            transition: $transition;
+                        }
+                    }
+                    select{
+                        color: #999!important;
+                        cursor: pointer;
+                    }
+                    input[type="submit"] {
+                        margin: 2.9rem .5rem 0 !important;
+                        background:$red;
+                        outline: $none;
+                        font-size: 1.2em;
+                        text-transform: $upper;
+                        color: $white;
+                        border: $none;
+                        transition: $transition;
+                        cursor: pointer;
+                        &:hover{
+                             background: #000;
+                            transition: $transition;
+                            border-radius: 100px;
+                        }
+                    }
+                  }
+              }
+            }
+        }
+    }
+// ----footer----//
+   footer{
+       background: #f73624d6;
+       margin:  6rem 0 0;
+       position: relative;
+       &::before{
+           content: '';
+           width: 100%;
+           height: 100%;
+           background: url(../image/Ap_bg3.png)no-repeat;
+           background-size: cover;
+           background-position: center;
+           position: absolute;
+           z-index: -1;
+       }
+       .mid-logo{
+           width: 100%;
+           text-align: center;
+           padding: 0 0 4rem;
+        //    position: relative;
+           figure{
+            //    background: #fff;
+               img{
+                max-width: 18%;//100%;
+            }
+          }
+       }
+       .footer_content{
+           width: 100%;
+           @include flex;
+           align-items: inherit;
+           justify-content: $between;
+           .Ft04{
+               li p:first-child{
+                font-family: 'open-sans';
+               }
+           }
+           .Ft_cmn01{
+              h2{
+                  font-size: 1.6em;
+                  letter-spacing:1px;
+                  word-spacing: 1px;
+                  color:$white;
+                  padding: 0 0 .8rem;
+                  text-transform: $upper;
+                  font-weight: bold;
+                  border-bottom: 2px solid $white;
+                  display: inline-block;
+              }
+              ul{
+                  padding: 1rem 0 0;
+                  li{
+                      list-style-type: $none;
+                      padding: .5rem 0;
+                      a{
+                          font-size: 1em;
+                          line-height: 1.7;
+                          color:$white;
+                          text-transform: $cap;
+                          transition: $transition;
+                          display: inline-block;
+                          padding: 0 0 .3rem;
+                          &:hover{
+                              transform: translateX(8px);
+                              transition: $transition;
+                          }
+                      }
+                      .hvr-underline-from-left{
+                          &::before{
+                              background: #fff;
+                              height: 1px;
+                          }
+                      }
+                      p{
+                          color:$white;
+                          font-size: 1.1em;
+                          padding: .5rem 0;
+                          i{
+                              padding: 0 .5rem 0 0;
+                          }
+                      }
+                  }
+              }
+              .social_wrp{
+                  @include  flex;
+                  justify-content: flex-start;
+                  li{
+                      i{
+                          font-size: 1.6em;
+                          padding: 0.5rem 0.5rem ;
+                          margin: 0 .6rem 0 0;
+                          color: #fff;
+                          vertical-align: middle;
+                          transition: $transition;
+                          &:hover{
+                            transition: $transition;
+                            cursor: pointer;
+                            background: #ffffff59;
+                            border-radius: 50%;
+                            color: $white;
+                           }
+                      }
+                  }
+              }
+              .subscribe{
+                h3{
+                    font-size: 1.4em;
+                    text-transform: $cap;
+                    line-height: 1.5;
+                    word-spacing: 1px;
+                    letter-spacing: 1px;
+                    padding: 1rem 0;
+                    color: $white;
+                }
+                label{
+                    width: 100%;
+                    input{
+                        width: 100%;
+                        color:#fff;
+                        padding: .8rem 1rem;
+                        outline: none;
+                        border: 1px solid #fff;
+                        border-radius: 5px;
+                        &:focus{
+                            box-shadow: 0 0 3px 2px #0000001f;
+                            transition: $transition;
+                            animation: focus .4s;
+                        }
+                    }
+                    #Submit2{
+                        width: 100%;
+                        background: #000;
+                        font-size: 1.2em;
+                        text-transform: $upper;
+                        border: $none;
+                        margin: 1rem 0 0;
+                        cursor: pointer;
+                    }
+                }
+              }
+           }
+       }
+
+       .copyright_wrp{
+           padding: 1.5rem 0;
+           margin: 3rem 0 0;
+           background: rgba(0, 0, 0, 0.452);
+           .copy_content{
+               @include flex;
+               justify-content: $between;
+               p{
+                   font-size: 13px;
+                   line-height: 1px;
+                   letter-spacing: 1px;
+                   word-spacing: 1px;
+                   text-transform: $cap;
+                   color: $white;
+               }
+           }
+       }
+   }
+// ---end--here---//
 
 }
