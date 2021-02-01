@@ -196,7 +196,7 @@ main header .Nav-wrp nav .nav-item ul li {
 
 main header .Nav-wrp nav .nav-item ul li a {
   color: #000;
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-transform: uppercase;
   font-family: "AlegreyaRegular";
   word-spacing: 1px;
@@ -866,7 +866,6 @@ main .Appointment_Wrapper {
 }
 
 main .Appointment_Wrapper .Appointment_child {
-  height: 400px;
   background: url(../image/Ap_bg1.png) no-repeat;
   background-size: cover;
   background-position: center;
@@ -1943,6 +1942,269 @@ main footer .copyright_wrp .copy_content p {
     width: 200px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+  }
+}
+
+.main-bar {
+  display: none;
+}
+
+@media only screen and (max-width: 1440px) {
+  main header .Nav-wrp nav .nav-item ul li a {
+    font-size: 1em;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
+    left: -58px;
+    top: -215px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
+    right: -62px;
+    bottom: -213px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
+    width: 215px;
+    height: 215px;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
+    left: -64px !important;
+    top: -60px !important;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
+    right: -67px !important;
+    bottom: -61px !important;
+  }
+  main header .Nav-wrp nav .nav-item ul .drop_down {
+    top: 78px;
+    left: 36%;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 a {
+    padding: 1rem 2rem;
+    margin: 1.4rem 0 1.4rem;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 figure img {
+    max-width: 75%;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  main header .Nav-wrp nav .nav-item ul li a {
+    font-size: 15px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
+    left: -39px;
+    top: -215px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
+    right: -41px;
+    bottom: -213px;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
+    left: -42px !important;
+    top: -60px !important;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
+    right: -45px !important;
+    bottom: -61px !important;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 figure img {
+    max-width: 94%;
+  }
+  main header .Nav-wrp nav .nav-item {
+    width: 65%;
+    padding: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
+    width: 185px;
+    height: 185px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
+    left: -17px;
+    top: -200px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::after {
+    width: 185px;
+    height: 185px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
+    right: -24px;
+    bottom: -208px;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
+    left: -22px !important;
+    top: -54px !important;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
+    right: -27px !important;
+    bottom: -56px !important;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001:hover .Hvr_cnt::after {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001:hover .Hvr_cnt::before {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .bottom_Bar h2 {
+    font-size: 1.1em;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 figure img {
+    max-width: 100%;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 h2 {
+    font-size: 3em;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 p {
+    font-size: 1em;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 a {
+    padding: 1rem 2rem;
+    font-size: 1.2em;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 {
+    width: 38%;
+    padding: 1rem 1rem;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 p {
+    font-size: 15px;
+    padding: 0 0 1rem 1.1rem;
+  }
+  main .Testimonial_Wrapper .Testimonial_heading h2 {
+    font-size: 2em;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 figure {
+    width: 130px;
+    height: 130px;
+  }
+  main .About_Wrapper .About_Content .Abt_cmn01 h2 {
+    font-size: 2.2em;
+  }
+  main .About_Wrapper .About_Content .Abt_cmn01 p {
+    font-size: 1em;
+  }
+  main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child h1 {
+    font-size: 2.7em;
+  }
+  main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child p {
+    font-size: 1.1em;
+  }
+  main .Banner_Wrapper .banner-child .owl-next, main .Banner_Wrapper .banner-child .owl-prev, main .Banner_Wrapper .banner-child .owl-prev {
+    right: 23px;
+    font-size: 5em !important;
+  }
+  main .Banner_Wrapper .banner-child .owl-prev {
+    left: 20px;
+  }
+  main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child a {
+    font-size: 1.1em;
+  }
+  main .Appointment_Wrapper {
+    padding: 5.5rem 0;
+  }
+  main footer .footer_content .Ft_cmn01 h2 {
+    font-size: 1.4em;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt h2 {
+    font-size: 1.3em;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt p {
+    font-size: 15px;
+    padding: 1.2rem 0;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt a {
+    padding: .9rem 1.2rem;
+    font-size: 15px;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 figure {
+    left: 39px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-bar {
+    right: 40px;
+    top: 27px;
+    display: block !important;
+    cursor: pointer;
+    position: absolute;
+  }
+  .main-bar div {
+    width: 35px;
+    height: 4px;
+    margin: 6px 0;
+    background-image: linear-gradient(45deg, #F73624, #F73624);
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+  }
+  .main-bar.activefile {
+    top: 38px !important;
+  }
+  .activefile .a {
+    -webkit-transform: rotateZ(43deg);
+            transform: rotateZ(43deg);
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+  }
+  .activefile .b {
+    opacity: 0;
+  }
+  .activefile .c {
+    -webkit-transform: rotateZ(-46deg);
+    transform: rotateZ(-46deg);
+    top: 0px;
+    position: absolute;
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+    margin: 6px 0 0 0px;
+  }
+  .myHeader {
+    width: 100% !important;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    top: 92px;
+    overflow-x: hidden;
+    display: none;
+    left: 0px;
+    background: #ffffff;
+    text-align: center;
+    border-bottom: 3px solid #ff766c;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 1rem 0 0;
+    z-index: 40;
+  }
+  .myHeader .Unorder_wrp {
+    display: block !important;
+  }
+  .myHeader .Unorder_wrp li {
+    display: block !important;
+  }
+  main header .Nav-wrp nav .nav-item .Unorder_wrp li {
+    list-style-type: none;
+    margin: 0 0rem !important;
+    padding: 1rem 0 1rem;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.555);
+  }
+  main header .Nav-wrp nav .nav-item .Unorder_wrp li:last-child {
+    padding: 1rem 0 0rem !important;
+    border-bottom: inherit !important;
+  }
+  main header .Nav-wrp nav .nav-item ul .drop_down {
+    position: relative;
+  }
+  main header .Nav-wrp nav .nav-item ul .drop_down {
+    top: 8px;
+    left: 36%;
+  }
+  main header .Nav-wrp nav .nav-item ul .drop_down li:last-child {
+    padding: 1rem 0 1rem !important;
+  }
+  main .About_Wrapper::before {
+    width: 54%;
   }
 }
 /*# sourceMappingURL=style.css.map */

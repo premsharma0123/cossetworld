@@ -13,6 +13,13 @@ $(document).ready(function(){
     //       $('.itemMove').css('top', amountMovedY + 'px');
     //   });
 
+  //bar 
+
+  jQuery('.main-bar').click(function(e) {
+    jQuery(this).toggleClass('activefile');
+    e.preventDefault();
+    jQuery('.myHeader').slideToggle();
+  });
 
 // ----slider-----section ---//
 

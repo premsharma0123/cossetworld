@@ -126,7 +126,7 @@
                                 margin: 0 .9rem;
                                 a{
                                     color: #000;
-                                    font-size: 1.2em;
+                                    font-size: 1.1em;
                                     text-transform: $upper;
                                     font-family: $heading;
                                     word-spacing: 1px;
@@ -516,7 +516,7 @@
     padding: 6.5rem 0;
     position: relative;
     .Appointment_child{
-        height: 400px;
+       // height: 400px;
         background: url(../image/Ap_bg1.png)no-repeat;
         background-size: cover;
         background-position: center;
@@ -1360,4 +1360,7 @@
         }
     }
 }
-
+.main-bar{
+    display: none;
+}
+@import 'media';
