@@ -1312,11 +1312,13 @@ main footer::before {
   content: '';
   width: 100%;
   height: 100%;
-  background: url(../image/Ap_bg3.png) no-repeat;
+  background: url(../image/Ap_bg3.png) repeat;
   background-size: cover;
   background-position: center;
   position: absolute;
   z-index: -1;
+  -webkit-animation: bganime 12s linear infinite;
+          animation: bganime 12s linear infinite;
 }
 
 main footer .mid-logo {
@@ -1516,5 +1518,431 @@ main footer .copyright_wrp .copy_content p {
   word-spacing: 1px;
   text-transform: capitalize;
   color: #fff;
+}
+
+@keyframes bganime {
+  0%, 100% {
+    background-position-x: -350px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  50% {
+    background-position-x: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.Beauty-Wrapper header .Nav-wrp {
+  position: relative !important;
+}
+
+.Beauty-Wrapper .Beauty-banner {
+  height: 700px;
+  width: 100%;
+  overflow: hidden;
+  background: #f73624cf;
+  position: relative;
+}
+
+.Beauty-Wrapper .Beauty-banner::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: url(../image/bnr_bg.png) repeat;
+  background-position: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  -webkit-animation: bganime 18s linear infinite;
+          animation: bganime 18s linear infinite;
+}
+
+.Beauty-Wrapper .Beauty-banner .Banner_Content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.Beauty-Wrapper .Beauty-banner .Banner_Content .Banner_child {
+  width: 48% !important;
+}
+
+.Beauty-Wrapper .Beauty-banner .Banner_Content .Banner_child h1 {
+  font-size: 4.5em;
+  color: #fff;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-family: 'Arimo';
+}
+
+.Beauty-Wrapper .Beauty-banner .Banner_Content .Banner_child p {
+  padding: 1rem 4rem 1rem 0;
+  color: #fff;
+  font-size: 1em;
+  word-spacing: 1px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+}
+
+.Beauty-Wrapper .Beauty-banner .Banner_Content .Banner_child .breadcrumb {
+  padding: 1rem 0 0;
+}
+
+.Beauty-Wrapper .Beauty-banner .Banner_Content .Banner_child .breadcrumb li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.Beauty-Wrapper .Beauty-banner .Banner_Content .Banner_child .breadcrumb li a {
+  font-family: "AlegreyaRegular";
+  font-size: 1.2em;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Beauty-Wrapper .Beauty-banner .Banner_Content .Banner_child .breadcrumb li a:hover {
+  opacity: .77;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Beauty-Wrapper .Beauty-banner .Banner_Content .Banner_child .breadcrumb li:last-child a {
+  border-bottom: 1px solid #fff;
+  padding: 0 0 .1rem;
+  font-weight: bold;
+}
+
+.Beauty-Wrapper .Beauty-banner .Banner_Content .Banner_child .breadcrumb i.fas.fa-chevron-right {
+  font-size: 13px;
+  color: #fff;
+  padding: 0 .5rem;
+}
+
+.Beauty-Wrapper .Beauty-banner .Banner_Content .Banner_child figure img {
+  max-width: 100%;
+}
+
+.Beauty-Wrapper .BtService_Wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.Beauty-Wrapper .BtService_Wrapper::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: url(../image/our-bg.png) no-repeat;
+  background-size: 100% 100%;
+  right: -55%;
+  top: -4px;
+  z-index: -1;
+  position: absolute;
+}
+
+.Beauty-Wrapper .BtService_Wrapper .Grid_wrp {
+  -ms-grid-rows: auto 1fr auto;
+      grid-template-rows: auto 1fr auto;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fill] !important;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
+}
+
+.Beauty-Wrapper .BtService_Wrapper .Grid_wrp .Grid-item1 {
+  height: 300px !important;
+  background: url(../image/grid01.png) no-repeat !important;
+  background-size: cover !important;
+}
+
+.Beauty-Wrapper .BtService_Wrapper .Grid_wrp .Grid-item1.Grid-item_cmn01 {
+  background-size: 100% 103% !important;
+}
+
+.Beauty-Wrapper .BtService_Wrapper .Grid_wrp .Grid-item2 {
+  background: url(../image/grid02.png) no-repeat !important;
+  background-size: cover !important;
+}
+
+.Beauty-Wrapper .BtService_Wrapper .Grid_wrp .Grid-item5 {
+  background: url(../image/grid05.png) no-repeat !important;
+  background-size: cover !important;
+}
+
+.Beauty-Wrapper .BtService_Wrapper .Grid_wrp .Grid-item_cmn01:hover .hvr_cnt2::before {
+  width: 92px !important;
+  height: 92px !important;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.Beauty-Wrapper .BtService_Wrapper .Grid_wrp .Grid-item_cmn01:hover .hvr_cnt2::after {
+  width: 92px !important;
+  height: 92px !important;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.Beauty-Wrapper .BtService_Wrapper .Grid_wrp .Grid-item_cmn01 .Hvr_cnt h2 {
+  font-size: 1.4em !important;
+}
+
+.Beauty-Wrapper .BtService_Wrapper .Grid_wrp .Grid-item_cmn01 .Hvr_cnt a {
+  padding: 0.7rem 1rem !important;
+  font-size: 15px;
+}
+
+.Beauty-Wrapper .BtService_Wrapper .Grid_wrp .Grid-item_cmn01 .bottom_Bar h2 {
+  font-size: 1.1em !important;
+}
+
+.Beauty-Wrapper .BtService_Wrapper .Grid_wrp .hvr_cnt2::before {
+  left: -6px !important;
+  top: -67px !important;
+  width: 0;
+  height: 0;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.Beauty-Wrapper .BtService_Wrapper .Grid_wrp .hvr_cnt2::after {
+  right: -4px !important;
+  bottom: -65px !important;
+  width: 0;
+  height: 0;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.Beauty-Wrapper .Hair-care_Wrapper {
+  width: 100%;
+  padding: 2rem 0;
+  position: relative;
+}
+
+.Beauty-Wrapper .Hair-care_Wrapper::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: url(../image/beauty-bg.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.Beauty-Wrapper .Hair-care_Wrapper .HairCare-content {
+  width: 100%;
+}
+
+.Beauty-Wrapper .Hair-care_Wrapper .HairCare-content p {
+  font-size: 1em;
+  padding: 1rem 0 1.4rem;
+  line-height: 1.7;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.Beauty-Wrapper .Hair-care_Wrapper .HairCare-content .hair-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 0 2rem;
+}
+
+.Beauty-Wrapper .Hair-care_Wrapper .HairCare-content .hair-heading h2 {
+  font-size: 3.1em;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+  border-bottom: 1px solid #F73624;
+}
+
+.Beauty-Wrapper .Hair-care_Wrapper .HairCare-content .hair-heading h2 span {
+  color: #F73624;
+}
+
+.Beauty-Wrapper .Treatment_Wrapper {
+  padding: 1rem 0 1rem;
+}
+
+.Beauty-Wrapper .Treatment_Wrapper .Treat-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Beauty-Wrapper .Treatment_Wrapper .Treat-content .trt-cmn01 {
+  width: 48%;
+}
+
+.Beauty-Wrapper .Treatment_Wrapper .Treat-content .trt-cmn01 figure img {
+  max-width: 100%;
+  -webkit-animation: imganime 3s linear infinite;
+          animation: imganime 3s linear infinite;
+}
+
+.Beauty-Wrapper .Vitality_Wrapper {
+  width: 100%;
+}
+
+.Beauty-Wrapper .Vitality_Wrapper .Vitality-content .trt-cmn01 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Beauty-Wrapper .Vitality_Wrapper .Vitality-content .trt-cmn01 figure {
+  width: 60%;
+}
+
+.Beauty-Wrapper .Vitality_Wrapper .Vitality-content .trt-cmn01 figure img {
+  max-width: 90%;
+}
+
+.Beauty-Wrapper .Vitality_Wrapper .Vitality-content .trt-cmn01 figcaption {
+  width: 25%;
+}
+
+.Beauty-Wrapper .Vitality_Wrapper .Vitality-content .trt-cmn01 figcaption h3 {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  color: #F73624;
+  position: relative;
+  -webkit-animation: h3Anime 3s linear infinite;
+          animation: h3Anime 3s linear infinite;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  border-bottom: 2px solid #F73624;
+  display: inline-block;
+}
+
+.Beauty-Wrapper .Vitality_Wrapper .Vitality-content .trt_l01 h3::before {
+  content: '';
+  width: 0px;
+  /* height: 1px; */
+  border: 1px dotted;
+  position: absolute;
+  left: -209px;
+  top: 28px;
+  -webkit-animation: beforAnime 3s linear infinite;
+          animation: beforAnime 3s linear infinite;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+.Beauty-Wrapper .Vitality_Wrapper .Vitality-content .trt_l02 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.Beauty-Wrapper .Vitality_Wrapper .Vitality-content .trt_l02 figcaption h3::before {
+  content: '';
+  width: 0px;
+  /* height: 1px; */
+  border: 1px dotted;
+  position: absolute;
+  right: -224px;
+  top: 33px;
+  -webkit-animation: beforAnime 3s linear infinite;
+          animation: beforAnime 3s linear infinite;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+}
+
+@-webkit-keyframes beforAnime {
+  0% {
+    width: 0px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+  }
+  50% {
+    width: 100px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  100% {
+    width: 200px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@keyframes beforAnime {
+  0% {
+    width: 0px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+  }
+  50% {
+    width: 100px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  100% {
+    width: 200px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
 }
 /*# sourceMappingURL=style.css.map */

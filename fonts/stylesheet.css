@@ -9,6 +9,18 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Arimo';
+    src: url('Arimo.eot');
+    src: url('Arimo.eot?#iefix') format('embedded-opentype'),
+        url('Arimo.woff2') format('woff2'),
+        url('Arimo.woff') format('woff'),
+        url('Arimo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 @font-face {
     font-family: 'RalewayRegular';
     src: url('Raleway-Regular.eot');
@@ -56,17 +68,4 @@
     font-weight: bold;
     font-style: normal;
     font-display: swap;
-}
-
-@font-face {
-    font-family: 'RalewayRegular';
-    src: url('Raleway-Regular.eot');
-    src: url('Raleway-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Raleway-Regular.woff2') format('woff2'),
-        url('Raleway-Regular.woff') format('woff'),
-        url('Raleway-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
+} 

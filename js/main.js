@@ -4,6 +4,15 @@ $(document).ready(function(){
     })
 })
 
+  //  -----mouse---movement-----
+
+    //     $('.Treatment_Wrapper ').mousemove(function(e) {
+    //       var amountMovedX = (e.pageX * -0.53 / 6);
+    //       var amountMovedY = (e.pageY * -0.53 / 6);
+    //       $('.itemMove').css('left', amountMovedX + 'px');
+    //       $('.itemMove').css('top', amountMovedY + 'px');
+    //   });
+
 
 // ----slider-----section ---//
 
