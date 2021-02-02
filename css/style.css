@@ -225,39 +225,151 @@ main header .Nav-wrp nav .nav-item ul .hair-care {
   position: relative;
 }
 
-main header .Nav-wrp nav .nav-item ul .drop_down {
-  position: absolute;
-  top: 89px;
-  left: 36%;
-  width: 281px;
-  background: #f73624a6;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  display: none;
-}
-
-main header .Nav-wrp nav .nav-item ul .drop_down li {
-  padding: 1rem 0;
-  margin: 0 0;
+main header .Nav-wrp nav .nav-item ul .drop3 .list {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  width: 100%;
-  border-bottom: 1px solid #ffffff78;
 }
 
-main header .Nav-wrp nav .nav-item ul .drop_down li:hover {
+main header .Nav-wrp nav .nav-item ul .drop3 .list:hover {
   background: #f73624;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   padding-left: .5rem;
 }
 
-main header .Nav-wrp nav .nav-item ul .drop_down li a {
+main header .Nav-wrp nav .nav-item ul .drop_down {
+  position: absolute;
+  top: 87px;
+  left: 41%;
+  width: 281px;
+  background: #d14336eb;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  display: none;
+  border-bottom: 3px solid #ffffffa8;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+main header .Nav-wrp nav .nav-item ul .drop_down .list {
+  padding: 1rem 0;
+  margin: 0 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  width: 100%;
+  text-transform: capitalize;
+  border-bottom: 1px solid #ffffff78;
+}
+
+main header .Nav-wrp nav .nav-item ul .drop_down .list a {
   color: #fff;
   padding: 0 0 0 1rem;
   font-size: 1em;
   font-weight: 500;
+}
+
+main header .Nav-wrp nav .nav-item ul .drop2 {
+  width: 100% !important;
+  padding: 1rem 1rem;
+  display: none;
+  left: -63% !important;
+  width: 1500px !important;
+}
+
+main header .Nav-wrp nav .nav-item ul .drop2 .drop2_sub_wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit;
+}
+
+main header .Nav-wrp nav .nav-item ul .drop2 .drop2_sub_wrp .list {
+  width: 18%;
+  margin: .5rem .9rem;
+  border-bottom: inherit !important;
+}
+
+main header .Nav-wrp nav .nav-item ul .drop2 .drop2_sub_wrp .list .heading-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 .5rem;
+}
+
+main header .Nav-wrp nav .nav-item ul .drop2 .drop2_sub_wrp .list .heading-btn span {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+main header .Nav-wrp nav .nav-item ul .drop2 .drop2_sub_wrp .list h3 {
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  color: #fff;
+  font-weight: bold;
+}
+
+main header .Nav-wrp nav .nav-item ul .drop2 .drop2_sub_wrp .list ul {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit;
+}
+
+main header .Nav-wrp nav .nav-item ul .drop2 .drop2_sub_wrp .list ul li {
+  width: 100%;
+  margin: 0 0rem !important;
+  padding: .9rem 0 .9rem;
+  border-bottom: 1px dotted;
+  border-color: #ffffffa3;
+  display: block;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+main header .Nav-wrp nav .nav-item ul .drop2 .drop2_sub_wrp .list ul li a {
+  padding: 0 0 0 0rem !important;
+  font-size: 14px;
+  font-family: 'RalewayRegular';
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+main header .Nav-wrp nav .nav-item ul .drop2 .drop2_sub_wrp .list ul li a:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  padding-left: .5rem;
+  color: #000 !important;
+  display: inline-block;
 }
 
 main .Banner_Wrapper .banner-child:hover .owl-nav {
@@ -455,11 +567,11 @@ main .Service_wrapper .Service_heading p {
 main .Service_wrapper .Service_content .Grid_wrp {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
+  -ms-grid-columns: (minmax(7, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(7, 1fr));
   grid-gap: 10px;
   padding: 10px;
-  grid-template-columns: auto auto auto;
+      grid-template-areas: "a a b b  c c" "a a b b  c c" "a a d d  e e " "a a d d  e e ";
 }
 
 main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 {
@@ -632,8 +744,10 @@ main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .bottom_Bar .h
 
 main .Service_wrapper .Service_content .Grid-item1 {
   -ms-grid-row: 1;
-      grid-row-start: 1;
-  grid-row-end: 5;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: a;
   background: url(../image/grid1.png) no-repeat;
   background-size: 100% 100%;
   background-position: center;
@@ -645,6 +759,11 @@ main .Service_wrapper .Service_content .Grid-item2 {
   background-size: 100% 100%;
   background-position: center;
   height: 300px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: b;
 }
 
 main .Service_wrapper .Service_content .Grid-item3 {
@@ -652,6 +771,11 @@ main .Service_wrapper .Service_content .Grid-item3 {
   background-size: 100% 100%;
   background-position: center;
   height: 300px;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 2;
+  grid-area: c;
 }
 
 main .Service_wrapper .Service_content .Grid-item4 {
@@ -659,6 +783,11 @@ main .Service_wrapper .Service_content .Grid-item4 {
   background-size: 100% 100%;
   background-position: left;
   height: 300px;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: d;
 }
 
 main .Service_wrapper .Service_content .Grid-item5 {
@@ -666,6 +795,11 @@ main .Service_wrapper .Service_content .Grid-item5 {
   background-size: 100% 100%;
   background-position: left;
   height: 300px;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 5;
+  -ms-grid-column-span: 2;
+  grid-area: e;
 }
 
 main .Service_wrapper .Service_content .Grid__hvr0001:hover .Hvr_cnt::before {
@@ -1945,6 +2079,21 @@ main footer .copyright_wrp .copy_content p {
   }
 }
 
+.HairCare_Wrapper .Beauty-banner {
+  background: inherit;
+}
+
+.HairCare_Wrapper .Beauty-banner::before {
+  display: none !important;
+}
+
+.HairCare_Wrapper .HairCare-Banner {
+  background: url(../image/haicare-banner.png) no-repeat;
+  width: 100%;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
 .main-bar {
   display: none;
 }
@@ -2197,14 +2346,164 @@ main footer .copyright_wrp .copy_content p {
     position: relative;
   }
   main header .Nav-wrp nav .nav-item ul .drop_down {
-    top: 8px;
-    left: 36%;
+    top: 0px;
+    left: 0;
+    width: 100%;
   }
   main header .Nav-wrp nav .nav-item ul .drop_down li:last-child {
     padding: 1rem 0 1rem !important;
   }
   main .About_Wrapper::before {
     width: 54%;
+  }
+  main header .top-social-bar .child-wrp .L_cmn01 p {
+    font-size: 15px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp {
+    -ms-grid-columns: (minmax(7, 1fr))[auto-fill];
+        grid-template-columns: repeat(auto-fill, minmax(7, 1fr));
+        grid-template-areas: "a a b b"  "a a c c" "d d e e  ";
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
+    left: -83px !important;
+    top: -62px !important;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
+    right: -83px !important;
+    bottom: -64px !important;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
+    width: 150px;
+    height: 150px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
+    left: -79px;
+    top: -214px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
+    right: -81px;
+    bottom: -210px;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content {
+    padding: 1rem 0;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul {
+    width: 90%;
+    padding: 4rem 0 0;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul li.Tst02.Tst_cmn02 {
+    margin: 0.5rem 1rem 2rem 7rem !important;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 {
+    width: 38%;
+    padding: 1rem 1rem;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 figure {
+    width: 100px;
+    height: 100px;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 figure {
+    left: -76px;
+    top: -8px;
+  }
+  main .Testimonial_Wrapper::after {
+    width: 83%;
+    height: 90%;
+  }
+  main .Appointment_Form_wrp .Form_wrp form .form_content {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  main .Appointment_Form_wrp .Form_wrp form .form_content .Frm_cmn01 {
+    width: 30%;
+    margin: .5rem .5rem;
+  }
+  main .Banner_Wrapper .banner-child .banner-sub-child {
+    height: 500px;
+  }
+  main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child h1 {
+    font-size: 2.3em;
+  }
+  main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content {
+    height: 500px;
+    padding: 4rem 0 0;
+  }
+  main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child a {
+    font-size: 15px;
+    padding: .8rem 1rem;
+    margin: .5rem 0 0;
+  }
+  main .Banner_Wrapper .banner-child .owl-dots .owl-dot {
+    width: 13px;
+    height: 13px;
+  }
+  main .Banner_Wrapper .banner-child .owl-dots {
+    bottom: 19px;
+    left: 50%;
+  }
+  main .Service_wrapper {
+    width: 100%;
+    padding: 1rem 0 1rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .myHeader {
+    top: 88px;
+  }
+  .myHeader {
+    top: 85px;
+  }
+  main header .Nav-wrp nav .nav-item ul .drop_down li a {
+    font-size: 15px;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 figure {
+    left: 31%;
+    top: -10px;
+    position: relative;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul li.Tst02.Tst_cmn02 {
+    margin: 0.5rem 1rem 2rem 1rem !important;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 {
+    width: 45%;
+    padding: 1rem 1rem;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul {
+    width: 100%;
+    padding: 3rem 0 0;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 {
+    border: 1px solid #F73624;
+  }
+  main .About_Wrapper .About_Content .Abt_cmn01 p {
+    font-size: 15px;
+  }
+  main .About_Wrapper .About_Content .Abt_cmn01 h2 {
+    font-size: 2em;
+  }
+  main .About_Wrapper .About_Content .Abt_cmn01 a {
+    font-size: 15px;
+    padding: .8rem 1.7rem;
+    margin: 1.2rem 0 0;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 p {
+    font-size: 15px;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 h2 {
+    font-size: 2.5em;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul {
+    padding: 2rem 0 0;
+  }
+  main .Appointment_Form_wrp .Form_wrp form .form_content .Frm_cmn01 label {
+    padding: 0.7rem 0 0.5rem;
+    font-size: 1em;
+  }
+  main .Testimonial_Wrapper::after {
+    width: 100%;
+    height: 90%;
   }
 }
 /*# sourceMappingURL=style.css.map */

@@ -244,8 +244,9 @@
         position: relative;
     }
     main header .Nav-wrp nav .nav-item ul .drop_down {
-        top: 8px;
-        left: 36%;
+        top: 0px;
+        left: 0;
+        width: 100%;
     }
     main header .Nav-wrp nav .nav-item ul .drop_down li{
         &:last-child{
@@ -256,7 +257,153 @@
     main .About_Wrapper::before { 
         width: 54%; 
     }
+    main header .top-social-bar .child-wrp .L_cmn01 p {
+      font-size: 15px; 
+    }
+    main .Service_wrapper .Service_content .Grid_wrp {
+        grid-template-columns: repeat(auto-fill, minmax(7, 1fr));
+        grid-template-areas:
+            "a a b b" 
+            "a a c c"
+            "d d e e  ";
+    }
+    main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
+        left: -83px !important;
+        top: -62px !important;
+    }   
+    main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
+        right: -83px !important;
+        bottom: -64px !important;
+    }
+    main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
+        width: 150px;
+        height: 150px;
+    }
+    main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
+        left: -79px;
+        top: -214px;
+    }
+    main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
+        right: -81px;
+        bottom: -210px;
+    }
+    main .Appointment_Wrapper .Appointment_child .Appointment_Content {
+       padding: 1rem 0;
+    }
+    main .Testimonial_Wrapper .Testimonial_Content ul {
+        width: 90%; 
+        padding: 4rem 0 0;
+    }
+    main .Testimonial_Wrapper .Testimonial_Content ul li.Tst02.Tst_cmn02 {
+        margin: 0.5rem 1rem 2rem 7rem !important;
+    }
+    main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 {
+        width: 38%;
+        padding: 1rem 1rem;
+    }
+    main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 figure {
+        width: 100px;
+        height: 100px;
+    }
+    main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 figure {
+        left: -76px;
+        top: -8px;   
+    }
+    main .Testimonial_Wrapper::after {
+        width: 83%;
+        height: 90%; 
+    }
+    main .Appointment_Form_wrp .Form_wrp form .form_content {
+         justify-content: flex-start;
+    }
+    main .Appointment_Form_wrp .Form_wrp form .form_content .Frm_cmn01 {
+        width: 30%;
+        margin: .5rem .5rem;
+    }
+    main .Banner_Wrapper .banner-child .banner-sub-child {
+        height: 500px; 
+    }
+    main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child h1 {
+        font-size: 2.3em;
+    }
+    main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content {
+        height: 500px; 
+        padding: 4rem 0 0;
+    }
+    main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child a {
+        font-size: 15px;
+        padding: .8rem 1rem;
+        margin: .5rem 0 0;
+    }
+    main .Banner_Wrapper .banner-child .owl-dots .owl-dot {
+        width: 13px;
+        height: 13px; 
+    }
+    main .Banner_Wrapper .banner-child .owl-dots {
+        bottom: 19px;
+        left: 50%;
+    }
+    main .Service_wrapper {
+        width: 100%;
+        padding: 1rem 0 1rem;
+    }
+}
 
-
-
+@media  only screen  and (max-width:992px){
+    .myHeader{ 
+      top: 88px; 
+    }
+    .myHeader{
+        top: 85px;
+    }
+    main header .Nav-wrp nav .nav-item ul .drop_down li a {
+         font-size: 15px; 
+    }
+    main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 figure {
+        left: 31%;
+        top: -10px;
+        position: relative;
+    }
+    main .Testimonial_Wrapper .Testimonial_Content ul li.Tst02.Tst_cmn02 {
+        margin: 0.5rem 1rem 2rem 1rem !important;
+    }
+    main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 {
+        width: 45%;
+        padding: 1rem 1rem;
+    }
+    main .Testimonial_Wrapper .Testimonial_Content ul {
+        width: 100%;
+        padding: 3rem 0 0;
+    }
+    main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02{
+        border: 1px solid #F73624;
+    }
+    main .About_Wrapper .About_Content .Abt_cmn01 p {
+        font-size: 15px;
+    }
+    main .About_Wrapper .About_Content .Abt_cmn01 h2 {
+        font-size: 2em;
+    }
+    main .About_Wrapper .About_Content .Abt_cmn01 a {
+        font-size: 15px;
+        padding: .8rem 1.7rem; 
+        margin: 1.2rem 0 0;
+    }
+    main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 p {
+        font-size: 15px;
+    }
+    main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 h2 {
+        font-size: 2.5em;
+    }
+    main .Testimonial_Wrapper .Testimonial_Content ul { 
+        padding: 2rem 0 0;
+    }
+    main .Appointment_Form_wrp .Form_wrp form .form_content .Frm_cmn01 label {
+        padding: 0.7rem 0 0.5rem;
+        font-size: 1em;  
+    }
+    main .Testimonial_Wrapper::after {
+        width: 100%;
+        height: 90%;
+    }
 }
