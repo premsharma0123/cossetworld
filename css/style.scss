@@ -217,6 +217,14 @@
                                        li{
                                            margin: 0 0rem!important;
                                            border-bottom: inherit!important;
+                                           &:hover{
+                                               background: transparent!important;
+                                           }
+                                           a{
+                                               &:hover{
+                                                   color:#646464!important;
+                                               }
+                                           }
                                        }
                                     //    .list1:hover .Sub_Hvr_wrp{display: none!important;} 
                                       .Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp5

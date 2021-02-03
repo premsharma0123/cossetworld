@@ -310,6 +310,14 @@ main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 li {
   border-bottom: inherit !important;
 }
 
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 li:hover {
+  background: transparent !important;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 li a:hover {
+  color: #646464 !important;
+}
+
 main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp2, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp3, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp4, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp5, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp6, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp7, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp8, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp9 {
   display: none;
 }
