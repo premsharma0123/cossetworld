@@ -171,7 +171,7 @@ main header .Nav-wrp nav .nav-item {
   padding: 1rem 0;
 }
 
-main header .Nav-wrp nav .nav-item ul {
+main header .Nav-wrp nav .nav-item .Unorder_wrp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -189,12 +189,12 @@ main header .Nav-wrp nav .nav-item ul {
   position: relative;
 }
 
-main header .Nav-wrp nav .nav-item ul li {
+main header .Nav-wrp nav .nav-item .Unorder_wrp li {
   list-style-type: none;
   margin: 0 .9rem;
 }
 
-main header .Nav-wrp nav .nav-item ul li a {
+main header .Nav-wrp nav .nav-item .Unorder_wrp li a {
   color: #000;
   font-size: 1.1em;
   text-transform: uppercase;
@@ -203,107 +203,89 @@ main header .Nav-wrp nav .nav-item ul li a {
   letter-spacing: 1px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  padding: 0 0 .4rem;
+  padding: 0 0 .4rem 0;
 }
 
-main header .Nav-wrp nav .nav-item ul li a:hover {
+main header .Nav-wrp nav .nav-item .Unorder_wrp li a:hover {
   color: #F73624;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
-main header .Nav-wrp nav .nav-item ul li a i {
+main header .Nav-wrp nav .nav-item .Unorder_wrp li a i {
   vertical-align: text-top;
 }
 
-main header .Nav-wrp nav .nav-item ul li .hvr-underline-from-left:before {
+main header .Nav-wrp nav .nav-item .Unorder_wrp li .hvr-underline-from-left:before {
   background: #f73624;
   height: 2px;
 }
 
-main header .Nav-wrp nav .nav-item ul .hair-care {
+main header .Nav-wrp nav .nav-item .Unorder_wrp .hair-care {
   position: relative;
 }
 
-main header .Nav-wrp nav .nav-item ul .drop3 .list {
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop1 {
+  left: 90px !important;
 }
 
-main header .Nav-wrp nav .nav-item ul .drop3 .list:hover {
-  background: #f73624;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  padding-left: .5rem;
-}
-
-main header .Nav-wrp nav .nav-item ul .drop_down {
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down {
   position: absolute;
   top: 87px;
   left: 41%;
   width: 281px;
-  background: #d14336eb;
+  background: #fff;
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
   display: none;
-  border-bottom: 3px solid #ffffffa8;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
+  -webkit-box-shadow: 0px 3px 1px 0px #f43423cf;
+          box-shadow: 0px 3px 1px 0px #f43423cf;
 }
 
-main header .Nav-wrp nav .nav-item ul .drop_down .list {
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down li {
   padding: 1rem 0;
-  margin: 0 0;
+  margin: 0 0 !important;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   width: 100%;
   text-transform: capitalize;
-  border-bottom: 1px solid #ffffff78;
+  color: #646464;
+  border-bottom: 1px solid #c4c4c442;
 }
 
-main header .Nav-wrp nav .nav-item ul .drop_down .list a {
-  color: #fff;
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down li:hover {
+  background: #F73624;
+  color: #fff !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down li a {
   padding: 0 0 0 1rem;
   font-size: 1em;
   font-weight: 500;
+  display: inline-block;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
-main header .Nav-wrp nav .nav-item ul .drop2 {
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down li a:hover {
+  color: #fff !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 {
+  left: 0% !important;
   width: 100% !important;
-  padding: 1rem 1rem;
+  padding: 0 0;
   display: none;
-  left: -63% !important;
-  width: 1500px !important;
 }
 
-main header .Nav-wrp nav .nav-item ul .drop2 .drop2_sub_wrp {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: inherit;
-      -ms-flex-align: inherit;
-          align-items: inherit;
-}
-
-main header .Nav-wrp nav .nav-item ul .drop2 .drop2_sub_wrp .list {
-  width: 18%;
-  margin: .5rem .9rem;
-  border-bottom: inherit !important;
-}
-
-main header .Nav-wrp nav .nav-item ul .drop2 .drop2_sub_wrp .list .heading-btn {
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -318,58 +300,237 @@ main header .Nav-wrp nav .nav-item ul .drop2 .drop2_sub_wrp .list .heading-btn {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 0 .5rem;
-}
-
-main header .Nav-wrp nav .nav-item ul .drop2 .drop2_sub_wrp .list .heading-btn span {
-  color: #fff;
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-main header .Nav-wrp nav .nav-item ul .drop2 .drop2_sub_wrp .list h3 {
-  font-size: 15px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  word-spacing: 2px;
-  color: #fff;
-  font-weight: bold;
-}
-
-main header .Nav-wrp nav .nav-item ul .drop2 .drop2_sub_wrp .list ul {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
   -webkit-box-align: inherit;
       -ms-flex-align: inherit;
           align-items: inherit;
 }
 
-main header .Nav-wrp nav .nav-item ul .drop2 .drop2_sub_wrp .list ul li {
-  width: 100%;
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 li {
   margin: 0 0rem !important;
-  padding: .9rem 0 .9rem;
-  border-bottom: 1px dotted;
-  border-color: #ffffffa3;
-  display: block;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  border-bottom: inherit !important;
 }
 
-main header .Nav-wrp nav .nav-item ul .drop2 .drop2_sub_wrp .list ul li a {
-  padding: 0 0 0 0rem !important;
-  font-size: 14px;
-  font-family: 'RalewayRegular';
-  text-transform: capitalize;
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp2, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp3, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp4, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp5, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp6, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp7, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp8, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp9 {
+  display: none;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_cmn {
+  width: 100%;
+  min-height: calc(100%);
+  overflow: hidden;
+  position: relative;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp1::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../image/hvr4.png) no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  z-index: -1;
+  -webkit-animation: imghvr 3s linear infinite;
+          animation: imghvr 3s linear infinite;
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../image/hvr1.png) no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  z-index: 0;
+  animation: imghvr 3s linear infinite;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp2::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../image/hvr2.png) no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  z-index: 0;
+  -webkit-animation: imghvr 3s linear infinite;
+          animation: imghvr 3s linear infinite;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp3::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../image/hvr3.png) no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  z-index: 0;
+  -webkit-animation: imghvr 3s linear infinite;
+          animation: imghvr 3s linear infinite;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp4::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../image/hvr4.png) no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  z-index: -1;
+  -webkit-animation: imghvr 3s linear infinite;
+          animation: imghvr 3s linear infinite;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp5::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../image/hvr5.png) no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  z-index: -1;
+  -webkit-animation: imghvr 3s linear infinite;
+          animation: imghvr 3s linear infinite;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp6::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../image/hvr1.png) no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  z-index: -1;
+  -webkit-animation: imghvr 3s linear infinite;
+          animation: imghvr 3s linear infinite;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp7::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../image/hvr1.png) no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  z-index: -1;
+  -webkit-animation: imghvr 3s linear infinite;
+          animation: imghvr 3s linear infinite;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp8::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../image/hvr1.png) no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  z-index: -1;
+  -webkit-animation: imghvr 3s linear infinite;
+          animation: imghvr 3s linear infinite;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp9::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../image/hvr1.png) no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  z-index: -1;
+  -webkit-animation: imghvr 3s linear infinite;
+          animation: imghvr 3s linear infinite;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop01 {
+  width: 35%;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop01 ul {
+  border-right: 1px solid #a8a8a85c;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop01 ul .list-active {
+  background: -webkit-gradient(linear, left top, right top, from(#DD2615), to(#F73624)) !important;
+  background: linear-gradient(to right, #DD2615, #F73624) !important;
   cursor: pointer;
 }
 
-main header .Nav-wrp nav .nav-item ul .drop2 .drop2_sub_wrp .list ul li a:hover {
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  padding-left: .5rem;
-  color: #000 !important;
-  display: inline-block;
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop01 ul .list-active a {
+  color: #fff !important;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop01 ul li a {
+  font-weight: bold;
+  font-size: 1em;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-cmn01 ul {
+  display: block !important;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-cmn01 ul li {
+  padding: .7rem 0;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-cmn01 ul li a {
+  color: #646464;
+  font-size: 15px;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop02 {
+  width: 60%;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop02 li a {
+  font-family: 'RalewayRegular';
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop4 {
+  left: 52% !important;
+}
+
+main header .Nav-wrp nav .nav-item .Unorder_wrp .drop5 {
+  left: 73% !important;
+}
+
+@-webkit-keyframes imghvr {
+  0%, 100% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  50% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-filter: drop-shadow(0px 0px 2px #0000003f);
+            filter: drop-shadow(0px 0px 2px #0000003f);
+  }
+}
+
+@keyframes imghvr {
+  0%, 100% {
+    -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  50% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    -webkit-filter: drop-shadow(0px 0px 2px #0000003f);
+            filter: drop-shadow(0px 0px 2px #0000003f);
+  }
 }
 
 main .Banner_Wrapper .banner-child:hover .owl-nav {

@@ -29,6 +29,75 @@ $heading:'AlegreyaRegular';
 $p:'RalewayRegular';
 $transition: all .3s ease-in-out;
 
+
+@mixin imgBefore {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../image/hvr4.png)no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    z-index: -1;
+    animation: imghvr 3s linear infinite;
+}
+@mixin imgBefore5 {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../image/hvr5.png)no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    z-index: -1;
+    animation: imghvr 3s linear infinite;
+}
+
+@mixin imgBefore6 {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../image/hvr1.png)no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    z-index: -1;
+    animation: imghvr 3s linear infinite;
+}
+@mixin imgBefore7 {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../image/hvr1.png)no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    z-index: -1;
+    animation: imghvr 3s linear infinite;
+}
+@mixin imgBefore8 {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../image/hvr1.png)no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    z-index: -1;
+    animation: imghvr 3s linear infinite;
+}
+@mixin imgBefore9 {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../image/hvr1.png)no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    z-index: -1;
+    animation: imghvr 3s linear infinite;
+}
+
 @mixin  grid-Hvr {
     &:hover{
         .grid-hvr-content{
