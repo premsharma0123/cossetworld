@@ -1716,11 +1716,12 @@
         // &::before{
         //     content: '';
         //     width: 100%;
-        //     height: 100%;
+        //     height: 100vh;
         //     background: url(../image/bg2.png)repeat;
         //     background-size: $cover;
         //     background-position: $mid;
         //     position: $abs; 
+        //     animation: bganime 18s linear infinite;
         // } 
         // ----slim--service---section---
         .Slim_Service{
@@ -1824,12 +1825,20 @@
                     transform: scale(.99);
                 }
                 50%{
-                    box-shadow: 0 15px 6px 3px #000;
+                    box-shadow: 0 14px 5px 2px #000;
                     transform: scale(1.01);
                 }
         }
         // ----end---here----//
 
+    // ----Lipofit---Lipofit---//
+      .Lipofit{
+        .Weight-content{
+            flex-direction: row-reverse;
+        }
+      }
+
+  // ----end---here----//
     }
    
 }

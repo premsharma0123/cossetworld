@@ -2700,8 +2700,8 @@ main footer .copyright_wrp .copy_content p {
             transform: scale(0.99);
   }
   50% {
-    -webkit-box-shadow: 0 15px 6px 3px #000;
-            box-shadow: 0 15px 6px 3px #000;
+    -webkit-box-shadow: 0 14px 5px 2px #000;
+            box-shadow: 0 14px 5px 2px #000;
     -webkit-transform: scale(1.01);
             transform: scale(1.01);
   }
@@ -2715,11 +2715,18 @@ main footer .copyright_wrp .copy_content p {
             transform: scale(0.99);
   }
   50% {
-    -webkit-box-shadow: 0 15px 6px 3px #000;
-            box-shadow: 0 15px 6px 3px #000;
+    -webkit-box-shadow: 0 14px 5px 2px #000;
+            box-shadow: 0 14px 5px 2px #000;
     -webkit-transform: scale(1.01);
             transform: scale(1.01);
   }
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Lipofit .Weight-content {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 .main-bar {
