@@ -1,25 +1,25 @@
 $(document).ready(function(){
   $(".skin").click(function(){
     $(".drop1").slideToggle("");
-     $(".drop2,.drop3,.drop4,.drop5").slideUp("fast");
+     $(".drop2,.drop3,.drop4,.drop5").hide("fast");
 })
   $(".hair-care").click(function(){
       $(".drop3").slideToggle("");
-       $(".drop1,.drop2,.drop4,.drop5").slideUp("fast");
+       $(".drop1,.drop2,.drop4,.drop5").hide("fast");
   })
   $(".slimming").click(function(){
     $(".drop2").slideToggle("");
-    $(".drop1,.drop3,.drop4,.drop5").slideUp("fast");
+    $(".drop1,.drop3,.drop4,.drop5").hide("fast");
 })
 $(".Dermat").click(function(){
   $(".drop4").slideToggle("");
-  $(".drop1,.drop2,.drop3,.drop5").slideUp("fast");
-  // $("").slideUp("");
+  $(".drop1,.drop2,.drop3,.drop5").hide("fast");
+  // $("").hide("");
 })
 
 $(".permanentMakeup").click(function(){
   $(".drop5").slideToggle("");
-  $(".drop1,.drop2,.drop3,.drop4").slideUp("fast");
+  $(".drop1,.drop2,.drop3,.drop4").hide("fast");
   // $("").slideUp("");
 })
 

@@ -13,7 +13,7 @@
     h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
     acronym, address, big, cite, code, del, dfn, em, img, ins, 
     kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
-    b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label,
+    b, u, i, $mid, dl, dt, dd, ol, ul, li, fieldset, form, label,
     legend, table, caption, tbody, tfoot, thead, tr, th, td, article, 
     aside, canvas, details, embed, figure, figcaption, footer, header, hgroup,
     menu, .head-wrp, output, ruby, section, summary, time, mark, audio, video {
@@ -64,7 +64,7 @@
                      p{
                          margin: 0 .5rem;
                          font-family: 'open-sans';
-                         font-weight: bold;
+                         font-weight: $bld;
                          &:last-child{
                             font-weight: normal;
                          }
@@ -73,7 +73,7 @@
                   .L_cmn01{
                         p{
                             text-transform: $cap;
-                            font-weight: bold;
+                            font-weight: $bld;
                             font-size: 1em;
                             color: $white;
                             i{
@@ -98,7 +98,7 @@
              .Nav-wrp{
                  width: 100%;
                  background: #ffffffa8;
-                 position: absolute;
+                 position: $abs;
                  padding: .2rem 0;
                  z-index: 3;
                 nav{
@@ -120,7 +120,7 @@
                         .Unorder_wrp{
                             @include flex;
                             justify-content: $end;
-                            position: relative;
+                            position: $rel;
                             li{
                                 list-style-type: $none;
                                 margin: 0 .9rem;
@@ -147,7 +147,7 @@
                                 }
                             }
                             .hair-care{
-                                position: relative; 
+                                position: $rel; 
                             }
                             // .drop3{
                             //     .list{
@@ -164,7 +164,7 @@
                                 left: 90px!important;
                             }
                             .drop_down{
-                                position: absolute;
+                                position: $abs;
                                 top: 87px;
                                 left: 41%;
                                 width: 281px;
@@ -235,9 +235,9 @@
                                         // height: 68vh;
                                         width: 100%;
                                         min-height: calc(100% );
-                                        overflow: hidden;
+                                        overflow: $hide;
                                        // border: 1px solid;
-                                        position: relative;
+                                        position: $rel;
                                        }
                                        .Sub_Hvr_wrp1{
                                         &::before{
@@ -245,8 +245,8 @@
                                             content: '';
                                             width: 100%;
                                             height: 100%;
-                                            position: absolute;
-                                            background: url(../image/hvr1.png)no-repeat;
+                                            position: $abs;
+                                            background: url(../image/hvr1.png)$no-rpt;
                                             background-size: contain;
                                             background-position: bottom;
                                             z-index: 0;
@@ -258,8 +258,8 @@
                                             content: '';
                                             width: 100%;
                                             height: 100%;
-                                            position: absolute;
-                                            background: url(../image/hvr2.png)no-repeat;
+                                            position: $abs;
+                                            background: url(../image/hvr2.png)$no-rpt;
                                             background-size: contain;
                                             background-position: bottom;
                                             z-index: 0;
@@ -271,8 +271,8 @@
                                                 content: '';
                                                 width: 100%;
                                                 height: 100%;
-                                                position: absolute;
-                                                background: url(../image/hvr3.png)no-repeat;
+                                                position: $abs;
+                                                background: url(../image/hvr3.png)$no-rpt;
                                                 background-size: contain;
                                                 background-position: bottom;
                                                 z-index: 0;
@@ -322,7 +322,7 @@
                                                }
                                                li {
                                                    a{
-                                                       font-weight: bold;
+                                                       font-weight: $bld;
                                                        font-size: 1em;
                                                   }
                                                }
@@ -386,7 +386,7 @@
                     transition: $transition;
                 }
                 .banner-sub-child{
-                    background: url(../image/banner.png)no-repeat;
+                    background: url(../image/banner.png)$no-rpt;
                     background-size: 100% 100%;
                     height: 700px;
                     width: 100%;
@@ -447,20 +447,20 @@
                    }
               }
               .banner-sub-child2{
-                background: url(../image/banner2.png)no-repeat;
+                background: url(../image/banner2.png)$no-rpt;
                 background-size: 100% 100%;
                 height: 700px;
                 width: 100%;
               }
               .banner-sub-child3{
-                background: url(../image/banner3.png)no-repeat;
+                background: url(../image/banner3.png)$no-rpt;
                 background-size: 100% 100%;
                 height: 700px;
                 width: 100%;
               }
 
               .owl-dots {
-                position: absolute;
+                position: $abs;
                 bottom: 35px;
                 left: 50%;
                 .owl-dot {
@@ -478,7 +478,7 @@
                 }
               }
               .owl-next {
-                position: absolute;
+                position: $abs;
                 right: 28px;
                 top: 44%;
                 font-size: 6em!important;
@@ -506,18 +506,10 @@
             @include flex;
             justify-content: $between;
             padding: 2rem 0 3rem;
-            h2{
+             h2{
+                @include heading;
                 width: 30%;
-                font-size: 2.3em;
-                line-height: 1.5;
-                letter-spacing: 1px;
-                word-spacing: 1px;
-                text-transform: $cap;
-                font-weight: bold;
-                span{
-                    color: $red;
-                }
-            }
+             } 
             p{
                 width: 65%;
                 line-height: 1.5;
@@ -544,10 +536,10 @@
               .Grid-item_cmn01{
                   width: 100%;
                 //   height: 300px;
-                 position: relative;
+                 position: $rel;
                  @include grid-Hvr;
                  .bottom_Bar{
-                     position: absolute;
+                     position: $abs;
                      bottom: 0;
                      width: 100%;
                      padding: .5rem .5rem;
@@ -558,7 +550,7 @@
                      z-index: 9;
                     h2{
                      color: $white;
-                     text-align: center;
+                     text-align: $mid;
                      text-transform: $upper;
                      font-weight: 500;
                      font-family: 'Ralewaythin';
@@ -588,31 +580,31 @@
           .Grid-item1{
             // grid-row-start: 1;   grid-row-end: 5;
             grid-area: a; 
-            background: url(../image/grid1.png)no-repeat;
+            background: url(../image/grid1.png)$no-rpt;
             background-size: 100% 100%;
-            background-position: center;
+            background-position: $mid;
             height:  610px;//65vh;
           }
         .Grid-item2 {
-            background: url(../image/grid2.png)no-repeat;
+            background: url(../image/grid2.png)$no-rpt;
             background-size: 100% 100%;
-            background-position: center;
+            background-position: $mid;
             height: 300px;
             grid-area: b;
         }
-        .Grid-item3 { background: url(../image/grid3.png)no-repeat;
+        .Grid-item3 { background: url(../image/grid3.png)$no-rpt;
             background-size: 100% 100%;
-            background-position: center;
+            background-position: $mid;
             height: 300px;   
             grid-area: c;
          }
-        .Grid-item4 { background: url(../image/grid4.png)no-repeat;
+        .Grid-item4 { background: url(../image/grid4.png)$no-rpt;
             background-size: 100% 100%;
             background-position: left;
             height: 300px;   
             grid-area: d;
          }
-        .Grid-item5 {  background: url(../image/grid5.png)no-repeat;
+        .Grid-item5 {  background: url(../image/grid5.png)$no-rpt;
             background-size: 100% 100%;
             background-position: left;
             height: 300px;
@@ -628,17 +620,17 @@
     .About_Wrapper{
         width: 100%;
         padding: 2rem 0 1rem;
-        position: relative;
-        overflow: hidden;
+        position: $rel;
+        overflow: $hide;
         &::before{
             content: '';
             width: 51%;
             height: 121%;
             left: -245px;
             top: -203px;
-            background: url(../image/bg1.png)no-repeat;
-            background-size: cover;
-            position: absolute;
+            background: url(../image/bg1.png)$no-rpt;
+            background-size: $cover;
+            position: $abs;
             z-index: -1;
             animation: bganime 5s linear;
         }
@@ -652,7 +644,7 @@
                     word-spacing: 1px;
                     line-height: 1.5;
                     text-transform: $upper;
-                    font-weight: bold;
+                    font-weight: $bld;
                     span{
                         color: $red;
                     }
@@ -707,18 +699,18 @@
 .Appointment_Wrapper{
     width: 100%;
     // height:500px;
-    background: url(../image/appointment_bg.png)no-repeat;
-    background-size: cover;
-    background-position: center;
+    background: url(../image/appointment_bg.png)$no-rpt;
+    background-size: $cover;
+    background-position: $mid;
     background-attachment: fixed;
     margin: 2rem 0 0;
     padding: 6.5rem 0;
-    position: relative;
+    position: $rel;
     .Appointment_child{
        // height: 400px;
-        background: url(../image/Ap_bg1.png)no-repeat;
-        background-size: cover;
-        background-position: center;
+        background: url(../image/Ap_bg1.png)$no-rpt;
+        background-size: $cover;
+        background-position: $mid;
         z-index: 3;
         // &::before{
         //     content: '';
@@ -727,7 +719,7 @@
         //     background: red;
         //     left: 0;
         //     top: 105px;
-        //     position: absolute;
+        //     position: $abs;
         //     z-index: -1;
         // }
         .Appointment_Content{
@@ -743,13 +735,13 @@
             }
             .Apt_Cmn01{
                 // width: 50%;
-                text-align: center;
+                text-align: $mid;
                 figure{
-                    position: absolute;
+                    position: $abs;
                     top: 0;
                     width: 33%;
                     height: 100%;
-                    overflow: hidden;
+                    overflow: $hide;
                     left: 70px;
                     img{
                         max-width: 64%;
@@ -759,7 +751,7 @@
                     font-size: 3.3em;
                     text-transform: $cap;
                     color: $white;
-                    font-weight: bold;
+                    font-weight: $bld;
                     line-height: 1.5;
                     letter-spacing: 2px;
                     word-spacing: 7px;
@@ -804,17 +796,17 @@
 
 .Testimonial_Wrapper{
     padding:2rem 0 1rem;
-    position: relative;
-    overflow: hidden;
+    position: $rel;
+    overflow: $hide;
     &::after{
         content: '';
         width: 100%;
         height: 100%;
         left:  0;//-245px;
         top: 0;//-120px;
-        background: url(../image/bg1.png) no-repeat;//no-repeat;
+        background: url(../image/bg1.png) $no-rpt;//$no-rpt;
         background-size: contain;
-        position: absolute;
+        position: $abs;
         z-index: -1;
        // transform: rotate( 203deg);
         z-index: -1;
@@ -823,15 +815,7 @@
     }
     .Testimonial_heading{
         h2{
-            font-size: 2.3em;
-            line-height: 1.5;
-            letter-spacing: 1px;
-            word-spacing: 1px;
-            text-transform: $upper;
-            font-weight: bold;
-            span{
-                color: $red;
-            }
+             @include heading;
         }
     }
     
@@ -854,25 +838,25 @@
                 width: 40%;
                 list-style-type: $none;
                 padding: 1rem 1rem;
-                text-align: center;
+                text-align: $mid;
                 border: 2px solid $red;
                 margin: 0.5rem 1rem 2rem;  
                 border-radius: 5px;
-                position: relative;
+                position: $rel;
                 figure{
-                    position: absolute;
+                    position: $abs;
                     left: -97px;
                     top: -13px;
                     border-radius: 50%;
                     width: 150px;
                     height: 150px;
                     /* border: 2px solid; */
-                    overflow: hidden;
+                    overflow: $hide;
                     img{
                         max-width: 100%;
                         height: 100%;
-                        object-fit: cover;
-                        object-position: center;
+                        object-fit: $cover;
+                        object-position: $mid;
                     }
                 }
                 p{
@@ -913,8 +897,8 @@
 }
 // ----Appointment---form---//
     .Appointment_Form_wrp{
-        position: relative;
-        overflow: hidden;
+        position: $rel;
+        overflow: $hide;
         padding: 1rem 0 0;
         &::after{
             content: '';
@@ -924,9 +908,9 @@
             // top: -120px;
             right: -394px;
             top: -147px;
-            background: url(../image/bg1.png) no-repeat;
+            background: url(../image/bg1.png) $no-rpt;
             background-size: contain;
-            position: absolute;
+            position: $abs;
             z-index: -1;
             //transform: rotate( 203deg);
             // animation: Bganime 3s linear infinite;
@@ -937,18 +921,12 @@
                 animation: imganime 3s linear infinite;
             }
             h2{
-                font-size: 2.3em;
-                line-height: 1.5;
-                letter-spacing: 1px;
-                word-spacing: 1px;
-                text-transform: $upper;
-                font-weight: bold;
+                @include heading;
+                text-transform: $upper; 
                 padding: 2rem 0 1rem;
                 width: 90%;
                 margin: 0 auto;
-                span{
-                    color: $red;
-                }
+                 
             }
         }
      @keyframes imganime {
@@ -1042,24 +1020,24 @@
    footer{
        background: #f73624d6;
        margin:  6rem 0 0;
-       position: relative;
+       position: $rel;
        &::before{
            content: '';
            width: 100%;
            height: 100%;
            background: url(../image/Ap_bg3.png)repeat;
-           background-size: cover;
-           background-position: center;
-           position: absolute;
+           background-size: $cover;
+           background-position: $mid;
+           position: $abs;
            z-index: -1;
            animation: bganime 12s linear infinite;
        }
        
        .mid-logo{
            width: 100%;
-           text-align: center;
+           text-align: $mid;
            padding: 0 0 4rem;
-        //    position: relative;
+        //    position: $rel;
            figure{
             //    background: #fff;
                img{
@@ -1085,7 +1063,7 @@
                   color:$white;
                   padding: 0 0 .8rem;
                   text-transform: $upper;
-                  font-weight: bold;
+                  font-weight: $bld;
                   border-bottom: 2px solid $white;
                   display: inline-block;
               }
@@ -1222,22 +1200,22 @@
 .Beauty-Wrapper{
     header{
         .Nav-wrp{
-            position: relative!important;
+            position: $rel!important;
         }
     }
     .Beauty-banner{ 
         height: 700px;
         width: 100%;
-        overflow: hidden;
+        overflow: $hide;
         background: #f73624cf;
-        position: relative;
+        position: $rel;
         &::before{
             content: '';
             width: 100%;
             height: 100%;
             background: url(../image/bnr_bg.png)repeat;
-            background-position: center;
-            position: absolute;
+            background-position: $mid;
+            position: $abs;
             left: 0;
             top: 0;
             z-index: -1;
@@ -1256,7 +1234,7 @@
                     line-height: 1.5;
                     letter-spacing: 1px;
                     word-spacing: 2px;
-                    font-family: 'Arimo';
+                    font-family:$Arimo;
                 } 
                 p{
                     padding: 1rem 4rem 1rem 0;
@@ -1284,7 +1262,7 @@
                         &:last-child a{
                             border-bottom: 1px solid $white;
                             padding: 0 0 .1rem;
-                            font-weight: bold;
+                            font-weight: $bld;
                         }
                     }
                     i.fas.fa-chevron-right{
@@ -1302,18 +1280,18 @@
         }
     }
 .BtService_Wrapper{
-    position: relative;
-    overflow: hidden;
+    position: $rel;
+    overflow: $hide;
     &::after{
         content: '';
         width: 100%;
         height: 100%;
-        background: url(../image/our-bg.png) no-repeat;
+        background: url(../image/our-bg.png) $no-rpt;
         background-size: 100% 100%;
         right: -55%;
         top: -4px;
         z-index: -1;
-        position: absolute;
+        position: $abs;
     }
     .Grid_wrp{
         // grid-template-columns:auto auto auto auto auto!important 
@@ -1322,19 +1300,19 @@
 
         .Grid-item1{
             height: 300px!important;
-            background: url(../image/grid01.png)no-repeat!important;
-            background-size: cover!important;
+            background: url(../image/grid01.png)$no-rpt!important;
+            background-size: $cover!important;
         }
         .Grid-item1.Grid-item_cmn01{
             background-size: 100% 103%!important;
         }
         .Grid-item2{
-            background: url(../image/grid02.png)no-repeat!important;
-            background-size: cover!important;
+            background: url(../image/grid02.png)$no-rpt!important;
+            background-size: $cover!important;
         }
         .Grid-item5{
-            background: url(../image/grid05.png)no-repeat!important;
-            background-size: cover!important;
+            background: url(../image/grid05.png)$no-rpt!important;
+            background-size: $cover!important;
         }
         .Grid-item_cmn01{
             &:hover{
@@ -1391,15 +1369,15 @@
     .Hair-care_Wrapper{
         width: 100%;
         padding: 2rem 0;
-        position: relative;
+        position: $rel;
         &::before{
             content: '';
             width: 100%;
             height: 100%;
-            background: url(../image/beauty-bg.png)no-repeat;
-            background-size: cover;
+            background: url(../image/beauty-bg.png)$no-rpt;
+            background-size: $cover;
             background-attachment: fixed;
-            position: absolute;
+            position: $abs;
             left:0;
             top:0;
             z-index: -1;
@@ -1422,8 +1400,8 @@
                     letter-spacing: 1px;
                     word-spacing: 1px;
                     text-transform: $cap;
-                    font-weight: bold;
-                    text-align: center;
+                    font-weight: $bld;
+                    text-align: $mid;
                     display: inline-block;
                     border-bottom: 1px solid $red;
                     span{
@@ -1491,11 +1469,11 @@
                     width: 25%;
                     h3{
                         font-size: 2.5em;
-                        font-weight: bold;
+                        font-weight: $bld;
                         text-transform: capitalize;
                         letter-spacing: 1px;
                         color: $red;
-                        position: relative;
+                        position: $rel;
                         animation: h3Anime 3s linear infinite;
                         transition: $transition;
                         animation-direction: alternate;
@@ -1511,7 +1489,7 @@
                         width: 0px;
                         /* height: 1px; */
                         border: 1px dotted;
-                        position: absolute;
+                        position: $abs;
                         left: -209px;
                         top: 28px;
                         animation: beforAnime 3s linear infinite;
@@ -1530,7 +1508,7 @@
                             width: 0px;
                             /* height: 1px; */
                             border: 1px dotted;
-                            position: absolute;
+                            position: $abs;
                             right: -224px;
                             top: 33px;
                             animation: beforAnime 3s linear infinite;
@@ -1561,23 +1539,299 @@
 }
 
 
-// ---------------------------hair----care------page----------
+// ---------------------------Slimming----------page----------
 
-// --------------*****************hair-----care----------------//
+// --------------*****************Slimming----- ----------------//
 
-.HairCare_Wrapper{
-    .Beauty-banner{
-        &::before{
-            display: none!important;
-        }
-        background: inherit;
-    }
-    .HairCare-Banner{
-        background: url(../image/haicare-banner.png)no-repeat;
+.Slimming_Wrapper{
+     .Nav-wrp{
+         position: $rel;
+     }  
+    .Slimming-Banner{ 
+        height: 700px;
         width: 100%;
-        background-size: 100% 100%;
-        background-position: center;
+        overflow: $hide; 
+        position: $rel; 
+        background: url(../image/banner-slim01.png)$no-rpt;
+        background-position-x: 424px;
+        // background-position-y: -111px;
+        // background-size: calc(100% + -28%);
+        background-position-y: -7px;
+        background-size: calc(100% + -29%);
+      //  border: 2px solid;
+        .Banner_Content{
+            @include flex;
+            justify-content: $between!important;
+            padding: 4rem 0 0;
+            // .BL01{
+            //      width: 30%;
+            // }
+            .Banner_child{
+                width: 50%!important;
+                h1{
+                    font-size:6em;
+                    color: $red;
+                    line-height: 1.5;
+                    letter-spacing: 1px;
+                    word-spacing: 2px;
+                    font-family:$Arimo;
+                    font-weight: $bld;
+                    text-shadow: 1px 2px 6px #00000057;
+                } 
+                p{
+                    padding: 1rem 4rem 1rem 0;
+                    columns: #000000;;
+                    font-size: 1em;
+                    word-spacing: 1px;
+                    line-height: 1.8;
+                    letter-spacing: 1px;
+                }
+                .breadcrumb{
+                    padding: 1rem 0 0;
+                    li{
+                        display: inline-block;
+                        list-style-type: none;
+                        a{
+                            font-family:$heading;
+                            font-size: 1.2em;
+                            color: #000000;
+                            transition: $transition;
+                            font-weight: 500;
+                            &:hover{
+                                opacity: .77;
+                                transition: $transition;
+                            }
+                        }
+                        &:last-child a{
+                            border-bottom: 1px solid $red;
+                            padding: 0 0 .1rem;
+                            font-weight: $blder;
+                            color:$red;
+                        }
+                    }
+                    i.fas.fa-chevron-right{
+                        font-size: 13px;
+                        color: #000000;
+                        padding: 0 .5rem;
+                    }
+                }
+                figure{
+                    img{
+                        max-width: 100%;
+                    }
+                }
+            }
+        }
     }
+
+
+    .Slimming-grid_wrp{
+        .Service_content{
+            .Grid_wrp{
+              display: grid; 
+              grid-template-rows: auto 1fr auto;
+              grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))!important;
+              grid-gap: 10px;
+              padding: 10px; 
+                .Grid-item_cmn01{
+                    width: 100%;
+                  //   height: 300px;
+                   position: $rel;
+                   @include  grid-Hvr-Second;
+                   .bottom_Bar{
+                       position: $abs;
+                       bottom: 0;
+                       width: 100%;
+                       padding: .5rem .5rem;
+                       background: #0000008f;
+                      //  @include flex;
+                      //  justify-content:$between;
+                       transition: $transition;
+                       z-index: 9;
+                      h2{
+                       color: $white;
+                       text-align: $mid;
+                       text-transform: $upper;
+                       font-weight: 500;
+                       font-family: 'Ralewaythin';
+                       font-size: 1.275em;
+                       line-height: 1.5;
+                       letter-spacing: 1px;
+                      }
+                      a{
+                          display: inline-block;
+                          background: #f73624;
+                          padding: .7rem 1rem;
+                          border-radius: 5px;
+                          color: #fff;
+                          box-shadow: inset 0px 0px 4px 1px #000000d6;
+                          font-size: 1.1em;
+                          text-transform: $upper;
+                          display: none;
+                      }
+                      .hvr-radial-out{
+                          &::before{
+                              background: #000000;
+                          }
+                      }
+                   }
+                } 
+            }
+            .Grid-item1{ 
+              background: url(../image/grid1.png)$no-rpt;
+              background-size: 100% 100%;
+              background-position: $mid;
+              height: 300px;
+            }
+          .Grid-item2 {
+              background: url(../image/grid2.png)$no-rpt;
+              background-size: 100% 100%;
+              background-position: $mid;
+              height: 300px; 
+          }
+          .Grid-item3 { background: url(../image/grid3.png)$no-rpt;
+              background-size: 100% 100%;
+              background-position: $mid;
+              height: 300px;    
+           }
+          .Grid-item4 { background: url(../image/grid4.png)$no-rpt;
+              background-size: 100% 100%;
+              background-position: left;
+              height: 300px;    
+           }
+          .Grid-item5 {  background: url(../image/grid5.png)$no-rpt;
+              background-size: 100% 100%;
+              background-position: left;
+              height: 300px;    
+           } 
+         }    
+    }
+
+   .Main-content-Wrapper{
+       width: 100%;
+       height: 100%;
+       background: url(../image/bg2.png)repeat;
+       background-size: $cover;
+       background-position: $mid; 
+        // &::before{
+        //     content: '';
+        //     width: 100%;
+        //     height: 100%;
+        //     background: url(../image/bg2.png)repeat;
+        //     background-size: $cover;
+        //     background-position: $mid;
+        //     position: $abs; 
+        // } 
+        // ----slim--service---section---
+        .Slim_Service{
+            width: 100%;
+            position: relative;
+            // &::before{
+            //     content: '';
+            //     width: 100%;
+            //     height: 100%;
+            //     background: url(../image/bg2.png)repeat;
+            //     background-size: $cover;
+            //     background-position: $mid;
+            //     position: $abs;
+            //   //  animation: bganime 18s linear infinite;
+            //     z-index: -1;
+            // }
+            .slim-heading{
+                width: 90%;
+                margin: 0 auto;
+                padding: 3rem 0 2rem;
+                h2{
+                    @include heading;
+                    text-align: $mid;
+                }
+            }
+            .Slim_content{
+                padding: 0rem 0 1rem;
+                p{
+                    padding: 0 0 1.6rem;
+                    font-size: 1.056em;
+                    text-transform: $cap;
+                    letter-spacing: 1px;
+                    line-height: 1.8;
+                    word-spacing: 2px;
+                }
+            }
+        }
+        // ---end--here---secrivce----
+
+
+        // ----Weight---Loss---//
+        .Weight-Loss{
+            width: 100%;
+            position: relative;
+            padding: 1rem 0 2rem;
+            // &::before{
+            //     content: '';
+            //     width: 100%;
+            //     height: 100%;
+            //     background: url(../image/bg2.png)repeat;
+            //     background-size: $cover;
+            //     background-position: $mid;
+            //     position: $abs; 
+            //     z-index: -1;
+            // }
+            .Weight-heading{
+                padding: 1rem 0 3rem;
+                h2{
+                    @include heading;
+                    text-align: left;
+                }
+            }
+            .Weight-content{
+                @include flex;
+                justify-content: $between;
+                .W-left{
+                    width: 30%;
+                    text-align: $mid;
+                    figure{
+                        img{
+                            max-width: 65%;
+                            border-radius: 50%;    
+                            box-shadow: 0 10px 4px 1px #000; 
+                            animation: boxshadow 2s linear infinite;
+                        }
+                    }
+                }
+                
+                .W-right{
+                    width: 65%;
+                    h3{
+                        @include heading;
+                        font-size: 1.7em;
+                        text-transform: $cap;
+                        padding: 0 0 1rem;
+                    }
+                    p{
+                        padding: 0 0 1.6rem;
+                        font-size: 1.056em;
+                        text-transform: $cap;
+                        letter-spacing: 1px;
+                        line-height: 1.8;
+                        word-spacing: 2px;
+                    }
+                }
+            }
+        }
+        @keyframes boxshadow {
+                0%, 100%{
+                    box-shadow: 0 10px 4px 1px #000;
+                    transform: scale(.99);
+                }
+                50%{
+                    box-shadow: 0 15px 6px 3px #000;
+                    transform: scale(1.01);
+                }
+        }
+        // ----end---here----//
+
+    }
+   
 }
 
 

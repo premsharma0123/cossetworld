@@ -17,7 +17,7 @@ html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
 acronym, address, big, cite, code, del, dfn, em, img, ins,
 kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
-b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label,
+b, u, i, $mid, dl, dt, dd, ol, ul, li, fieldset, form, label,
 legend, table, caption, tbody, tfoot, thead, tr, th, td, article,
 aside, canvas, details, embed, figure, figcaption, footer, header, hgroup,
 menu, .head-wrp, output, ruby, section, summary, time, mark, audio, video {
@@ -713,13 +713,13 @@ main .Service_wrapper .Service_heading {
 }
 
 main .Service_wrapper .Service_heading h2 {
-  width: 30%;
   font-size: 2.3em;
   line-height: 1.5;
   letter-spacing: 1px;
   word-spacing: 1px;
   text-transform: capitalize;
   font-weight: bold;
+  width: 30%;
 }
 
 main .Service_wrapper .Service_heading h2 span {
@@ -1290,7 +1290,7 @@ main .Testimonial_Wrapper .Testimonial_heading h2 {
   line-height: 1.5;
   letter-spacing: 1px;
   word-spacing: 1px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: bold;
 }
 
@@ -1444,8 +1444,9 @@ main .Appointment_Form_wrp .Apt_heading h2 {
   line-height: 1.5;
   letter-spacing: 1px;
   word-spacing: 1px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-weight: bold;
+  text-transform: uppercase;
   padding: 2rem 0 1rem;
   width: 90%;
   margin: 0 auto;
@@ -1888,7 +1889,7 @@ main footer .copyright_wrp .copy_content p {
   line-height: 1.5;
   letter-spacing: 1px;
   word-spacing: 2px;
-  font-family: 'Arimo';
+  font-family: "Arimo";
 }
 
 .Beauty-Wrapper .Beauty-banner .Banner_Content .Banner_child p {
@@ -2248,19 +2249,477 @@ main footer .copyright_wrp .copy_content p {
   }
 }
 
-.HairCare_Wrapper .Beauty-banner {
-  background: inherit;
+.Slimming_Wrapper .Nav-wrp {
+  position: relative;
 }
 
-.HairCare_Wrapper .Beauty-banner::before {
-  display: none !important;
-}
-
-.HairCare_Wrapper .HairCare-Banner {
-  background: url(../image/haicare-banner.png) no-repeat;
+.Slimming_Wrapper .Slimming-Banner {
+  height: 700px;
   width: 100%;
+  overflow: hidden;
+  position: relative;
+  background: url(../image/banner-slim01.png) no-repeat;
+  background-position-x: 424px;
+  background-position-y: -7px;
+  background-size: calc(100% + -29%);
+}
+
+.Slimming_Wrapper .Slimming-Banner .Banner_Content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+  padding: 4rem 0 0;
+}
+
+.Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child {
+  width: 50% !important;
+}
+
+.Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child h1 {
+  font-size: 6em;
+  color: #F73624;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  font-family: "Arimo";
+  font-weight: bold;
+  text-shadow: 1px 2px 6px #00000057;
+}
+
+.Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child p {
+  padding: 1rem 4rem 1rem 0;
+  -webkit-columns: #000000;
+          columns: #000000;
+  font-size: 1em;
+  word-spacing: 1px;
+  line-height: 1.8;
+  letter-spacing: 1px;
+}
+
+.Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child .breadcrumb {
+  padding: 1rem 0 0;
+}
+
+.Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child .breadcrumb li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child .breadcrumb li a {
+  font-family: "AlegreyaRegular";
+  font-size: 1.2em;
+  color: #000000;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+}
+
+.Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child .breadcrumb li a:hover {
+  opacity: .77;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child .breadcrumb li:last-child a {
+  border-bottom: 1px solid #F73624;
+  padding: 0 0 .1rem;
+  font-weight: bolder;
+  color: #F73624;
+}
+
+.Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child .breadcrumb i.fas.fa-chevron-right {
+  font-size: 13px;
+  color: #000000;
+  padding: 0 .5rem;
+}
+
+.Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child figure img {
+  max-width: 100%;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto 1fr auto;
+      grid-template-rows: auto 1fr auto;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fill] !important;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 {
+  width: 100%;
+  position: relative;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content {
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
+  width: 90px;
+  height: 90px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::after {
+  width: 90px;
+  height: 90px;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01:hover .bottom_Bar {
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #f736249c;
+  z-index: 4;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt {
+  text-align: center;
+  position: relative;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
+  content: '';
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  left: 1px;
+  top: -63px;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
+  content: '';
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  right: 0px;
+  bottom: -63px;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt h2 {
+  font-size: 1.9em;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt p {
+  font-size: 1em;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt a {
+  display: inline-block;
+  padding: .9rem 1.8rem;
+  border-radius: 5px;
+  background: #000000;
+  color: #fff;
+  text-transform: capitalize;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  z-index: 5;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt a:hover {
+  color: #F73624;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt .hvr-radial-out {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt .hvr-radial-out::before {
+  background: #fff;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .bottom_Bar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: .5rem .5rem;
+  background: #0000008f;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index: 9;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .bottom_Bar h2 {
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Ralewaythin';
+  font-size: 1.275em;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .bottom_Bar a {
+  display: inline-block;
+  background: #f73624;
+  padding: .7rem 1rem;
+  border-radius: 5px;
+  color: #fff;
+  -webkit-box-shadow: inset 0px 0px 4px 1px #000000d6;
+          box-shadow: inset 0px 0px 4px 1px #000000d6;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  display: none;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .bottom_Bar .hvr-radial-out::before {
+  background: #000000;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid-item1 {
+  background: url(../image/grid1.png) no-repeat;
   background-size: 100% 100%;
   background-position: center;
+  height: 300px;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid-item2 {
+  background: url(../image/grid2.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 300px;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid-item3 {
+  background: url(../image/grid3.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 300px;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid-item4 {
+  background: url(../image/grid4.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: left;
+  height: 300px;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid-item5 {
+  background: url(../image/grid5.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: left;
+  height: 300px;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper {
+  width: 100%;
+  height: 100%;
+  background: url(../image/bg2.png) repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Slim_Service {
+  width: 100%;
+  position: relative;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Slim_Service .slim-heading {
+  width: 90%;
+  margin: 0 auto;
+  padding: 3rem 0 2rem;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Slim_Service .slim-heading h2 {
+  font-size: 2.3em;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-align: center;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Slim_Service .slim-heading h2 span {
+  color: #F73624;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Slim_Service .Slim_content {
+  padding: 0rem 0 1rem;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Slim_Service .Slim_content p {
+  padding: 0 0 1.6rem;
+  font-size: 1.056em;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  word-spacing: 2px;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss {
+  width: 100%;
+  position: relative;
+  padding: 1rem 0 2rem;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss .Weight-heading {
+  padding: 1rem 0 3rem;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss .Weight-heading h2 {
+  font-size: 2.3em;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-align: left;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss .Weight-heading h2 span {
+  color: #F73624;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss .Weight-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss .Weight-content .W-left {
+  width: 30%;
+  text-align: center;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss .Weight-content .W-left figure img {
+  max-width: 65%;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 10px 4px 1px #000;
+          box-shadow: 0 10px 4px 1px #000;
+  -webkit-animation: boxshadow 2s linear infinite;
+          animation: boxshadow 2s linear infinite;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss .Weight-content .W-right {
+  width: 65%;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss .Weight-content .W-right h3 {
+  font-size: 2.3em;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.7em;
+  text-transform: capitalize;
+  padding: 0 0 1rem;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss .Weight-content .W-right h3 span {
+  color: #F73624;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss .Weight-content .W-right p {
+  padding: 0 0 1.6rem;
+  font-size: 1.056em;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  word-spacing: 2px;
+}
+
+@-webkit-keyframes boxshadow {
+  0%, 100% {
+    -webkit-box-shadow: 0 10px 4px 1px #000;
+            box-shadow: 0 10px 4px 1px #000;
+    -webkit-transform: scale(0.99);
+            transform: scale(0.99);
+  }
+  50% {
+    -webkit-box-shadow: 0 15px 6px 3px #000;
+            box-shadow: 0 15px 6px 3px #000;
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+  }
+}
+
+@keyframes boxshadow {
+  0%, 100% {
+    -webkit-box-shadow: 0 10px 4px 1px #000;
+            box-shadow: 0 10px 4px 1px #000;
+    -webkit-transform: scale(0.99);
+            transform: scale(0.99);
+  }
+  50% {
+    -webkit-box-shadow: 0 15px 6px 3px #000;
+            box-shadow: 0 15px 6px 3px #000;
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+  }
 }
 
 .main-bar {
