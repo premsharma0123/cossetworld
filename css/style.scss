@@ -1411,46 +1411,6 @@
             }
         }
     }
-// ---end---here--
-
-// ----Treatent--section--//
-    .Treatment_Wrapper{
-        padding: 1rem 0 1rem;
-        .Treat-content{
-            @include flex;
-            justify-content: $between;
-            .trt-cmn01{
-                width: 48%;
-                figure{
-                    img{
-                        max-width: 100%;
-                        animation: imganime 3s linear infinite;
-                    }
-                }
-            }
-        }
-    }
-// 
-
-  // // ----Comfort_Wrapper--section--//
-   .Comfort_Wrapper{
-
-   }
-
-//   ---end---here---
-  // // ----Rebalance_Wrapper--section--//
-  .Rebalance_Wrapper{
-
-}
-
-//   ---end---here---
-
-// // ----Rebalance_Wrapper--section--//
-.Purity_Wrapper{
-
-}
-
-//   ---end---here---
 
     // // ----Treatent--section--//
     .Vitality_Wrapper{
@@ -1626,6 +1586,13 @@
 
 
     .Slimming-grid_wrp{
+        .Slim-Grid-heading{
+            padding: 2rem 0;
+            h2{
+                @include heading;
+                font-size: 2.5em;
+            }
+        }
         .Service_content{
             .Grid_wrp{
               display: grid; 
@@ -1678,30 +1645,30 @@
                 } 
             }
             .Grid-item1{ 
-              background: url(../image/grid1.png)$no-rpt;
-              background-size: 100% 100%;
-              background-position: $mid;
+              background: url(../image/grid011.png)$no-rpt;
+              background-size: cover;
+              background-position:right;
               height: 300px;
             }
           .Grid-item2 {
-              background: url(../image/grid2.png)$no-rpt;
-              background-size: 100% 100%;
-              background-position: $mid;
+              background: url(../image/grid02.png)$no-rpt;
+              background-size: cover;
+              background-position: revert;
               height: 300px; 
           }
-          .Grid-item3 { background: url(../image/grid3.png)$no-rpt;
-              background-size: 100% 100%;
+          .Grid-item3 { background: url(../image/grid05.png)$no-rpt;
+              background-size: cover;
               background-position: $mid;
               height: 300px;    
            }
-          .Grid-item4 { background: url(../image/grid4.png)$no-rpt;
-              background-size: 100% 100%;
-              background-position: left;
+          .Grid-item4 { background: url(../image/grid03.png)$no-rpt;
+              background-size: cover;
+              background-position: $mid;
               height: 300px;    
            }
-          .Grid-item5 {  background: url(../image/grid5.png)$no-rpt;
-              background-size: 100% 100%;
-              background-position: left;
+          .Grid-item5 {  background: url(../image/grid04.png)$no-rpt;
+              background-size: cover;
+              background-position: center;
               height: 300px;    
            } 
          }    
@@ -1745,13 +1712,14 @@
                 h2{
                     @include heading;
                     text-align: $mid;
+                    font-size: 2.3em;
                 }
             }
             .Slim_content{
                 padding: 0rem 0 1rem;
                 p{
                     padding: 0 0 1.6rem;
-                    font-size: 1.056em;
+                    font-size: 1em;
                     text-transform: $cap;
                     letter-spacing: 1px;
                     line-height: 1.8;
@@ -1761,76 +1729,149 @@
         }
         // ---end--here---secrivce----
 
-
-        // ----Weight---Loss---//
-        .Weight-Loss{
-            width: 100%;
-            position: relative;
-            padding: 1rem 0 2rem;
-            // &::before{
-            //     content: '';
-            //     width: 100%;
-            //     height: 100%;
-            //     background: url(../image/bg2.png)repeat;
-            //     background-size: $cover;
-            //     background-position: $mid;
-            //     position: $abs; 
-            //     z-index: -1;
-            // }
-            .Weight-heading{
-                padding: 1rem 0 3rem;
-                h2{
+// .Weight-Loss1{
+//     .Weight-heading{
+//         h3{
+//             display: none;
+//         }
+//         h4{
+//             display: block;
+//         }
+//     }
+// }
+.Commn_wrp{
+    .Weight-heading{ 
+        h4{
+            display: none;
+        }
+    }
+    .Weight-Content-wrp {
+        display: none;
+    }
+}
+.Weight-Loss_Wrapper{
+    // ----Weight---Loss---//
+    .collapse{
+        h3{
+            display: none!important;
+            transition: $transition;
+        }
+        h4{
+            display: block;
+            transition: $transition;
+        }
+    }
+    .collapse2,.collapse3,.collapse4,.collapse5,.collapse6,.collapse7
+    ,.collapse8,.collapse9,.collapse10{
+        h3{
+            display: none!important;
+            transition: $transition;
+        }
+        h4{
+            display: block;
+            transition: $transition;
+        }
+    }
+    .Weight-heading{
+        padding: 1rem 1rem 1rem;
+        @include flex;
+        justify-content: space-between;
+        width:100%;
+        margin-bottom: 1.5rem;
+        //background: $red;
+        border-radius: 5px;
+        background: #ffffff87;
+        border: 1px solid #00000038;
+        h2{
+            @include heading;
+            text-align: left;
+            // color: $white; 
+            span{
+                // color: #fff!important;
+            }
+            sup{
+                font-size: 12px;
+            }
+        } 
+        h3{ 
+            font-weight: $bld;
+            font-size: 1.3em;
+            color: #000;//$white;
+            cursor: pointer;
+            transition: $transition;
+        }
+        h4{
+            // display: none;
+            font-weight: $bld;
+            font-size: 2em;
+            color:  #000000;/// $white;
+            cursor: pointer;
+            transition: $transition;
+        }
+    }
+    .Weight-Loss{
+        width: 100%;
+        position: relative;
+        padding: 1rem 0 2rem;
+        // &::before{
+        //     content: '';
+        //     width: 100%;
+        //     height: 100%;
+        //     background: url(../image/bg2.png)repeat;
+        //     background-size: $cover;
+        //     background-position: $mid;
+        //     position: $abs; 
+        //     z-index: -1;
+        // } 
+        .Weight-content{
+            @include flex;
+            justify-content: $between;
+            .W-left{
+                width: 30%;
+                text-align: $mid;
+                figure{
+                    img{
+                        max-width: 65%;
+                        border-radius: 50%;    
+                        box-shadow: 0 10px 4px 1px #000; 
+                        animation: boxshadow 2s linear infinite;
+                    }
+                }
+            }
+            
+            .W-right{
+                width: 65%;
+                h3{
                     @include heading;
-                    text-align: left;
+                    font-size: 1.5em;
+                    text-transform: $cap;
+                    padding: 0 0 1rem;
                 }
-            }
-            .Weight-content{
-                @include flex;
-                justify-content: $between;
-                .W-left{
-                    width: 30%;
-                    text-align: $mid;
-                    figure{
-                        img{
-                            max-width: 65%;
-                            border-radius: 50%;    
-                            box-shadow: 0 10px 4px 1px #000; 
-                            animation: boxshadow 2s linear infinite;
-                        }
-                    }
-                }
-                
-                .W-right{
-                    width: 65%;
-                    h3{
-                        @include heading;
-                        font-size: 1.7em;
-                        text-transform: $cap;
-                        padding: 0 0 1rem;
-                    }
-                    p{
-                        padding: 0 0 1.6rem;
-                        font-size: 1.056em;
-                        text-transform: $cap;
-                        letter-spacing: 1px;
-                        line-height: 1.8;
-                        word-spacing: 2px;
-                    }
+                p{
+                    padding: 0 0 1.6rem;
+                    font-size: 1em;
+                    text-transform: $cap;
+                    letter-spacing: 1px;
+                    line-height: 1.8;
+                    word-spacing: 2px;
                 }
             }
         }
-        @keyframes boxshadow {
-                0%, 100%{
-                    box-shadow: 0 10px 4px 1px #000;
-                    transform: scale(.99);
-                }
-                50%{
-                    box-shadow: 0 14px 5px 2px #000;
-                    transform: scale(1.01);
-                }
-        }
-        // ----end---here----//
+    }
+    @keyframes boxshadow {
+            0%, 100%{
+                box-shadow: 0 10px 4px 1px #000;
+                transform: scale(.99);
+            }
+            50%{
+                box-shadow: 0 14px 5px 2px #000;
+                transform: scale(1.01);
+            }
+    }
+    // ----end---here----//
 
+  }
+ 
     // ----Lipofit---Lipofit---//
       .Lipofit{
         .Weight-content{
@@ -1840,14 +1881,62 @@
 
   // ----end---here----//
     }
+
+// ---------enquery------section----//
+ .Enquery_Wrp{
+     width: 100%; 
+     margin: 2rem 0; 
+     .Enquery-content{
+         @include flex;
+         justify-content: $between;
+         width: 100%;
+         margin: 0 auto;
+         background: $red;
+         padding: 2rem 1rem 2rem;
+         .En-cmn01{
+             h2{
+                 color: $white;
+                 font-size: 2em;
+                 word-spacing: 1px;
+                 letter-spacing: 1px;
+                 text-transform: $cap;
+                 font-family: 'open-sans';
+                 span{
+                    font-family: 'open-sans';
+                 }
+                 i.fas.fa-chevron-right {
+                    vertical-align: middle;
+                    // font-size: 2;
+                }
+             }
+         }
+     }
+ }
+// -----end------here------//
    
+}
+// -------Fillers------page--------------
+///-===============Fillers----page-------//
+.Filler_Wrapper{
+    .Filler-Banner{
+        background: url(../image/banner-filler.png) no-repeat!important;
+        background-size: cover!important;
+        background-position-y: -200px!important;
+    }
+    .Main-Filler-content{
+        .Filler-Service{
+            .Slim_content{
+                h2{
+                    padding: 0 0 1rem;
+                }
+            }
+        }
+    }
 }
 
 
 
-
-
-
+// -----end-------fillers----page------//
 
 
 

@@ -713,7 +713,7 @@ main .Service_wrapper .Service_heading {
 }
 
 main .Service_wrapper .Service_heading h2 {
-  font-size: 2.3em;
+  font-size: 1.5em;
   line-height: 1.5;
   letter-spacing: 1px;
   word-spacing: 1px;
@@ -1286,7 +1286,7 @@ main .Testimonial_Wrapper::after {
 }
 
 main .Testimonial_Wrapper .Testimonial_heading h2 {
-  font-size: 2.3em;
+  font-size: 1.5em;
   line-height: 1.5;
   letter-spacing: 1px;
   word-spacing: 1px;
@@ -1440,7 +1440,7 @@ main .Appointment_Form_wrp .Apt_heading img {
 }
 
 main .Appointment_Form_wrp .Apt_heading h2 {
-  font-size: 2.3em;
+  font-size: 1.5em;
   line-height: 1.5;
   letter-spacing: 1px;
   word-spacing: 1px;
@@ -2091,37 +2091,6 @@ main footer .copyright_wrp .copy_content p {
   color: #F73624;
 }
 
-.Beauty-Wrapper .Treatment_Wrapper {
-  padding: 1rem 0 1rem;
-}
-
-.Beauty-Wrapper .Treatment_Wrapper .Treat-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.Beauty-Wrapper .Treatment_Wrapper .Treat-content .trt-cmn01 {
-  width: 48%;
-}
-
-.Beauty-Wrapper .Treatment_Wrapper .Treat-content .trt-cmn01 figure img {
-  max-width: 100%;
-  -webkit-animation: imganime 3s linear infinite;
-          animation: imganime 3s linear infinite;
-}
-
 .Beauty-Wrapper .Vitality_Wrapper {
   width: 100%;
 }
@@ -2348,6 +2317,24 @@ main footer .copyright_wrp .copy_content p {
   max-width: 100%;
 }
 
+.Slimming_Wrapper .Slimming-grid_wrp .Slim-Grid-heading {
+  padding: 2rem 0;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Slim-Grid-heading h2 {
+  font-size: 1.5em;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+.Slimming_Wrapper .Slimming-grid_wrp .Slim-Grid-heading h2 span {
+  color: #F73624;
+}
+
 .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp {
   display: -ms-grid;
   display: grid;
@@ -2444,7 +2431,7 @@ main footer .copyright_wrp .copy_content p {
 }
 
 .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt h2 {
-  font-size: 1.9em;
+  font-size: 1.5em;
   line-height: 1.5;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -2462,7 +2449,7 @@ main footer .copyright_wrp .copy_content p {
 
 .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt a {
   display: inline-block;
-  padding: .9rem 1.8rem;
+  padding: .7rem 1.5rem;
   border-radius: 5px;
   background: #000000;
   color: #fff;
@@ -2528,37 +2515,37 @@ main footer .copyright_wrp .copy_content p {
 }
 
 .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid-item1 {
-  background: url(../image/grid1.png) no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
+  background: url(../image/grid011.png) no-repeat;
+  background-size: cover;
+  background-position: right;
   height: 300px;
 }
 
 .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid-item2 {
-  background: url(../image/grid2.png) no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
+  background: url(../image/grid02.png) no-repeat;
+  background-size: cover;
+  background-position: revert;
   height: 300px;
 }
 
 .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid-item3 {
-  background: url(../image/grid3.png) no-repeat;
-  background-size: 100% 100%;
+  background: url(../image/grid05.png) no-repeat;
+  background-size: cover;
   background-position: center;
   height: 300px;
 }
 
 .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid-item4 {
-  background: url(../image/grid4.png) no-repeat;
-  background-size: 100% 100%;
-  background-position: left;
+  background: url(../image/grid03.png) no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 300px;
 }
 
 .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid-item5 {
-  background: url(../image/grid5.png) no-repeat;
-  background-size: 100% 100%;
-  background-position: left;
+  background: url(../image/grid04.png) no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 300px;
 }
 
@@ -2582,13 +2569,14 @@ main footer .copyright_wrp .copy_content p {
 }
 
 .Slimming_Wrapper .Main-content-Wrapper .Slim_Service .slim-heading h2 {
-  font-size: 2.3em;
+  font-size: 1.5em;
   line-height: 1.5;
   letter-spacing: 1px;
   word-spacing: 1px;
   text-transform: capitalize;
   font-weight: bold;
   text-align: center;
+  font-size: 2.3em;
 }
 
 .Slimming_Wrapper .Main-content-Wrapper .Slim_Service .slim-heading h2 span {
@@ -2601,25 +2589,70 @@ main footer .copyright_wrp .copy_content p {
 
 .Slimming_Wrapper .Main-content-Wrapper .Slim_Service .Slim_content p {
   padding: 0 0 1.6rem;
-  font-size: 1.056em;
+  font-size: 1em;
   text-transform: capitalize;
   letter-spacing: 1px;
   line-height: 1.8;
   word-spacing: 2px;
 }
 
-.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss {
+.Slimming_Wrapper .Main-content-Wrapper .Commn_wrp .Weight-heading h4 {
+  display: none;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Commn_wrp .Weight-Content-wrp {
+  display: none;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse h3 {
+  display: none !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse h4 {
+  display: block;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse2 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse3 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse4 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse5 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse6 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse7 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse8 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse9 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse10 h3 {
+  display: none !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse2 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse3 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse4 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse5 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse6 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse7 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse8 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse9 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse10 h4 {
+  display: block;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-heading {
+  padding: 1rem 1rem 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   width: 100%;
-  position: relative;
-  padding: 1rem 0 2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 5px;
+  background: #ffffff87;
+  border: 1px solid #00000038;
 }
 
-.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss .Weight-heading {
-  padding: 1rem 0 3rem;
-}
-
-.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss .Weight-heading h2 {
-  font-size: 2.3em;
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-heading h2 {
+  font-size: 1.5em;
   line-height: 1.5;
   letter-spacing: 1px;
   word-spacing: 1px;
@@ -2628,11 +2661,39 @@ main footer .copyright_wrp .copy_content p {
   text-align: left;
 }
 
-.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss .Weight-heading h2 span {
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-heading h2 span {
   color: #F73624;
 }
 
-.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss .Weight-content {
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-heading h2 sup {
+  font-size: 12px;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-heading h3 {
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #000;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-heading h4 {
+  font-weight: bold;
+  font-size: 2em;
+  color: #000000;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss {
+  width: 100%;
+  position: relative;
+  padding: 1rem 0 2rem;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2649,12 +2710,12 @@ main footer .copyright_wrp .copy_content p {
           justify-content: space-between;
 }
 
-.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss .Weight-content .W-left {
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-left {
   width: 30%;
   text-align: center;
 }
 
-.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss .Weight-content .W-left figure img {
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-left figure img {
   max-width: 65%;
   border-radius: 50%;
   -webkit-box-shadow: 0 10px 4px 1px #000;
@@ -2663,29 +2724,29 @@ main footer .copyright_wrp .copy_content p {
           animation: boxshadow 2s linear infinite;
 }
 
-.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss .Weight-content .W-right {
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-right {
   width: 65%;
 }
 
-.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss .Weight-content .W-right h3 {
-  font-size: 2.3em;
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-right h3 {
+  font-size: 1.5em;
   line-height: 1.5;
   letter-spacing: 1px;
   word-spacing: 1px;
   text-transform: capitalize;
   font-weight: bold;
-  font-size: 1.7em;
+  font-size: 1.5em;
   text-transform: capitalize;
   padding: 0 0 1rem;
 }
 
-.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss .Weight-content .W-right h3 span {
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-right h3 span {
   color: #F73624;
 }
 
-.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss .Weight-content .W-right p {
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-right p {
   padding: 0 0 1.6rem;
-  font-size: 1.056em;
+  font-size: 1em;
   text-transform: capitalize;
   letter-spacing: 1px;
   line-height: 1.8;
@@ -2727,6 +2788,59 @@ main footer .copyright_wrp .copy_content p {
   -webkit-box-direction: reverse;
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
+}
+
+.Slimming_Wrapper .Enquery_Wrp {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.Slimming_Wrapper .Enquery_Wrp .Enquery-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  background: #F73624;
+  padding: 2rem 1rem 2rem;
+}
+
+.Slimming_Wrapper .Enquery_Wrp .Enquery-content .En-cmn01 h2 {
+  color: #fff;
+  font-size: 2em;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-family: 'open-sans';
+}
+
+.Slimming_Wrapper .Enquery_Wrp .Enquery-content .En-cmn01 h2 span {
+  font-family: 'open-sans';
+}
+
+.Slimming_Wrapper .Enquery_Wrp .Enquery-content .En-cmn01 h2 i.fas.fa-chevron-right {
+  vertical-align: middle;
+}
+
+.Filler_Wrapper .Filler-Banner {
+  background: url(../image/banner-filler.png) no-repeat !important;
+  background-size: cover !important;
+  background-position-y: -200px !important;
+}
+
+.Filler_Wrapper .Main-Filler-content .Filler-Service .Slim_content h2 {
+  padding: 0 0 1rem;
 }
 
 .main-bar {

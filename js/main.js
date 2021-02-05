@@ -23,12 +23,97 @@ $(".permanentMakeup").click(function(){
   // $("").slideUp("");
 })
 
+//------Accordion ----------//
+
+
+$(".W1").click(function(){
+    $(".Accro1").slideToggle(""); 
+    $(this).toggleClass("collapse");
+    $(".W2,.W3,.W4,.W5,.W6,.W7,.W8,.W9,.W10").removeClass("collapse2").removeClass("collapse3").removeClass("collapse4").removeClass("collapse5")
+    .removeClass("collapse6").removeClass("collapse7").removeClass("collapse8").removeClass("collapse9").removeClass("collapse10");
+     $(".Accro2,.Accro3,.Accro4,.Accro5,.Accro6,.Accro7,.Accro8,.Accro9,.Accro10").slideUp("");
+})
+$(".W2").click(function(){
+  $(".Accro2").slideToggle(""); 
+  $(this).toggleClass("collapse2");
+  $(".W1,.W3,.W4,.W5,.W6,.W7,.W8,.W9,.W10").removeClass("collapse").removeClass("collapse3").removeClass("collapse4").removeClass("collapse5")
+  .removeClass("collapse6").removeClass("collapse7").removeClass("collapse8").removeClass("collapse9").removeClass("collapse10");
+
+  $(".Accro1,.Accro3,.Accro4,.Accro5,.Accro6,.Accro7,.Accro8,.Accro9,.Accro10").slideUp("");
+})
+$(".W3").click(function(){
+  $(".Accro3").slideToggle(""); 
+  $(this).toggleClass("collapse3");
+  $(".Accro2,.Accro1,.Accro4,.Accro5,.Accro6,.Accro7,.Accro8,.Accro9,.Accro10").slideUp("");
+  $(".W2,.W1,.W4,.W5,.W6,.W7,.W8,.W9,.W10").removeClass("collapse2").removeClass("collapse").removeClass("collapse4").removeClass("collapse5")
+  .removeClass("collapse6").removeClass("collapse7").removeClass("collapse8").removeClass("collapse9").removeClass("collapse10");
+
+})
+$(".W4").click(function(){
+  $(".Accro4").slideToggle(""); 
+  $(this).toggleClass("collapse4");
+  $(".W2,.W3,.W1,.W5,.W6,.W7,.W8,.W9,.W10").removeClass("collapse2").removeClass("collapse3").removeClass("collapse").removeClass("collapse5")
+    .removeClass("collapse6").removeClass("collapse7").removeClass("collapse8").removeClass("collapse9").removeClass("collapse10");
+
+  $(".Accro2,.Accro3,.Accro1,.Accro5,.Accro6,.Accro7,.Accro8,.Accro9,.Accro10").slideUp("");
+
+})
+$(".W5").click(function(){
+  $(".Accro5").slideToggle(""); 
+  $(this).toggleClass("collapse5");
+  $(".Accro2,.Accro3,.Accro4,.Accro1,.Accro6,.Accro7,.Accro8,.Accro9,.Accro10").slideUp("");
+  $(".W2,.W3,.W4,.W1,.W6,.W7,.W8,.W9,.W10").removeClass("collapse2").removeClass("collapse3").removeClass("collapse4").removeClass("collapse")
+    .removeClass("collapse6").removeClass("collapse7").removeClass("collapse8").removeClass("collapse9").removeClass("collapse10");
+
+
+})
+$(".W6").click(function(){
+  $(".Accro6").slideToggle(""); 
+  $(this).toggleClass("collapse6");
+  $(".Accro2,.Accro3,.Accro4,.Accro5,.Accro1,.Accro7,.Accro8,.Accro9,.Accro10").slideUp("");
+  $(".W2,.W3,.W4,.W5,.W1,.W7,.W8,.W9,.W10").removeClass("collapse2").removeClass("collapse3").removeClass("collapse4").removeClass("collapse5")
+  .removeClass("collapse").removeClass("collapse7").removeClass("collapse8").removeClass("collapse9").removeClass("collapse10");
+
+})
+$(".W7").click(function(){
+  $(".Accro7").slideToggle(""); 
+  $(this).toggleClass("collapse7");
+  $(".Accro2,.Accro3,.Accro4,.Accro5,.Accro6,.Accro1,.Accro8,.Accro9,.Accro10").slideUp("");
+  $(".W2,.W3,.W4,.W5,.W6,.W1,.W8,.W9,.W10").removeClass("collapse2").removeClass("collapse3").removeClass("collapse4").removeClass("collapse5")
+  .removeClass("collapse6").removeClass("collapse").removeClass("collapse8").removeClass("collapse9").removeClass("collapse10");
+
+})
+$(".W8").click(function(){
+  $(".Accro8").slideToggle(""); 
+  $(this).toggleClass("collapse8");
+  $(".Accro2,.Accro3,.Accro4,.Accro5,.Accro6,.Accro7,.Accro1,.Accro9,.Accro10").slideUp("");
+  $(".W2,.W3,.W4,.W5,.W6,.W7,.W1,.W9,.W10").removeClass("collapse2").removeClass("collapse3").removeClass("collapse4").removeClass("collapse5")
+  .removeClass("collapse6").removeClass("collapse7").removeClass("collapse1").removeClass("collapse9").removeClass("collapse10");
+
+})
+$(".W9").click(function(){
+  $(".Accro9").slideToggle(""); 
+  $(this).toggleClass("collapse9");
+  $(".Accro2,.Accro3,.Accro4,.Accro5,.Accro6,.Accro7,.Accro8,.Accro1,.Accro10").slideUp("");
+  $(".W2,.W3,.W4,.W5,.W6,.W7,.W8,.W1,.W10").removeClass("collapse2").removeClass("collapse3").removeClass("collapse4").removeClass("collapse5")
+  .removeClass("collapse6").removeClass("collapse7").removeClass("collapse8").removeClass("collapse").removeClass("collapse10");
+
+})
+$(".W10").click(function(){
+  $(".Accro10").slideToggle(""); 
+  $(this).toggleClass("collapse10");
+  $(".Accro2,.Accro3,.Accro4,.Accro5,.Accro6,.Accro7,.Accro8,.Accro9,.Accro1").slideUp("");
+  $(".W2,.W3,.W4,.W5,.W6,.W7,.W8,.W9,.W1").removeClass("collapse2").removeClass("collapse3").removeClass("collapse4").removeClass("collapse5")
+  .removeClass("collapse6").removeClass("collapse7").removeClass("collapse8").removeClass("collapse9").removeClass("collapse");
+
+})
+//----Accordion -----end--here//
 
 $(".heading-btn").click(function(){
-    $(".weight_wrp").slideToggle("");
+  $(".weight_wrp").slideToggle("");
 })
 
-
+// ---end--here--//
 
 $(".list1").hover(function(){
   $(".Sub_Hvr_wrp1").css('display','block'); 
