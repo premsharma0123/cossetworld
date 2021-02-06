@@ -1592,6 +1592,7 @@
             h2{
                 @include heading;
                 font-size: 2.5em;
+                text-transform: $upper;
             }
         }
         .Service_content{
@@ -1714,6 +1715,7 @@
                     @include heading;
                     text-align: $mid;
                     font-size: 2.3em;
+                    text-transform: $upper;
                 }
             }
             .Slim_content{
@@ -1900,8 +1902,9 @@
                  font-size: 2em;
                  word-spacing: 1px;
                  letter-spacing: 1px;
-                 text-transform: $cap;
-                 font-family: 'open-sans';
+               // text-transform: $cap!important;
+                 font-family: 'RobotoBold';
+                 font-weight: bold;
                  span{
                     font-family: 'open-sans';
                  }
@@ -1937,10 +1940,10 @@
         .Benefit_Wrapper{
             .Benefit-heading{
                 h2{
-                    @include heading;
-                    text-align: $mid;
+                    @include heading; 
                     padding: 0 0 1rem;
                     font-size: 2em;
+                    text-transform: $upper;
                 }
             }
             .Benefit-content{
@@ -1962,6 +1965,7 @@
                     text-align: $mid;
                     padding: 0 0 1rem;
                     font-size: 2em;
+                    text-transform: $upper;
                 }
             }
             .Filler-content{
@@ -1969,7 +1973,7 @@
                 text-align: $mid;
                 figure{
                     img{
-                        max-width: 40%;
+                        max-width: 50%;
                     }
                 }
             }

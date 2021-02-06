@@ -2330,6 +2330,7 @@ main footer .copyright_wrp .copy_content p {
   text-transform: capitalize;
   font-weight: bold;
   font-size: 2.5em;
+  text-transform: uppercase;
 }
 
 .Slimming_Wrapper .Slimming-grid_wrp .Slim-Grid-heading h2 span {
@@ -2578,6 +2579,7 @@ main footer .copyright_wrp .copy_content p {
   font-weight: bold;
   text-align: center;
   font-size: 2.3em;
+  text-transform: uppercase;
 }
 
 .Slimming_Wrapper .Main-content-Wrapper .Slim_Service .slim-heading h2 span {
@@ -2822,8 +2824,8 @@ main footer .copyright_wrp .copy_content p {
   font-size: 2em;
   word-spacing: 1px;
   letter-spacing: 1px;
-  text-transform: capitalize;
-  font-family: 'open-sans';
+  font-family: 'RobotoBold';
+  font-weight: bold;
 }
 
 .Slimming_Wrapper .Enquery_Wrp .Enquery-content .En-cmn01 h2 span {
@@ -2861,9 +2863,9 @@ main footer .copyright_wrp .copy_content p {
   word-spacing: 1px;
   text-transform: capitalize;
   font-weight: bold;
-  text-align: center;
   padding: 0 0 1rem;
   font-size: 2em;
+  text-transform: uppercase;
 }
 
 .Filler_Wrapper .Main-Filler-content .Benefit_Wrapper .Benefit-heading h2 span {
@@ -2889,6 +2891,7 @@ main footer .copyright_wrp .copy_content p {
   text-align: center;
   padding: 0 0 1rem;
   font-size: 2em;
+  text-transform: uppercase;
 }
 
 .Filler_Wrapper .Main-Filler-content .Filler-Treatment .filler-heading h2 span {
@@ -2901,7 +2904,7 @@ main footer .copyright_wrp .copy_content p {
 }
 
 .Filler_Wrapper .Main-Filler-content .Filler-Treatment .Filler-content figure img {
-  max-width: 40%;
+  max-width: 50%;
 }
 
 .Organic_Wrapper .Organic-Banner {
