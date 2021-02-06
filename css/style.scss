@@ -13,7 +13,7 @@
     h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr,
     acronym, address, big, cite, code, del, dfn, em, img, ins, 
     kbd, q, s, samp, small, strike, strong, sub, sup, tt, var,
-    b, u, i, $mid, dl, dt, dd, ol, ul, li, fieldset, form, label,
+    b, u, i,dl, dt, dd, ol, ul, li, fieldset, form, label,
     legend, table, caption, tbody, tfoot, thead, tr, th, td, article, 
     aside, canvas, details, embed, figure, figcaption, footer, header, hgroup,
     menu, .head-wrp, output, ruby, section, summary, time, mark, audio, video {
@@ -1529,7 +1529,7 @@
             .Banner_child{
                 width: 50%!important;
                 h1{
-                    font-size:6em;
+                    font-size:5rem;
                     color: $red;
                     line-height: 1.5;
                     letter-spacing: 1px;
@@ -1537,6 +1537,7 @@
                     font-family:$Arimo;
                     font-weight: $bld;
                     text-shadow: 1px 2px 6px #00000057;
+                    text-transform: $upper;
                 } 
                 p{
                     padding: 1rem 4rem 1rem 0;
@@ -1928,6 +1929,48 @@
             .Slim_content{
                 h2{
                     padding: 0 0 1rem;
+                    @include heading;
+                }
+            }
+        }
+        // -----Benifit--section---
+        .Benefit_Wrapper{
+            .Benefit-heading{
+                h2{
+                    @include heading;
+                    text-align: $mid;
+                    padding: 0 0 1rem;
+                    font-size: 2em;
+                }
+            }
+            .Benefit-content{
+                p{
+                    padding: 0 0 1.4rem;
+                    font-size: 1em;
+                    text-transform: $cap;
+                    letter-spacing: 1px;
+                    line-height: 1.8;
+                    word-spacing: 2px;
+                }
+            }
+        }
+        // -----Filler-----Treatment-----
+        .Filler-Treatment{
+            .filler-heading{
+                h2{
+                    @include heading;
+                    text-align: $mid;
+                    padding: 0 0 1rem;
+                    font-size: 2em;
+                }
+            }
+            .Filler-content{
+                width: 100%;
+                text-align: $mid;
+                figure{
+                    img{
+                        max-width: 40%;
+                    }
                 }
             }
         }
@@ -1939,8 +1982,48 @@
 // -----end-------fillers----page------//
 
 
+// ------organic--------Page------//
+ .Organic_Wrapper{
+     .Organic-Banner{
+        background: url(../image/organic-banner.png) no-repeat!important;
+        background-size: cover!important;
+        background-position: $mid;
+     }
+     .Benefit-heading{
+         h2{
+             text-align: left!important;
+         }
+     }
+     .Org_wrp{
+         .Organic-Cnt{
+             ul{
+                 padding: 1.5rem 0;
+                 li{
+                     display: block;
+                     padding: 0 0 1rem 2rem;
+                     text-transform: $cap;
+                     line-height: 1.7;
+                     letter-spacing: 1px;
+                     word-spacing: 1px;
+                     font-size: 1em;
+                     position: relative;
+                     &::before{
+                        content: '';
+                        width: 10px;
+                        height: 10px;
+                        background: #000;
+                        border-radius: 50%;
+                        position: absolute;
+                        top: 9px;
+                        left: 4px;
+                     }
+                 }
+             }
+         }
+     }
+ }
 
-
+// -----Organic-----end---here-----//
 
 .main-bar{
     display: none;
