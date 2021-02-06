@@ -174,6 +174,11 @@ $(".list9").hover(function(){
 //   $(".Form_wrp").slideToggle("");
 // })
 
+$( function() {
+  $( "#resizable" ).resizable();
+} );
+
+
 })
 
 //  -----mouse---movement-----
