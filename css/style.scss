@@ -1858,6 +1858,72 @@
 
 
  
+// ------------********MicroDerma-------*******---------------//
+.MicroDerma_Wrapper{
+    .MicroDerma-Banner{
+        background: url(../image/micro-banner.png) no-repeat!important;
+        background-size: cover!important;
+        background-position: $mid;  
+    }
+}
+
+// ------------********MicroDerma---end-----here--*******---------------//
+
+// ------------********MicroDerma-------*******---------------//
+.HairTransplant_Wrapper{
+    .Hair-transplant{
+        background: url(../image/HairTransplant-Banner.png) no-repeat!important;
+        background-size: cover!important;
+        background-position: $mid;  
+        .Banner_child{
+            h4{ 
+                text-transform:$upper;
+                color:$red;
+                font-weight: $bld;
+                font-size: 1.5em;
+                text-shadow: 1px 2px 6px #00000057;
+            }
+            p{
+                color: $white;
+            }
+            .breadcrumb {
+                li{
+                    a{
+                        color: $white!important;
+                    }
+                    &:last-child(){
+                        a{
+                            color: $red!important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+// -------***********---------------*********//
+.Hair-Trt-Bfr{
+    .filler-heading{
+        h2{
+            text-align: left!important;
+        }
+    }
+    .hair-trn-Cnt01{
+        p{
+            text-align: left!important;
+            width: 50%;
+        }
+    }
+}
+
+
+// ------*********------------*************//
+}
+
+// ------------********MicroDerma---end-----here--*******---------------//
+
+
+
 
 .main-bar{
     display: none;

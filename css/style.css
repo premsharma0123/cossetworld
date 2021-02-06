@@ -2672,6 +2672,47 @@ main footer .copyright_wrp .copy_content p {
   font-size: 4em;
 }
 
+.MicroDerma_Wrapper .MicroDerma-Banner {
+  background: url(../image/micro-banner.png) no-repeat !important;
+  background-size: cover !important;
+  background-position: center;
+}
+
+.HairTransplant_Wrapper .Hair-transplant {
+  background: url(../image/HairTransplant-Banner.png) no-repeat !important;
+  background-size: cover !important;
+  background-position: center;
+}
+
+.HairTransplant_Wrapper .Hair-transplant .Banner_child h4 {
+  text-transform: uppercase;
+  color: #F73624;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-shadow: 1px 2px 6px #00000057;
+}
+
+.HairTransplant_Wrapper .Hair-transplant .Banner_child p {
+  color: #fff;
+}
+
+.HairTransplant_Wrapper .Hair-transplant .Banner_child .breadcrumb li a {
+  color: #fff !important;
+}
+
+.HairTransplant_Wrapper .Hair-transplant .Banner_child .breadcrumb li:last-child a {
+  color: #F73624 !important;
+}
+
+.HairTransplant_Wrapper .Hair-Trt-Bfr .filler-heading h2 {
+  text-align: left !important;
+}
+
+.HairTransplant_Wrapper .Hair-Trt-Bfr .hair-trn-Cnt01 p {
+  text-align: left !important;
+  width: 50%;
+}
+
 .main-bar {
   display: none;
 }

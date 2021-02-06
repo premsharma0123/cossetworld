@@ -174,9 +174,9 @@ $(".list9").hover(function(){
 //   $(".Form_wrp").slideToggle("");
 // })
 
-$( function() {
-  $( "#resizable" ).resizable();
-} );
+// $( function() {
+//   $( "#resizable" ).resizable();
+// } );
 
 
 })
