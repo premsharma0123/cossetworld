@@ -46,332 +46,332 @@
         @include container;
     }
 
-    main{
-        header{
+    header{
+        width: 100%;
+        .top-social-bar{
             width: 100%;
-            .top-social-bar{
-                width: 100%;
-                background: $red;
-                padding: .4rem 0;
-                .child-wrp{
-                    @include flex;
-                    justify-content:$between;
-                    width: 90%;
-                    margin: 0 auto;
-                    .L1{
-                     @include flex;
-                     justify-content:$between;
-                     p{
-                         margin: 0 .5rem;
-                         font-family: 'open-sans';
-                         font-weight: $bld;
-                         &:last-child{
-                            font-weight: normal;
-                         }
+            background: $red;
+            padding: .4rem 0;
+            .child-wrp{
+                @include flex;
+                justify-content:$between;
+                width: 90%;
+                margin: 0 auto;
+                .L1{
+                 @include flex;
+                 justify-content:$between;
+                 p{
+                     margin: 0 .5rem;
+                     font-family: 'open-sans';
+                     font-weight: $bld;
+                     &:last-child{
+                        font-weight: normal;
                      }
-                    }
-                  .L_cmn01{
-                        p{
-                            text-transform: $cap;
-                            font-weight: $bld;
-                            font-size: 1em;
-                            color: $white;
-                            i{
-                                padding: .5rem.5rem;
-                                font-size: 1.1em;
-                                color:$white;
-                                vertical-align: middle;
-                                transition: $transition;
-                                margin: 0 .2rem;
-                                &:hover{
-                                    transition: $transition;
-                                    cursor: pointer;
-                                    background: #ffffff59;
-                                    border-radius: 50%;
-                                    color: $white;
-                                   }
-                            }
-                        }
-                    }
+                 }
                 }
-             }
-             .Nav-wrp{
-                 width: 100%;
-                 background: #ffffffa8;
-                 position: $abs;
-                 padding: .2rem 0;
-                 z-index: 3;
-                nav{
-                    @include flex;
-                    justify-content: $between;
-                    width: 90%;
-                    margin: 0 auto;
-                    .logo{
-                        width: 35%;
-                        a{
-                        img{
-                            max-width: 70%;
-                        }
-                        }
-                    }
-                    .nav-item{
-                        width: 60%;
-                        padding: 1rem 0;
-                        .Unorder_wrp{
-                            @include flex;
-                            justify-content: $end;
-                            position: $rel;
-                            li{
-                                list-style-type: $none;
-                                margin: 0 .9rem;
-                                a{
-                                    color: #000;
-                                    font-size: 1.1em;
-                                    text-transform: $upper;
-                                    font-family: $heading;
-                                    word-spacing: 1px;
-                                    letter-spacing: 1px;
-                                    transition: $transition;
-                                    padding: 0 0 .4rem 0;
-                                    &:hover{
-                                        color: $red;
-                                        transition: $transition;
-                                    }
-                                    i{
-                                        vertical-align: text-top;
-                                    }
-                                }   
-                                .hvr-underline-from-left:before {
-                                    background: #f73624;
-                                    height: 2px;
-                                }
-                            }
-                            .hair-care{
-                                position: $rel; 
-                            }
-                            // .drop3{
-                            //     .list{
-                            //         transition: $transition;
-                            //         &:hover{
-                            //             background: #f73624;
-                            //             transition: $transition;
-                            //             padding-left: .5rem;
-                            //              color: $white;
-                            //         }
-                            //     }
-                            // }
-                            .drop1{
-                                left: 90px!important;
-                            }
-                            .drop_down{
-                                position: $abs;
-                                top: 87px;
-                                left: 41%;
-                                width: 281px;
-                                background: $white;// #d14336eb;//#f73624e3;//#f73624a6;
-                                justify-content: flex-start;
-                                display:none;
-                               // border-bottom: 3px solid #ffffffa8;
-                                border-bottom-right-radius: 5px;
-                                border-bottom-left-radius: 5px; 
-                                box-shadow: 0px 3px 1px 0px #f43423cf;
-                                li{
-                                    padding: 1rem 0;
-                                    margin: 0 0!important;
-                                    transition: $transition;
-                                    width: 100%;
-                                    text-transform: $cap;
-                                    color:#646464;
-                                    border-bottom:1px solid #c4c4c442;
-                                    &:hover{
-                                        background: $red;
-                                        color: $white!important;
-                                        transition: $transition;
-                                    }
-                                  a{
-                                      //#fff;
-                                      padding: 0 0 0 1rem;
-                                      font-size: 1em;
-                                      font-weight: 500; 
-                                      display: inline-block;
-                                      transition: $transition;
-                                      &:hover{
-                                          color: $white!important;
-                                          transition: $transition;
-                                      }
-                                  }
-                                }
-                              }
-                              .drop2{
-                                  left: 0%!important;
-                                  width: 100%!important;
-                                  padding: 0 0;
-                                  display: none;
-                                  //left: -63% !important;
-                                  //width: 1500px !important;
-                                  
-                                  .Child_drop2{
-                                       @include flex;
-                                       justify-content: $between;
-                                       align-items: inherit;
-                                       li{
-                                           margin: 0 0rem!important;
-                                           border-bottom: inherit!important;
-                                           &:hover{
-                                               background: transparent!important;
-                                           }
-                                           a{
-                                               &:hover{
-                                                   color:#646464!important;
-                                               }
-                                           }
-                                       }
-                                    //    .list1:hover .Sub_Hvr_wrp{display: none!important;} 
-                                      .Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp5
-                                      ,.Sub_Hvr_wrp6,.Sub_Hvr_wrp7,.Sub_Hvr_wrp8,.Sub_Hvr_wrp9{
-                                        display: none;
-                                       }
-                                       .Sub_cmn{
-                                        // height: 68vh;
-                                        width: 100%;
-                                        min-height: calc(100% );
-                                        overflow: $hide;
-                                       // border: 1px solid;
-                                        position: $rel;
-                                       }
-                                       .Sub_Hvr_wrp1{
-                                        &::before{
-                                            @include imgBefore;
-                                            content: '';
-                                            width: 100%;
-                                            height: 100%;
-                                            position: $abs;
-                                            background: url(../image/hvr1.png)$no-rpt;
-                                            background-size: contain;
-                                            background-position: bottom;
-                                            z-index: 0;
-                                            animation: imghvr 3s linear infinite;
-                                        }
-                                       }
-                                       .Sub_Hvr_wrp2 { 
-                                        &::before{
-                                            content: '';
-                                            width: 100%;
-                                            height: 100%;
-                                            position: $abs;
-                                            background: url(../image/hvr2.png)$no-rpt;
-                                            background-size: contain;
-                                            background-position: bottom;
-                                            z-index: 0;
-                                            animation: imghvr 3s linear infinite;
-                                         } 
-                                    }
-                                    .Sub_Hvr_wrp3{
-                                            &::before{
-                                                content: '';
-                                                width: 100%;
-                                                height: 100%;
-                                                position: $abs;
-                                                background: url(../image/hvr3.png)$no-rpt;
-                                                background-size: contain;
-                                                background-position: bottom;
-                                                z-index: 0;
-                                                animation: imghvr 3s linear infinite;
-                                            } 
-                                         }
-                                         .Sub_Hvr_wrp4{
-                                            &::before{
-                                               @include imgBefore;
-                                            } 
-                                         }
-                                         .Sub_Hvr_wrp5{
-                                            &::before{
-                                               @include imgBefore5;
-                                            } 
-                                         }
-                                         .Sub_Hvr_wrp6{
-                                            &::before{
-                                               @include imgBefore6;
-                                            } 
-                                         }
-                                         .Sub_Hvr_wrp7{
-                                            &::before{
-                                               @include imgBefore7;
-                                            } 
-                                         }
-                                         .Sub_Hvr_wrp8{
-                                            &::before{
-                                               @include imgBefore8;
-                                            } 
-                                         }
-                                         .Sub_Hvr_wrp9{
-                                            &::before{
-                                               @include imgBefore9;
-                                            } 
-                                         }
-                                        .sub-drop01{
-                                           width: 35%;
-                                           ul{
-                                               border-right: 1px solid #a8a8a85c;
-                                               .list-active{
-                                                   background: linear-gradient(to right, #DD2615, #F73624)!important;
-                                                  cursor: pointer;
-                                                   a{
-                                                       color: $white!important;
-                                                   }
-                                               }
-                                               li {
-                                                   a{
-                                                       font-weight: $bld;
-                                                       font-size: 1em;
-                                                  }
-                                               }
-                                           }
-                                        }
-                                        .sub-cmn01{ 
-                                           ul{
-                                               display: block!important;
-                                               li{
-                                                   padding: .7rem 0;
-                                                   a{
-                                                       color: #646464;//$white; 
-                                                       font-size: 15px;
-                                                   }
-                                               }
-                                           }
-                                        }
-                                        .sub-drop02{
-                                        width: 60%;
-                                        li a{
-                                            font-family: 'RalewayRegular';
-                                        }
-                                        }
-                                 }
-                              }
-                              .drop4{
-                                left: 52%!important;
-                              }
-                              .drop5{
-                                left: 73%!important;
-                              }
-                              @keyframes imghvr {
-                                  0% ,100%{
-                                      transform: translateY(10px);
-                                      transition: $transition;
-                                      //filter: hue-rotate(346deg);
-                                  }
-                                  50%{
-                                    transform: translateY(0px);
-                                    transition: $transition;
-                                    filter: drop-shadow(0px 0px 2px #0000003f);
-                                  }
-                              }
+              .L_cmn01{
+                    p{
+                        text-transform: $cap;
+                        font-weight: $bld;
+                        font-size: 1em;
+                        color: $white;
+                        i{
+                            padding: .5rem.5rem;
+                            font-size: 1.1em;
+                            color:$white;
+                            vertical-align: middle;
+                            transition: $transition;
+                            margin: 0 .2rem;
+                            &:hover{
+                                transition: $transition;
+                                cursor: pointer;
+                                background: #ffffff59;
+                                border-radius: 50%;
+                                color: $white;
+                               }
                         }
                     }
                 }
             }
+         }
+         .Nav-wrp{
+             width: 100%;
+             background: #ffffffa8;
+             position: $abs;
+             padding: .2rem 0;
+             z-index: 3;
+            nav{
+                @include flex;
+                justify-content: $between;
+                width: 90%;
+                margin: 0 auto;
+                .logo{
+                    width: 35%;
+                    a{
+                    img{
+                        max-width: 70%;
+                    }
+                    }
+                }
+                .nav-item{
+                    width: 60%;
+                    padding: 1rem 0;
+                    .Unorder_wrp{
+                        @include flex;
+                        justify-content: $end;
+                        position: $rel;
+                        li{
+                            list-style-type: $none;
+                            margin: 0 .9rem;
+                            a{
+                                color: #000;
+                                font-size: 1.1em;
+                                text-transform: $upper;
+                                font-family: $heading;
+                                word-spacing: 1px;
+                                letter-spacing: 1px;
+                                transition: $transition;
+                                padding: 0 0 .4rem 0;
+                                &:hover{
+                                    color: $red;
+                                    transition: $transition;
+                                }
+                                i{
+                                    vertical-align: text-top;
+                                }
+                            }   
+                            .hvr-underline-from-left:before {
+                                background: #f73624;
+                                height: 2px;
+                            }
+                        }
+                        .hair-care{
+                            position: $rel; 
+                        }
+                        // .drop3{
+                        //     .list{
+                        //         transition: $transition;
+                        //         &:hover{
+                        //             background: #f73624;
+                        //             transition: $transition;
+                        //             padding-left: .5rem;
+                        //              color: $white;
+                        //         }
+                        //     }
+                        // }
+                        .drop1{
+                            left: 90px!important;
+                        }
+                        .drop_down{
+                            position: $abs;
+                            top: 87px;
+                            left: 41%;
+                            width: 281px;
+                            background: $white;// #d14336eb;//#f73624e3;//#f73624a6;
+                            justify-content: flex-start;
+                            display:none;
+                           // border-bottom: 3px solid #ffffffa8;
+                            border-bottom-right-radius: 5px;
+                            border-bottom-left-radius: 5px; 
+                            box-shadow: 0px 3px 1px 0px #f43423cf;
+                            li{
+                                padding: 1rem 0;
+                                margin: 0 0!important;
+                                transition: $transition;
+                                width: 100%;
+                                text-transform: $cap;
+                                color:#646464;
+                                border-bottom:1px solid #c4c4c442;
+                                &:hover{
+                                    background: $red;
+                                    color: $white!important;
+                                    transition: $transition;
+                                }
+                              a{
+                                  //#fff;
+                                  padding: 0 0 0 1rem;
+                                  font-size: 1em;
+                                  font-weight: 500; 
+                                  display: inline-block;
+                                  transition: $transition;
+                                  &:hover{
+                                      color: $white!important;
+                                      transition: $transition;
+                                  }
+                              }
+                            }
+                          }
+                          .drop2{
+                              left: 0%!important;
+                              width: 100%!important;
+                              padding: 0 0;
+                              display: none;
+                              //left: -63% !important;
+                              //width: 1500px !important;
+                              
+                              .Child_drop2{
+                                   @include flex;
+                                   justify-content: $between;
+                                   align-items: inherit;
+                                   li{
+                                       margin: 0 0rem!important;
+                                       border-bottom: inherit!important;
+                                       &:hover{
+                                           background: transparent!important;
+                                       }
+                                       a{
+                                           &:hover{
+                                               color:#646464!important;
+                                           }
+                                       }
+                                   }
+                                //    .list1:hover .Sub_Hvr_wrp{display: none!important;} 
+                                  .Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp5
+                                  ,.Sub_Hvr_wrp6,.Sub_Hvr_wrp7,.Sub_Hvr_wrp8,.Sub_Hvr_wrp9{
+                                    display: none;
+                                   }
+                                   .Sub_cmn{
+                                    // height: 68vh;
+                                    width: 100%;
+                                    min-height: calc(100% );
+                                    overflow: $hide;
+                                   // border: 1px solid;
+                                    position: $rel;
+                                   }
+                                   .Sub_Hvr_wrp1{
+                                    &::before{
+                                        @include imgBefore;
+                                        content: '';
+                                        width: 100%;
+                                        height: 100%;
+                                        position: $abs;
+                                        background: url(../image/hvr1.png)$no-rpt;
+                                        background-size: contain;
+                                        background-position: bottom;
+                                        z-index: 0;
+                                        animation: imghvr 3s linear infinite;
+                                    }
+                                   }
+                                   .Sub_Hvr_wrp2 { 
+                                    &::before{
+                                        content: '';
+                                        width: 100%;
+                                        height: 100%;
+                                        position: $abs;
+                                        background: url(../image/hvr2.png)$no-rpt;
+                                        background-size: contain;
+                                        background-position: bottom;
+                                        z-index: 0;
+                                        animation: imghvr 3s linear infinite;
+                                     } 
+                                }
+                                .Sub_Hvr_wrp3{
+                                        &::before{
+                                            content: '';
+                                            width: 100%;
+                                            height: 100%;
+                                            position: $abs;
+                                            background: url(../image/hvr3.png)$no-rpt;
+                                            background-size: contain;
+                                            background-position: bottom;
+                                            z-index: 0;
+                                            animation: imghvr 3s linear infinite;
+                                        } 
+                                     }
+                                     .Sub_Hvr_wrp4{
+                                        &::before{
+                                           @include imgBefore;
+                                        } 
+                                     }
+                                     .Sub_Hvr_wrp5{
+                                        &::before{
+                                           @include imgBefore5;
+                                        } 
+                                     }
+                                     .Sub_Hvr_wrp6{
+                                        &::before{
+                                           @include imgBefore6;
+                                        } 
+                                     }
+                                     .Sub_Hvr_wrp7{
+                                        &::before{
+                                           @include imgBefore7;
+                                        } 
+                                     }
+                                     .Sub_Hvr_wrp8{
+                                        &::before{
+                                           @include imgBefore8;
+                                        } 
+                                     }
+                                     .Sub_Hvr_wrp9{
+                                        &::before{
+                                           @include imgBefore9;
+                                        } 
+                                     }
+                                    .sub-drop01{
+                                       width: 35%;
+                                       ul{
+                                           border-right: 1px solid #a8a8a85c;
+                                           .list-active{
+                                               background: linear-gradient(to right, #DD2615, #F73624)!important;
+                                              cursor: pointer;
+                                               a{
+                                                   color: $white!important;
+                                               }
+                                           }
+                                           li {
+                                               a{
+                                                   font-weight: $bld;
+                                                   font-size: 1em;
+                                              }
+                                           }
+                                       }
+                                    }
+                                    .sub-cmn01{ 
+                                       ul{
+                                           display: block!important;
+                                           li{
+                                               padding: .7rem 0;
+                                               a{
+                                                   color: #646464;//$white; 
+                                                   font-size: 15px;
+                                               }
+                                           }
+                                       }
+                                    }
+                                    .sub-drop02{
+                                    width: 60%;
+                                    li a{
+                                        font-family: 'RalewayRegular';
+                                    }
+                                    }
+                             }
+                          }
+                          .drop4{
+                            left: 52%!important;
+                          }
+                          .drop5{
+                            left: 73%!important;
+                          }
+                          @keyframes imghvr {
+                              0% ,100%{
+                                  transform: translateY(10px);
+                                  transition: $transition;
+                                  //filter: hue-rotate(346deg);
+                              }
+                              50%{
+                                transform: translateY(0px);
+                                transition: $transition;
+                                filter: drop-shadow(0px 0px 2px #0000003f);
+                              }
+                          }
+                    }
+                }
+            }
         }
-     
+    }
+    // ---header-------//
+    main{ 
         //-----banner------//
         .Banner_Wrapper{
             .banner-child{
@@ -1464,7 +1464,7 @@
         }
     }
     .collapse2,.collapse3,.collapse4,.collapse5,.collapse6,.collapse7
-    ,.collapse8,.collapse9,.collapse10{
+    ,.collapse8,.collapse9,.collapse10,.collapse11{
         h3{
             display: none!important;
             transition: $transition;
@@ -1488,6 +1488,7 @@
             @include heading;
             text-align: left;
             // color: $white; 
+            text-transform: $upper;
             span{
                 // color: #fff!important;
             }
@@ -1911,7 +1912,43 @@
     .hair-trn-Cnt01{
         p{
             text-align: left!important;
+            padding: 0 30rem 0 0;
+            line-height: 1.7;
+        }
+    }
+    .Hair-Bfr-content{
+        @include flex;
+        justify-content: $between;
+        padding: 6rem 0 0;
+        .lft{
+            figure{
+                &:nth-child(1){ 
+                    transform: translateX(73px);
+                    img{
+                        max-width: 77%!important;
+                    }
+                }
+            }
+        }
+        .hair-cnt01{
             width: 50%;
+            @include flex;
+            position: relative;
+            figure{
+                width: 50%;
+                text-align: right;
+                img{
+                    max-width: 64%!important;
+                }
+            }
+            figure.grl-aftr {
+                transform: translate(-109px, 0px);
+            }
+            figure.grl-bfor {
+                position: absolute;
+                top: -226px;
+                right: 158px;
+            }
         }
     }
 }
@@ -1922,6 +1959,173 @@
 
 // ------------********MicroDerma---end-----here--*******---------------//
 
+
+
+// ------------********Prp---Hair---Treatment-------*******---------------//
+.PrpHair_Wrapper{
+    .PrpHair-banner{
+       background: url(../image/prphair-banner.png) no-repeat!important;
+       background-size: cover!important;
+       background-position: $mid;
+       .Banner_Content{
+           .Banner_child{
+               width: 63%!important;
+               p{
+                   padding: 1rem 16rem 1rem 0!important;
+               }
+           }
+       } 
+    }
+    .Main-Prp-content{
+        .Prp_wrp{
+            .Benefit-heading{
+                h2{
+                   font-family: 'Roboto';
+                }
+            }
+        }
+    }
+}
+
+
+
+// -------*******Prp---Hair---Treatment----------*********----end---here-----------//
+
+
+// ------------********Prp---Hair---Treatment-------*******---------------//
+.HairPigment_Wrapper{
+    .HairPrigment-banner{
+       background: url(../image/hairpigment-banner.png) no-repeat!important;
+       background-size: cover!important;
+       background-position: $mid;  
+    } 
+}
+
+
+
+// -------*******Prp---Hair---Treatment----------*********----end---here-----------//
+
+
+// ------------******** SkinTreatment_Wrapper------*******---------------//
+.SkinTreatment_Wrapper{
+    .SkinTreatment-banner{
+       background: url(../image/skintreatment-banner.png) no-repeat!important;
+       background-size: cover!important;
+       background-position: $mid;  
+    } 
+}
+
+
+
+// -------*******Prp----------skinTreatment_Wrapper--------*********----end---here-----------//
+
+
+// ------------******** -------skinTreatment_Wrapper------*******---------------//
+.Cosmo_Wrapper{
+    .Cosmo-banner{
+       background: url(../image/cosmo-banner.png) no-repeat!important;
+       background-size: cover!important;
+       background-position: $mid;  
+    } 
+    .Banner_Content{
+        .Banner_child{
+            h1{
+              font-size: 3em!important;
+            }
+            p{
+                 color: #000!important;
+            }
+        }
+    }
+}
+
+
+
+// -------*******-skinTreatment_Wrapper-------*********----end---here-----------//
+
+
+
+// ------------******** -------BodyTreatment_Wrapper------*******---------------//
+.BodyTreatment_Wrapper{
+    .BodyTrt-banner{
+       background: url(../image/bodytreatment-banner.png) no-repeat!important;
+       background-size: cover!important;
+       background-position: $mid;  
+    } 
+    .BodyTrt-banner{
+        .Banner_child{
+            h1{
+              font-size: 3em!important;
+            }
+            p{
+                 color: #000!important;
+            }
+        }
+    }
+}
+ 
+// -------*******-BodyTreatment_Wrapper-------*********----end---here-----------//
+
+
+// ------------******** -------LaserTreatment_Wrapper------*******---------------//
+.LaserTreatment_Wrapper{
+    .LaserTrt-banner{
+       background: url(../image/laser-banner1.png) no-repeat!important;
+       background-size: cover!important;
+       background-position: $mid;  
+    } 
+     
+}
+ 
+// -------*******----LaserTreatment_Wrapper-------*********----end---here-----------//
+
+// ------------******** -------HairLaser-Wrapper-----*******---------------//
+.HairLaser-Wrapper{
+    .hairLaser-banner{
+       background: url(../image/hairlaser-banner.png) no-repeat!important;
+       background-size: cover!important;
+       background-position: $mid;  
+    } 
+     .hairLaser_wrp{
+        .hair-Laser01{
+            .subhair-trt-wrp{
+                @include flex;
+                justify-content: $between;
+                align-items: inherit;
+                .hair_trt-cmn01{
+                    width: 48%;
+                    h2{
+                        font-size: 1.7em;
+                        line-height: 1.5;
+                        text-transform: $cap;
+                        word-spacing: 1px;
+                        letter-spacing: 1px;
+                        font-weight: $bld;
+                        padding: 0 0 1.5rem;
+                    }
+                    >figure{
+                        img{
+                            max-width: 15%;
+                        }
+                    }
+                    .hair-cnt04{
+                        padding: 3rem 0 1rem;
+                        figure{
+                           img{
+                            max-width: 100%;
+                           }
+                        }
+                    }
+                }
+                .hair-Rgt{
+                    text-align: right;
+                }
+            }
+        } 
+     }
+}
+ 
+// -------*******---HairLaser-Wrapper------*********----end---here-----------//
 
 
 

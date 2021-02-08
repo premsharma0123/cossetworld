@@ -49,17 +49,17 @@ a, p {
   margin: 0 auto;
 }
 
-main header {
+header {
   width: 100%;
 }
 
-main header .top-social-bar {
+header .top-social-bar {
   width: 100%;
   background: #F73624;
   padding: .4rem 0;
 }
 
-main header .top-social-bar .child-wrp {
+header .top-social-bar .child-wrp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -78,7 +78,7 @@ main header .top-social-bar .child-wrp {
   margin: 0 auto;
 }
 
-main header .top-social-bar .child-wrp .L1 {
+header .top-social-bar .child-wrp .L1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -95,24 +95,24 @@ main header .top-social-bar .child-wrp .L1 {
           justify-content: space-between;
 }
 
-main header .top-social-bar .child-wrp .L1 p {
+header .top-social-bar .child-wrp .L1 p {
   margin: 0 .5rem;
   font-family: 'open-sans';
   font-weight: bold;
 }
 
-main header .top-social-bar .child-wrp .L1 p:last-child {
+header .top-social-bar .child-wrp .L1 p:last-child {
   font-weight: normal;
 }
 
-main header .top-social-bar .child-wrp .L_cmn01 p {
+header .top-social-bar .child-wrp .L_cmn01 p {
   text-transform: capitalize;
   font-weight: bold;
   font-size: 1em;
   color: #fff;
 }
 
-main header .top-social-bar .child-wrp .L_cmn01 p i {
+header .top-social-bar .child-wrp .L_cmn01 p i {
   padding: 0.5rem 0.5rem;
   font-size: 1.1em;
   color: #fff;
@@ -122,7 +122,7 @@ main header .top-social-bar .child-wrp .L_cmn01 p i {
   margin: 0 .2rem;
 }
 
-main header .top-social-bar .child-wrp .L_cmn01 p i:hover {
+header .top-social-bar .child-wrp .L_cmn01 p i:hover {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
@@ -131,7 +131,7 @@ main header .top-social-bar .child-wrp .L_cmn01 p i:hover {
   color: #fff;
 }
 
-main header .Nav-wrp {
+header .Nav-wrp {
   width: 100%;
   background: #ffffffa8;
   position: absolute;
@@ -139,7 +139,7 @@ main header .Nav-wrp {
   z-index: 3;
 }
 
-main header .Nav-wrp nav {
+header .Nav-wrp nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -158,20 +158,20 @@ main header .Nav-wrp nav {
   margin: 0 auto;
 }
 
-main header .Nav-wrp nav .logo {
+header .Nav-wrp nav .logo {
   width: 35%;
 }
 
-main header .Nav-wrp nav .logo a img {
+header .Nav-wrp nav .logo a img {
   max-width: 70%;
 }
 
-main header .Nav-wrp nav .nav-item {
+header .Nav-wrp nav .nav-item {
   width: 60%;
   padding: 1rem 0;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp {
+header .Nav-wrp nav .nav-item .Unorder_wrp {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -189,12 +189,12 @@ main header .Nav-wrp nav .nav-item .Unorder_wrp {
   position: relative;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp li {
+header .Nav-wrp nav .nav-item .Unorder_wrp li {
   list-style-type: none;
   margin: 0 .9rem;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp li a {
+header .Nav-wrp nav .nav-item .Unorder_wrp li a {
   color: #000;
   font-size: 1.1em;
   text-transform: uppercase;
@@ -206,30 +206,30 @@ main header .Nav-wrp nav .nav-item .Unorder_wrp li a {
   padding: 0 0 .4rem 0;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp li a:hover {
+header .Nav-wrp nav .nav-item .Unorder_wrp li a:hover {
   color: #F73624;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp li a i {
+header .Nav-wrp nav .nav-item .Unorder_wrp li a i {
   vertical-align: text-top;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp li .hvr-underline-from-left:before {
+header .Nav-wrp nav .nav-item .Unorder_wrp li .hvr-underline-from-left:before {
   background: #f73624;
   height: 2px;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .hair-care {
+header .Nav-wrp nav .nav-item .Unorder_wrp .hair-care {
   position: relative;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop1 {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop1 {
   left: 90px !important;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down {
   position: absolute;
   top: 87px;
   left: 41%;
@@ -245,7 +245,7 @@ main header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down {
           box-shadow: 0px 3px 1px 0px #f43423cf;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down li {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down li {
   padding: 1rem 0;
   margin: 0 0 !important;
   -webkit-transition: all 0.3s ease-in-out;
@@ -256,14 +256,14 @@ main header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down li {
   border-bottom: 1px solid #c4c4c442;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down li:hover {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down li:hover {
   background: #F73624;
   color: #fff !important;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down li a {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down li a {
   padding: 0 0 0 1rem;
   font-size: 1em;
   font-weight: 500;
@@ -272,20 +272,20 @@ main header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down li a {
   transition: all 0.3s ease-in-out;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down li a:hover {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down li a:hover {
   color: #fff !important;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 {
   left: 0% !important;
   width: 100% !important;
   padding: 0 0;
   display: none;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -305,31 +305,31 @@ main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 {
           align-items: inherit;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 li {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 li {
   margin: 0 0rem !important;
   border-bottom: inherit !important;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 li:hover {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 li:hover {
   background: transparent !important;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 li a:hover {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 li a:hover {
   color: #646464 !important;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp2, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp3, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp4, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp5, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp6, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp7, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp8, main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp9 {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp2, header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp3, header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp4, header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp5, header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp6, header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp7, header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp8, header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp9 {
   display: none;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_cmn {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_cmn {
   width: 100%;
   min-height: calc(100%);
   overflow: hidden;
   position: relative;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp1::before {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp1::before {
   content: '';
   width: 100%;
   height: 100%;
@@ -351,7 +351,7 @@ main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp
   animation: imghvr 3s linear infinite;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp2::before {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp2::before {
   content: '';
   width: 100%;
   height: 100%;
@@ -364,7 +364,7 @@ main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp
           animation: imghvr 3s linear infinite;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp3::before {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp3::before {
   content: '';
   width: 100%;
   height: 100%;
@@ -377,7 +377,7 @@ main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp
           animation: imghvr 3s linear infinite;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp4::before {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp4::before {
   content: '';
   width: 100%;
   height: 100%;
@@ -390,7 +390,7 @@ main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp
           animation: imghvr 3s linear infinite;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp5::before {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp5::before {
   content: '';
   width: 100%;
   height: 100%;
@@ -403,7 +403,7 @@ main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp
           animation: imghvr 3s linear infinite;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp6::before {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp6::before {
   content: '';
   width: 100%;
   height: 100%;
@@ -416,7 +416,7 @@ main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp
           animation: imghvr 3s linear infinite;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp7::before {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp7::before {
   content: '';
   width: 100%;
   height: 100%;
@@ -429,7 +429,7 @@ main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp
           animation: imghvr 3s linear infinite;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp8::before {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp8::before {
   content: '';
   width: 100%;
   height: 100%;
@@ -442,7 +442,7 @@ main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp
           animation: imghvr 3s linear infinite;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp9::before {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp9::before {
   content: '';
   width: 100%;
   height: 100%;
@@ -455,55 +455,55 @@ main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp
           animation: imghvr 3s linear infinite;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop01 {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop01 {
   width: 35%;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop01 ul {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop01 ul {
   border-right: 1px solid #a8a8a85c;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop01 ul .list-active {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop01 ul .list-active {
   background: -webkit-gradient(linear, left top, right top, from(#DD2615), to(#F73624)) !important;
   background: linear-gradient(to right, #DD2615, #F73624) !important;
   cursor: pointer;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop01 ul .list-active a {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop01 ul .list-active a {
   color: #fff !important;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop01 ul li a {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop01 ul li a {
   font-weight: bold;
   font-size: 1em;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-cmn01 ul {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-cmn01 ul {
   display: block !important;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-cmn01 ul li {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-cmn01 ul li {
   padding: .7rem 0;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-cmn01 ul li a {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-cmn01 ul li a {
   color: #646464;
   font-size: 15px;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop02 {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop02 {
   width: 60%;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop02 li a {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .sub-drop02 li a {
   font-family: 'RalewayRegular';
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop4 {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop4 {
   left: 52% !important;
 }
 
-main header .Nav-wrp nav .nav-item .Unorder_wrp .drop5 {
+header .Nav-wrp nav .nav-item .Unorder_wrp .drop5 {
   left: 73% !important;
 }
 
@@ -2243,13 +2243,13 @@ main footer .copyright_wrp .copy_content p {
   transition: all 0.3s ease-in-out;
 }
 
-.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse2 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse3 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse4 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse5 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse6 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse7 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse8 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse9 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse10 h3 {
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse2 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse3 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse4 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse5 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse6 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse7 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse8 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse9 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse10 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse11 h3 {
   display: none !important;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
-.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse2 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse3 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse4 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse5 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse6 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse7 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse8 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse9 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse10 h4 {
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse2 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse3 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse4 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse5 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse6 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse7 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse8 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse9 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse10 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse11 h4 {
   display: block;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -2286,6 +2286,7 @@ main footer .copyright_wrp .copy_content p {
   text-transform: capitalize;
   font-weight: bold;
   text-align: left;
+  text-transform: uppercase;
 }
 
 .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-heading h2 span {
@@ -2710,7 +2711,191 @@ main footer .copyright_wrp .copy_content p {
 
 .HairTransplant_Wrapper .Hair-Trt-Bfr .hair-trn-Cnt01 p {
   text-align: left !important;
+  padding: 0 30rem 0 0;
+  line-height: 1.7;
+}
+
+.HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 6rem 0 0;
+}
+
+.HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .lft figure:nth-child(1) {
+  -webkit-transform: translateX(73px);
+          transform: translateX(73px);
+}
+
+.HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .lft figure:nth-child(1) img {
+  max-width: 77% !important;
+}
+
+.HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .hair-cnt01 {
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+}
+
+.HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .hair-cnt01 figure {
+  width: 50%;
+  text-align: right;
+}
+
+.HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .hair-cnt01 figure img {
+  max-width: 64% !important;
+}
+
+.HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .hair-cnt01 figure.grl-aftr {
+  -webkit-transform: translate(-109px, 0px);
+          transform: translate(-109px, 0px);
+}
+
+.HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .hair-cnt01 figure.grl-bfor {
+  position: absolute;
+  top: -226px;
+  right: 158px;
+}
+
+.PrpHair_Wrapper .PrpHair-banner {
+  background: url(../image/prphair-banner.png) no-repeat !important;
+  background-size: cover !important;
+  background-position: center;
+}
+
+.PrpHair_Wrapper .PrpHair-banner .Banner_Content .Banner_child {
+  width: 63% !important;
+}
+
+.PrpHair_Wrapper .PrpHair-banner .Banner_Content .Banner_child p {
+  padding: 1rem 16rem 1rem 0 !important;
+}
+
+.PrpHair_Wrapper .Main-Prp-content .Prp_wrp .Benefit-heading h2 {
+  font-family: 'Roboto';
+}
+
+.HairPigment_Wrapper .HairPrigment-banner {
+  background: url(../image/hairpigment-banner.png) no-repeat !important;
+  background-size: cover !important;
+  background-position: center;
+}
+
+.SkinTreatment_Wrapper .SkinTreatment-banner {
+  background: url(../image/skintreatment-banner.png) no-repeat !important;
+  background-size: cover !important;
+  background-position: center;
+}
+
+.Cosmo_Wrapper .Cosmo-banner {
+  background: url(../image/cosmo-banner.png) no-repeat !important;
+  background-size: cover !important;
+  background-position: center;
+}
+
+.Cosmo_Wrapper .Banner_Content .Banner_child h1 {
+  font-size: 3em !important;
+}
+
+.Cosmo_Wrapper .Banner_Content .Banner_child p {
+  color: #000 !important;
+}
+
+.BodyTreatment_Wrapper .BodyTrt-banner {
+  background: url(../image/bodytreatment-banner.png) no-repeat !important;
+  background-size: cover !important;
+  background-position: center;
+}
+
+.BodyTreatment_Wrapper .BodyTrt-banner .Banner_child h1 {
+  font-size: 3em !important;
+}
+
+.BodyTreatment_Wrapper .BodyTrt-banner .Banner_child p {
+  color: #000 !important;
+}
+
+.LaserTreatment_Wrapper .LaserTrt-banner {
+  background: url(../image/laser-banner1.png) no-repeat !important;
+  background-size: cover !important;
+  background-position: center;
+}
+
+.HairLaser-Wrapper .hairLaser-banner {
+  background: url(../image/hairlaser-banner.png) no-repeat !important;
+  background-size: cover !important;
+  background-position: center;
+}
+
+.HairLaser-Wrapper .hairLaser_wrp .hair-Laser01 .subhair-trt-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit;
+}
+
+.HairLaser-Wrapper .hairLaser_wrp .hair-Laser01 .subhair-trt-wrp .hair_trt-cmn01 {
+  width: 48%;
+}
+
+.HairLaser-Wrapper .hairLaser_wrp .hair-Laser01 .subhair-trt-wrp .hair_trt-cmn01 h2 {
+  font-size: 1.7em;
+  line-height: 1.5;
+  text-transform: capitalize;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding: 0 0 1.5rem;
+}
+
+.HairLaser-Wrapper .hairLaser_wrp .hair-Laser01 .subhair-trt-wrp .hair_trt-cmn01 > figure img {
+  max-width: 15%;
+}
+
+.HairLaser-Wrapper .hairLaser_wrp .hair-Laser01 .subhair-trt-wrp .hair_trt-cmn01 .hair-cnt04 {
+  padding: 3rem 0 1rem;
+}
+
+.HairLaser-Wrapper .hairLaser_wrp .hair-Laser01 .subhair-trt-wrp .hair_trt-cmn01 .hair-cnt04 figure img {
+  max-width: 100%;
+}
+
+.HairLaser-Wrapper .hairLaser_wrp .hair-Laser01 .subhair-trt-wrp .hair-Rgt {
+  text-align: right;
 }
 
 .main-bar {
