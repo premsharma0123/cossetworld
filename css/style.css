@@ -1836,6 +1836,26 @@ main footer .copyright_wrp .copy_content p {
   }
 }
 
+main .wtsapp-sticky-wrp .float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  -webkit-box-shadow: 2px 2px 3px #999;
+          box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+main .wtsapp-sticky-wrp .my-float {
+  margin-top: 16px;
+}
+
 .Slimming_Wrapper p {
   font-family: 'Roboto';
 }
@@ -2896,6 +2916,12 @@ main footer .copyright_wrp .copy_content p {
 
 .HairLaser-Wrapper .hairLaser_wrp .hair-Laser01 .subhair-trt-wrp .hair-Rgt {
   text-align: right;
+}
+
+.Botox_Wrapper .Botox-banner {
+  background: url(../image/Botox-banner.png) no-repeat !important;
+  background-size: cover !important;
+  background-position: center;
 }
 
 .main-bar {
