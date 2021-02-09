@@ -110,9 +110,13 @@ header .top-social-bar .child-wrp .R1 .insta img {
   vertical-align: middle;
 }
 
+header .top-social-bar .child-wrp .R1 .insta i {
+  font-weight: bolder !important;
+}
+
 header .top-social-bar .child-wrp .L_cmn01 p {
   text-transform: capitalize;
-  font-weight: bold;
+  font-weight: bold !important;
   font-size: 1em;
   color: #fff;
 }
@@ -201,7 +205,7 @@ header .Nav-wrp nav .nav-item .Unorder_wrp li {
 
 header .Nav-wrp nav .nav-item .Unorder_wrp li a {
   color: #000;
-  font-size: 1.1em;
+  font-size: 1em;
   text-transform: uppercase;
   font-family: "AlegreyaRegular";
   word-spacing: 1px;
@@ -236,7 +240,7 @@ header .Nav-wrp nav .nav-item .Unorder_wrp .drop1 {
 
 header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down {
   position: absolute;
-  top: 87px;
+  top: 80px;
   left: 41%;
   width: 281px;
   background: #fff;
@@ -354,6 +358,7 @@ header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp1::be
   background-position: bottom;
   z-index: 0;
   animation: imghvr 3s linear infinite;
+  display: none;
 }
 
 header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp2::before {
@@ -367,6 +372,7 @@ header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp2::be
   z-index: 0;
   -webkit-animation: imghvr 3s linear infinite;
           animation: imghvr 3s linear infinite;
+  display: none;
 }
 
 header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp3::before {
@@ -380,6 +386,7 @@ header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp3::be
   z-index: 0;
   -webkit-animation: imghvr 3s linear infinite;
           animation: imghvr 3s linear infinite;
+  display: none;
 }
 
 header .Nav-wrp nav .nav-item .Unorder_wrp .drop2 .Child_drop2 .Sub_Hvr_wrp4::before {
@@ -885,7 +892,7 @@ main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .bottom_Bar {
   background: #0000008f;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  z-index: 9;
+  z-index: 1;
 }
 
 main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .bottom_Bar h2 {
@@ -1255,8 +1262,8 @@ main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 a {
   display: inline-block;
   margin: 1.4rem 0 0;
   border-radius: 100px;
-  -webkit-box-shadow: 0px 3px 3px 2px #000;
-          box-shadow: 0px 3px 3px 2px #000;
+  -webkit-box-shadow: 0px 3px 3px 2px #00000080;
+          box-shadow: 0px 3px 3px 2px #00000080;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -1770,7 +1777,6 @@ main footer .footer_content .Ft_cmn01 .subscribe label {
 
 main footer .footer_content .Ft_cmn01 .subscribe label input {
   width: 100%;
-  color: #fff;
   padding: .8rem 1rem;
   outline: none;
   border: 1px solid #fff;
@@ -1845,7 +1851,7 @@ main footer .copyright_wrp .copy_content p {
   position: fixed;
   top: 50%;
   right: 0px;
-  z-index: 100;
+  z-index: 2;
   text-align: right;
   width: 200px;
   height: 60px;
@@ -1853,21 +1859,150 @@ main footer .copyright_wrp .copy_content p {
 
 .wtsapp-sticky-wrp a img {
   max-width: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(0.99);
+          transform: scale(0.99);
+}
+
+.wtsapp-sticky-wrp a img:hover {
+  -webkit-filter: drop-shadow(1px 1px 3px black);
+          filter: drop-shadow(1px 1px 3px black);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.social-menu {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  z-index: 2;
+}
+
+.social-menu .show-social {
+  display: none;
+}
+
+.social-menu .media-cmn i {
+  font-size: 1.1em;
+  left: 10px;
+  color: #999 !important;
+  -webkit-transform: translate(12px, 0px);
+          transform: translate(12px, 0px);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  padding: .8rem 0;
+}
+
+.social-menu .media-cmn i:hover {
+  color: #000 !important;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .social-menu i {
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: bold;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .social-menu a {
-  height: 40px;
-  width: 40px;
+  height: 45px;
+  width: 45px;
   margin: 1px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-menu a:hover {
+  width: 60px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-menu a:hover .fab {
+  font-size: 1.1em;
 }
 
 .social-menu .S1 {
-  background: #3B5998;
+  background: #3b5998;
+}
+
+.social-menu .S2 {
+  background: #00aff0;
+}
+
+.social-menu .S3 {
+  background: #c4302b;
+}
+
+.social-menu .S4 {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.BT-top {
+  right: 23px;
+  bottom: 62px;
+  position: fixed;
+  z-index: 3;
+}
+
+.BT-top a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 3px 3px #00000038;
+          box-shadow: 0px 0px 3px 3px #00000038;
+  background: #000;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #ffffff61;
+}
+
+.BT-top a:hover {
+  opacity: .77;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.BT-top a:hover .fa-angle-up {
+  font-size: 1.1em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.BT-top a i {
+  color: #fff;
+  font-size: 15px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .Slimming_Wrapper p {
@@ -2142,7 +2277,7 @@ main footer .copyright_wrp .copy_content p {
   background: #0000008f;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  z-index: 9;
+  z-index: 1;
 }
 
 .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .bottom_Bar h2 {
@@ -2340,6 +2475,14 @@ main footer .copyright_wrp .copy_content p {
   transition: all 0.3s ease-in-out;
 }
 
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-heading h3:hover {
+  opacity: .88;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
 .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-heading h4 {
   font-weight: bold;
   font-size: 2em;
@@ -2347,6 +2490,14 @@ main footer .copyright_wrp .copy_content p {
   cursor: pointer;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-heading h4:hover {
+  opacity: .88;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 
 .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss {
@@ -2958,13 +3109,21 @@ main footer .copyright_wrp .copy_content p {
   word-spacing: 1px;
 }
 
+.Privacy-Wrapper .Privacy-content-wrp .slim-heading h2 {
+  font-size: 1.8em !important;
+}
+
+.Privacy-Wrapper .Privacy-content-wrp .Privacy_wrp .Benefit-heading h2 {
+  font-size: 1.8em !important;
+}
+
 .main-bar {
   display: none;
 }
 
 @media only screen and (max-width: 1440px) {
   main header .Nav-wrp nav .nav-item ul li a {
-    font-size: 1em;
+    font-size: 1em !important;
   }
   main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
     left: -58px;
@@ -2987,7 +3146,7 @@ main footer .copyright_wrp .copy_content p {
     bottom: -61px !important;
   }
   main header .Nav-wrp nav .nav-item ul .drop_down {
-    top: 78px;
+    top: 60px !important;
     left: 36%;
   }
   main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 a {
@@ -2997,11 +3156,14 @@ main footer .copyright_wrp .copy_content p {
   main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 figure img {
     max-width: 75%;
   }
+  header .Nav-wrp nav .nav-item .Unorder_wrp .drop5 {
+    left: 67% !important;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
   main header .Nav-wrp nav .nav-item ul li a {
-    font-size: 15px;
+    font-size: 15px !important;
   }
   main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
     left: -39px;
@@ -3188,7 +3350,7 @@ main footer .copyright_wrp .copy_content p {
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     padding: 1rem 0 0;
-    z-index: 40;
+    z-index: 99;
   }
   .myHeader .Unorder_wrp {
     display: block !important;
@@ -3206,8 +3368,19 @@ main footer .copyright_wrp .copy_content p {
     padding: 1rem 0 0rem !important;
     border-bottom: inherit !important;
   }
+  main header .Nav-wrp nav .nav-item .Unorder_wrp li.permanentMakeup {
+    border-bottom: inherit !important;
+    padding: 1rem 0 0rem !important;
+  }
   main header .Nav-wrp nav .nav-item ul .drop_down {
-    position: relative;
+    position: relative !important;
+    top: 0px !important;
+    -webkit-box-shadow: inherit !important;
+            box-shadow: inherit !important;
+    width: 100% !important;
+  }
+  header .Nav-wrp nav .nav-item .Unorder_wrp .drop1 {
+    left: 0px !important;
   }
   main header .Nav-wrp nav .nav-item ul .drop_down {
     top: 0px;
@@ -3235,6 +3408,9 @@ main footer .copyright_wrp .copy_content p {
   main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
     right: -83px !important;
     bottom: -64px !important;
+  }
+  header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down {
+    left: 0 !important;
   }
   main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
     width: 150px;
@@ -3310,6 +3486,16 @@ main footer .copyright_wrp .copy_content p {
     width: 100%;
     padding: 1rem 0 1rem;
   }
+  .social-menu a {
+    height: 40px;
+    width: 40px;
+  }
+  .social-menu i {
+    font-size: 15px;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 figure img {
+    max-width: 90%;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -3323,7 +3509,7 @@ main footer .copyright_wrp .copy_content p {
     font-size: 15px;
   }
   main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 figure {
-    left: 31%;
+    left: 38%;
     top: -10px;
     position: relative;
   }
@@ -3368,6 +3554,101 @@ main footer .copyright_wrp .copy_content p {
   main .Testimonial_Wrapper::after {
     width: 100%;
     height: 90%;
+  }
+  main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child h1 {
+    font-size: 2.1em;
+  }
+  main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child p {
+    font-size: 1em;
+  }
+  main .Service_wrapper .Service_heading p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header .top-social-bar .child-wrp {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    text-align: center;
+  }
+  header .top-social-bar .child-wrp .L_cmn01 {
+    width: 100%;
+  }
+  header .top-social-bar .child-wrp .L1 {
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+  }
+  .myHeader {
+    top: 91px;
+  }
+  header .Nav-wrp nav .logo a img {
+    max-width: 100%;
+  }
+  main header .Nav-wrp nav .nav-item {
+    width: 65%;
+    padding: .1rem 0 .5rem;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
+    left: -21px;
+    top: -218px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
+    width: 110px;
+    height: 110px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::after {
+    width: 110px;
+    height: 110px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
+    right: -23px;
+    bottom: -215px;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
+    left: -21px !important;
+    top: -62px !important;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
+    right: -24px !important;
+    bottom: -63px !important;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 figure img {
+    max-width: 100%;
+  }
+  main .Appointment_Wrapper {
+    padding: 2.5rem 0;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 h2 {
+    font-size: 2.3em;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 p {
+    font-size: 15px;
+    padding: 1.3rem 0;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 a {
+    padding: 1rem 2rem;
+    font-size: 1em;
+    margin: 1rem 0 1.1rem;
+  }
+  main footer .footer_content .Ft_cmn01 h2 {
+    font-size: 1.2em;
+    padding: 0 0 .5rem;
+  }
+  main footer .footer_content .Ft_cmn01 ul li a {
+    font-size: 15px;
+  }
+  .social-menu a:hover {
+    width: 50px;
+  }
+  main .Appointment_Form_wrp .Form_wrp form .form_content .Frm_cmn01 label {
+    padding: 0.7rem 0 .3rem;
+    font-size: 15px;
+  }
+  main .Appointment_Form_wrp .Form_wrp form .form_content .Frm_cmn01 input, main .Appointment_Form_wrp .Form_wrp form .form_content .Frm_cmn01 select {
+    padding: .6rem 1rem;
+    margin: .5rem .5rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

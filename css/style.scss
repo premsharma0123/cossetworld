@@ -75,12 +75,15 @@
                             max-width: 5%;
                             vertical-align: middle; 
                         }
+                        i{
+                            font-weight: bolder!important;
+                        }
                     }
                 }
               .L_cmn01{
                     p{
                         text-transform: $cap;
-                        font-weight: $bld;
+                        font-weight: $bld!important;
                         font-size: 1em;
                         color: $white;
                         i{
@@ -133,7 +136,7 @@
                             margin: 0 .9rem;
                             a{
                                 color: #000;
-                                font-size: 1.1em;
+                                font-size: 1em;
                                 text-transform: $upper;
                                 font-family: $heading;
                                 word-spacing: 1px;
@@ -172,7 +175,7 @@
                         }
                         .drop_down{
                             position: $abs;
-                            top: 87px;
+                            top: 80px;
                             left: 41%;
                             width: 281px;
                             background: $white;// #d14336eb;//#f73624e3;//#f73624a6;
@@ -258,6 +261,7 @@
                                         background-position: bottom;
                                         z-index: 0;
                                         animation: imghvr 3s linear infinite;
+                                        display: none;
                                     }
                                    }
                                    .Sub_Hvr_wrp2 { 
@@ -271,6 +275,7 @@
                                         background-position: bottom;
                                         z-index: 0;
                                         animation: imghvr 3s linear infinite;
+                                        display: none;
                                      } 
                                 }
                                 .Sub_Hvr_wrp3{
@@ -284,6 +289,7 @@
                                             background-position: bottom;
                                             z-index: 0;
                                             animation: imghvr 3s linear infinite;
+                                            display: none;
                                         } 
                                      }
                                      .Sub_Hvr_wrp4{
@@ -555,7 +561,7 @@
                     //  @include flex;
                     //  justify-content:$between;
                      transition: $transition;
-                     z-index: 9;
+                     z-index: 1;
                     h2{
                      color: $white;
                      text-align: $mid;
@@ -786,7 +792,7 @@
                     display: inline-block;
                     margin: 1.4rem 0 0;
                     border-radius: 100px;
-                    box-shadow: 0px 3px 3px 2px #000;
+                    box-shadow: 0px 3px 3px 2px #00000080;
                     transition: $transition;
                     &:active,&:focus{
                         //box-shadow: 0px 1px 1px 1px #000;
@@ -1144,7 +1150,7 @@
                     width: 100%;
                     input{
                         width: 100%;
-                        color:#fff;
+                        //color:#fff;
                         padding: .8rem 1rem;
                         outline: none;
                         border: 1px solid #fff;
@@ -1205,7 +1211,7 @@
     position: fixed;
     top: 50%;
     right: 0px;
-    z-index: 100;
+    z-index: 2;
     text-align: right;
     width: 200px;
     height: 60px;
@@ -1226,26 +1232,103 @@
     a{
         img{
             max-width: 100%;
+            transition: $transition;
+            transform: scale(.99);
+            &:hover{
+                filter: drop-shadow(1px 1px 3px black);
+                transition: $transition;
+                transform: scale(1);
+            }
         }
     }
 
 }
 
+// ---social----menu-----//
 .social-menu{
+    position: fixed;
+    left: 0;
+    top: 50%;
+    z-index: 2;
+    .show-social{
+        display: none;
+    }
+    .media-cmn{
+        i{
+            font-size: 1.1em;
+            left: 10px;
+            color: #999!important;
+            transform: translate(12px, 0px);
+            transition: $transition;
+            cursor: pointer;
+            padding: .8rem 0;
+            &:hover{
+                color: #000!important;
+                transition: $transition;
+            }
+        }
+    }
     i{
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: $bld;
+        color: $white;
+        text-align: center;
+        vertical-align: middle;
     }
     a{
-        height: 40px;
-        width: 40px;
+        height: 45px;
+        width: 45px;
         margin: 1px 0;
+        @include flex;
+        transition: $transition;
+        &:hover{
+            width: 60px;
+            transition: $transition;
+            .fab{
+                font-size: 1.1em;
+            }
+        }
     }
-    .S1{
-        background: #3B5998;
-    }
+    .S1{   background:  #3b5998 ; }
+    .S2{    background: #00aff0;}
+    .S3{    background: #c4302b;}
+    .S4{background: linear-gradient(
+        45deg
+        ,#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);}
 }
 
+// --bottom--top---top===
+
+.BT-top {
+    right: 23px;
+    bottom: 62px;
+    position: fixed;
+    z-index: 3;
+    a{
+        // padding: 1rem 1.3rem;\
+        @include flex;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        box-shadow: 0px 0px 3px 3px #00000038;
+        background: #000; 
+        transition: all 0.3s ease-in-out;
+        border: 1px solid #ffffff61;
+        &:hover{
+            opacity: .77;
+            transition: all 0.3s ease-in-out;
+            .fa-angle-up{
+              font-size: 1.1em;
+              transition: all 0.3s ease-in-out;
+            }
+        }
+        i{
+          color: #fff;
+          font-size: 15px; 
+          transition: all 0.3s ease-in-out;
+        }
+    }
+}
 
 
 
@@ -1375,7 +1458,7 @@
                       //  @include flex;
                       //  justify-content:$between;
                        transition: $transition;
-                       z-index: 9;
+                       z-index: 1;
                       h2{
                        color: $white;
                        text-align: $mid;
@@ -1563,6 +1646,11 @@
             color: #000;//$white;
             cursor: pointer;
             transition: $transition;
+            &:hover{
+                opacity: .88;
+                transition: $transition;
+                transform: rotate(360deg);
+            }
         }
         h4{
             // display: none;
@@ -1571,6 +1659,11 @@
             color:  #000000;/// $white;
             cursor: pointer;
             transition: $transition;
+            &:hover{
+                opacity: .88;
+                transition: $transition;
+                transform: rotate(360deg);
+            }
         }
     }
     .Weight-Loss{
@@ -2223,6 +2316,35 @@
 }
  
 // -------*******---- Contact_US_Wrapper-------*********----end---here-----------//
+
+
+// ------------******** -------Privacy---Wrapper-----*******---------------//
+.Privacy-Wrapper{
+    .Privacy-content-wrp{
+        .slim-heading{
+            h2{
+                font-size: 1.8em!important;
+            }
+        }
+        .Privacy_wrp{
+            .Benefit-heading{
+                h2{
+                    font-size: 1.8em!important;
+                }
+            }
+        }
+    }
+}
+
+// ------------******** -------Privacy---end--Here-----*******---------------//
+
+// ------------******** -------Privacy---Wrapper-----*******---------------//
+.TermCondition-Wrapper{
+    .Terms-content-wrp{ 
+    }
+}
+
+// ------------******** -------Privacy---end--Here-----*******---------------//
 
 
 

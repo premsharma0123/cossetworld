@@ -1,1 +1,531 @@
-/* No CSS *//*# sourceMappingURL=media.css.map */
+@media only screen and (max-width: 1440px) {
+  main header .Nav-wrp nav .nav-item ul li a {
+    font-size: 1em !important;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
+    left: -58px;
+    top: -215px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
+    right: -62px;
+    bottom: -213px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
+    width: 215px;
+    height: 215px;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
+    left: -64px !important;
+    top: -60px !important;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
+    right: -67px !important;
+    bottom: -61px !important;
+  }
+  main header .Nav-wrp nav .nav-item ul .drop_down {
+    top: 60px !important;
+    left: 36%;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 a {
+    padding: 1rem 2rem;
+    margin: 1.4rem 0 1.4rem;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 figure img {
+    max-width: 75%;
+  }
+  header .Nav-wrp nav .nav-item .Unorder_wrp .drop5 {
+    left: 67% !important;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  main header .Nav-wrp nav .nav-item ul li a {
+    font-size: 15px !important;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
+    left: -39px;
+    top: -215px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
+    right: -41px;
+    bottom: -213px;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
+    left: -42px !important;
+    top: -60px !important;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
+    right: -45px !important;
+    bottom: -61px !important;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 figure img {
+    max-width: 94%;
+  }
+  main header .Nav-wrp nav .nav-item {
+    width: 65%;
+    padding: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
+    width: 185px;
+    height: 185px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
+    left: -17px;
+    top: -200px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::after {
+    width: 185px;
+    height: 185px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
+    right: -24px;
+    bottom: -208px;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
+    left: -22px !important;
+    top: -54px !important;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
+    right: -27px !important;
+    bottom: -56px !important;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001:hover .Hvr_cnt::after {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001:hover .Hvr_cnt::before {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .bottom_Bar h2 {
+    font-size: 1.1em;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 figure img {
+    max-width: 100%;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 h2 {
+    font-size: 3em;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 p {
+    font-size: 1em;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 a {
+    padding: 1rem 2rem;
+    font-size: 1.2em;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 {
+    width: 38%;
+    padding: 1rem 1rem;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 p {
+    font-size: 15px;
+    padding: 0 0 1rem 1.1rem;
+  }
+  main .Testimonial_Wrapper .Testimonial_heading h2 {
+    font-size: 2em;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 figure {
+    width: 130px;
+    height: 130px;
+  }
+  main .About_Wrapper .About_Content .Abt_cmn01 h2 {
+    font-size: 2.2em;
+  }
+  main .About_Wrapper .About_Content .Abt_cmn01 p {
+    font-size: 1em;
+  }
+  main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child h1 {
+    font-size: 2.7em;
+  }
+  main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child p {
+    font-size: 1.1em;
+  }
+  main .Banner_Wrapper .banner-child .owl-next, main .Banner_Wrapper .banner-child .owl-prev {
+    right: 23px;
+    font-size: 5em !important;
+  }
+  main .Banner_Wrapper .banner-child .owl-prev {
+    left: 20px;
+  }
+  main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child a {
+    font-size: 1.1em;
+  }
+  main .Appointment_Wrapper {
+    padding: 5.5rem 0;
+  }
+  main footer .footer_content .Ft_cmn01 h2 {
+    font-size: 1.4em;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt h2 {
+    font-size: 1.3em;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt p {
+    font-size: 15px;
+    padding: 1.2rem 0;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt a {
+    padding: .9rem 1.2rem;
+    font-size: 15px;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 figure {
+    left: 39px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-bar {
+    right: 40px;
+    top: 27px;
+    display: block !important;
+    cursor: pointer;
+    position: absolute;
+  }
+  .main-bar div {
+    width: 35px;
+    height: 4px;
+    margin: 6px 0;
+    background-image: linear-gradient(45deg, #F73624, #F73624);
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+  }
+  .main-bar.activefile {
+    top: 38px !important;
+  }
+  .activefile .a {
+    -webkit-transform: rotateZ(43deg);
+            transform: rotateZ(43deg);
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+  }
+  .activefile .b {
+    opacity: 0;
+  }
+  .activefile .c {
+    -webkit-transform: rotateZ(-46deg);
+    transform: rotateZ(-46deg);
+    top: 0px;
+    position: absolute;
+    -webkit-transition: all .4s ease-in;
+    transition: all .4s ease-in;
+    margin: 6px 0 0 0px;
+  }
+  .myHeader {
+    width: 100% !important;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    top: 92px;
+    overflow-x: hidden;
+    display: none;
+    left: 0px;
+    background: #ffffff;
+    text-align: center;
+    border-bottom: 3px solid #ff766c;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 1rem 0 0;
+    z-index: 99;
+  }
+  .myHeader .Unorder_wrp {
+    display: block !important;
+  }
+  .myHeader .Unorder_wrp li {
+    display: block !important;
+  }
+  main header .Nav-wrp nav .nav-item .Unorder_wrp li {
+    list-style-type: none;
+    margin: 0 0rem !important;
+    padding: 1rem 0 1rem;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.555);
+  }
+  main header .Nav-wrp nav .nav-item .Unorder_wrp li:last-child {
+    padding: 1rem 0 0rem !important;
+    border-bottom: inherit !important;
+  }
+  main header .Nav-wrp nav .nav-item .Unorder_wrp li.permanentMakeup {
+    border-bottom: inherit !important;
+    padding: 1rem 0 0rem !important;
+  }
+  main header .Nav-wrp nav .nav-item ul .drop_down {
+    position: relative !important;
+    top: 0px !important;
+    -webkit-box-shadow: inherit !important;
+            box-shadow: inherit !important;
+    width: 100% !important;
+  }
+  header .Nav-wrp nav .nav-item .Unorder_wrp .drop1 {
+    left: 0px !important;
+  }
+  main header .Nav-wrp nav .nav-item ul .drop_down {
+    top: 0px;
+    left: 0;
+    width: 100%;
+  }
+  main header .Nav-wrp nav .nav-item ul .drop_down li:last-child {
+    padding: 1rem 0 1rem !important;
+  }
+  main .About_Wrapper::before {
+    width: 54%;
+  }
+  main header .top-social-bar .child-wrp .L_cmn01 p {
+    font-size: 15px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp {
+    -ms-grid-columns: (minmax(7, 1fr))[auto-fill];
+        grid-template-columns: repeat(auto-fill, minmax(7, 1fr));
+        grid-template-areas: "a a b b"  "a a c c" "d d e e  ";
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
+    left: -83px !important;
+    top: -62px !important;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
+    right: -83px !important;
+    bottom: -64px !important;
+  }
+  header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down {
+    left: 0 !important;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
+    width: 150px;
+    height: 150px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
+    left: -79px;
+    top: -214px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
+    right: -81px;
+    bottom: -210px;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content {
+    padding: 1rem 0;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul {
+    width: 90%;
+    padding: 4rem 0 0;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul li.Tst02.Tst_cmn02 {
+    margin: 0.5rem 1rem 2rem 7rem !important;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 {
+    width: 38%;
+    padding: 1rem 1rem;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 figure {
+    width: 100px;
+    height: 100px;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 figure {
+    left: -76px;
+    top: -8px;
+  }
+  main .Testimonial_Wrapper::after {
+    width: 83%;
+    height: 90%;
+  }
+  main .Appointment_Form_wrp .Form_wrp form .form_content {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  main .Appointment_Form_wrp .Form_wrp form .form_content .Frm_cmn01 {
+    width: 30%;
+    margin: .5rem .5rem;
+  }
+  main .Banner_Wrapper .banner-child .banner-sub-child {
+    height: 500px;
+  }
+  main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child h1 {
+    font-size: 2.3em;
+  }
+  main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content {
+    height: 500px;
+    padding: 4rem 0 0;
+  }
+  main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child a {
+    font-size: 15px;
+    padding: .8rem 1rem;
+    margin: .5rem 0 0;
+  }
+  main .Banner_Wrapper .banner-child .owl-dots .owl-dot {
+    width: 13px;
+    height: 13px;
+  }
+  main .Banner_Wrapper .banner-child .owl-dots {
+    bottom: 19px;
+    left: 50%;
+  }
+  main .Service_wrapper {
+    width: 100%;
+    padding: 1rem 0 1rem;
+  }
+  .social-menu a {
+    height: 40px;
+    width: 40px;
+  }
+  .social-menu i {
+    font-size: 15px;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 figure img {
+    max-width: 90%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .myHeader {
+    top: 88px;
+  }
+  .myHeader {
+    top: 85px;
+  }
+  main header .Nav-wrp nav .nav-item ul .drop_down li a {
+    font-size: 15px;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 figure {
+    left: 38%;
+    top: -10px;
+    position: relative;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul li.Tst02.Tst_cmn02 {
+    margin: 0.5rem 1rem 2rem 1rem !important;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 {
+    width: 45%;
+    padding: 1rem 1rem;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul {
+    width: 100%;
+    padding: 3rem 0 0;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 {
+    border: 1px solid #F73624;
+  }
+  main .About_Wrapper .About_Content .Abt_cmn01 p {
+    font-size: 15px;
+  }
+  main .About_Wrapper .About_Content .Abt_cmn01 h2 {
+    font-size: 2em;
+  }
+  main .About_Wrapper .About_Content .Abt_cmn01 a {
+    font-size: 15px;
+    padding: .8rem 1.7rem;
+    margin: 1.2rem 0 0;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 p {
+    font-size: 15px;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 h2 {
+    font-size: 2.5em;
+  }
+  main .Testimonial_Wrapper .Testimonial_Content ul {
+    padding: 2rem 0 0;
+  }
+  main .Appointment_Form_wrp .Form_wrp form .form_content .Frm_cmn01 label {
+    padding: 0.7rem 0 0.5rem;
+    font-size: 1em;
+  }
+  main .Testimonial_Wrapper::after {
+    width: 100%;
+    height: 90%;
+  }
+  main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child h1 {
+    font-size: 2.1em;
+  }
+  main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child p {
+    font-size: 1em;
+  }
+  main .Service_wrapper .Service_heading p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header .top-social-bar .child-wrp {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    text-align: center;
+  }
+  header .top-social-bar .child-wrp .L_cmn01 {
+    width: 100%;
+  }
+  header .top-social-bar .child-wrp .L1 {
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+  }
+  .myHeader {
+    top: 91px;
+  }
+  header .Nav-wrp nav .logo a img {
+    max-width: 100%;
+  }
+  main header .Nav-wrp nav .nav-item {
+    width: 65%;
+    padding: .1rem 0 .5rem;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
+    left: -21px;
+    top: -218px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
+    width: 110px;
+    height: 110px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::after {
+    width: 110px;
+    height: 110px;
+  }
+  main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
+    right: -23px;
+    bottom: -215px;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
+    left: -21px !important;
+    top: -62px !important;
+  }
+  main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
+    right: -24px !important;
+    bottom: -63px !important;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 figure img {
+    max-width: 100%;
+  }
+  main .Appointment_Wrapper {
+    padding: 2.5rem 0;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 h2 {
+    font-size: 2.3em;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 p {
+    font-size: 15px;
+    padding: 1.3rem 0;
+  }
+  main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 a {
+    padding: 1rem 2rem;
+    font-size: 1em;
+    margin: 1rem 0 1.1rem;
+  }
+  main footer .footer_content .Ft_cmn01 h2 {
+    font-size: 1.2em;
+    padding: 0 0 .5rem;
+  }
+  main footer .footer_content .Ft_cmn01 ul li a {
+    font-size: 15px;
+  }
+  .social-menu a:hover {
+    width: 50px;
+  }
+  main .Appointment_Form_wrp .Form_wrp form .form_content .Frm_cmn01 label {
+    padding: 0.7rem 0 .3rem;
+    font-size: 15px;
+  }
+  main .Appointment_Form_wrp .Form_wrp form .form_content .Frm_cmn01 input, main .Appointment_Form_wrp .Form_wrp form .form_content .Frm_cmn01 select {
+    padding: .6rem 1rem;
+    margin: .5rem .5rem;
+  }
+}
+/*# sourceMappingURL=media.css.map */

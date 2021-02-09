@@ -1,6 +1,8 @@
+@import 'mixin'; 
+
 @media only screen  and(max-width:1440px){
     main header .Nav-wrp nav .nav-item ul li a {
-        font-size: 1em;
+        font-size: 1em!important;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
         left: -58px;
@@ -23,7 +25,7 @@
         bottom: -61px !important;
     }
     main header .Nav-wrp nav .nav-item ul .drop_down{
-        top: 78px;
+        top: 60px!important; 
         left: 36%;
     }
     main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 a {
@@ -33,11 +35,15 @@
     main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 figure img {
         max-width: 75%;
     }
+    header .Nav-wrp nav .nav-item .Unorder_wrp .drop5 {
+        left: 67% !important;
+    } 
+    
 }
 
 @media only screen  and(max-width:1300px){
     main header .Nav-wrp nav .nav-item ul li a {
-        font-size: 15px;
+        font-size: 15px!important;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
         left: -39px;
@@ -222,7 +228,7 @@
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
         padding: 1rem 0 0;
-        z-index: 40;
+        z-index: 99;
         .Unorder_wrp{ 
             display: block!important;
             li{
@@ -237,11 +243,21 @@
         border-bottom: 1px solid rgba(255, 0, 0, 0.555);
         &:last-child{
             padding: 1rem 0 0rem!important;
-            border-bottom: inherit!important;
+            border-bottom: inherit!important; 
         }
     }
+    main header .Nav-wrp nav .nav-item .Unorder_wrp li.permanentMakeup{ 
+       border-bottom: inherit!important; 
+       padding: 1rem 0 0rem!important;
+    }
     main header .Nav-wrp nav .nav-item ul .drop_down{
-        position: relative;
+        position: relative!important;
+        top: 0px !important;
+        box-shadow:inherit!important;
+        width: 100%!important;
+    }
+    header .Nav-wrp nav .nav-item .Unorder_wrp .drop1 {
+        left: 0px !important;
     }
     main header .Nav-wrp nav .nav-item ul .drop_down {
         top: 0px;
@@ -274,6 +290,9 @@
     main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
         right: -83px !important;
         bottom: -64px !important;
+    }
+    header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down{
+        left: 0!important;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
         width: 150px;
@@ -347,6 +366,16 @@
         width: 100%;
         padding: 1rem 0 1rem;
     }
+    .social-menu a {
+        height: 40px;
+        width: 40px;
+    }
+    .social-menu i {
+        font-size: 15px; 
+    }
+    main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 figure img {
+        max-width: 90%;
+    }
 }
 
 @media  only screen  and (max-width:992px){
@@ -360,7 +389,7 @@
          font-size: 15px; 
     }
     main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 figure {
-        left: 31%;
+        left: 38%;
         top: -10px;
         position: relative;
     }
@@ -405,5 +434,97 @@
     main .Testimonial_Wrapper::after {
         width: 100%;
         height: 90%;
+    }
+    main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child h1 {
+        font-size: 2.1em;
+    }
+    main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child p {
+        font-size: 1em;
+    }
+    main .Service_wrapper .Service_heading p { 
+        font-size: 15px;
+    } 
+}
+
+@media only screen and(max-width:767px){
+    header .top-social-bar .child-wrp{
+        justify-content: center!important;
+        text-align: center;
+        .L_cmn01{
+         width: 100%;
+        }
+    }
+    header .top-social-bar .child-wrp .L1{
+        justify-content: $around!important;
+    }
+    .myHeader {
+        top: 91px;
+    }
+    header .Nav-wrp nav .logo a img {
+        max-width: 100%;
+    }
+    main header .Nav-wrp nav .nav-item {
+        width: 65%;
+        padding: .1rem 0 .5rem;
+    }
+    main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
+        left: -21px;
+        top: -218px;
+    }
+    main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
+        width: 110px;
+        height: 110px;
+    }
+    main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::after {
+        width: 110px;
+        height: 110px;
+    }
+    main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
+        right: -23px;
+        bottom: -215px;
+    }
+    main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
+        left: -21px !important;
+        top: -62px !important;
+    }
+    main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
+        right: -24px !important;
+        bottom: -63px !important;
+    }
+    main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 figure img {
+        max-width: 100%;
+    }
+    main .Appointment_Wrapper {
+        padding: 2.5rem 0;
+    }
+    main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 h2 {
+        font-size: 2.3em;
+    }
+    main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 p {
+        font-size: 15px;
+        padding: 1.3rem 0;
+    }
+    main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 a {
+        padding: 1rem 2rem;
+        font-size: 1em;
+        margin: 1rem 0 1.1rem;
+    }
+    main footer .footer_content .Ft_cmn01 h2 {
+        font-size: 1.2em;
+        padding: 0 0 .5rem;
+    }
+    main footer .footer_content .Ft_cmn01 ul li a{
+        font-size: 15px;
+    }
+    .social-menu a:hover {
+        width: 50px; 
+    }
+    main .Appointment_Form_wrp .Form_wrp form .form_content .Frm_cmn01 label {
+        padding: 0.7rem 0 .3rem;
+        font-size: 15px;
+    }
+    main .Appointment_Form_wrp .Form_wrp form .form_content .Frm_cmn01 input, main .Appointment_Form_wrp .Form_wrp form .form_content .Frm_cmn01 select {
+        padding: .6rem 1rem;
+        margin: .5rem .5rem;
     }
 }

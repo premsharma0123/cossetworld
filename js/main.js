@@ -23,8 +23,22 @@ $(".permanentMakeup").click(function(){
   // $("").slideUp("");
 })
 
+// ---social---icon----//
+$(".Banner_Wrapper,.Slimming-Banner").click(function(){
+  $(".drop_down").slideUp("fast");
+})
+$(".hide-social").click(function(){
+  $(".Sub-social").css({"transform":"translateX(-100px)","transition":"all .3s ease-in-out"});
+  $(this).css("display","none");
+    $(".show-social").css("display","block")
+})
+$(".show-social").click(function(){
+  $(".Sub-social").css({"transform":"translateX(0px)","transition":"all .3s ease-in-out"}); 
+  $(".hide-social").css("display","block");
+  $(this).css("display","none")
+})
+
 //------Accordion ----------//
-$(".Banner_Wrapper").click
 
 $(".W1").click(function(){
     $(".Accro1").slideToggle(""); 
@@ -241,3 +255,26 @@ jQuery('.main-bar').click(function(e) {
       }
    }
 });
+
+//--bottom--to--top--- and------stickyyy---on----header---//
+var mybutton = document.querySelector(".BT-top");
+// var navbar = document.getElementById("navbar");
+//var sticky = navbar.offsetTop;
+window.onscroll = function() {
+    matrixFunction() //or scroll function--
+};
+function matrixFunction() {
+    if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900) {
+        mybutton.style.display = "block";
+        // navbar.classList.add("sticky")
+    } else {
+        mybutton.style.display = "none";
+        // navbar.classList.remove("sticky");
+    }
+} 
+
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+};
+//end--here--//
