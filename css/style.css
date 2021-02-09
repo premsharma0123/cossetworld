@@ -1836,24 +1836,18 @@ main footer .copyright_wrp .copy_content p {
   }
 }
 
-main .wtsapp-sticky-wrp .float {
+main .wtsapp-sticky-wrp {
   position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
-  background-color: #25d366;
-  color: #FFF;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
-  -webkit-box-shadow: 2px 2px 3px #999;
-          box-shadow: 2px 2px 3px #999;
+  top: 50%;
+  right: 8px;
   z-index: 100;
+  text-align: right;
+  width: 200px;
+  height: 60px;
 }
 
-main .wtsapp-sticky-wrp .my-float {
-  margin-top: 16px;
+main .wtsapp-sticky-wrp a img {
+  max-width: 100%;
 }
 
 .Slimming_Wrapper p {
