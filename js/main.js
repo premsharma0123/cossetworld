@@ -24,7 +24,7 @@ $(".permanentMakeup").click(function(){
 })
 
 //------Accordion ----------//
-
+$(".Banner_Wrapper").click
 
 $(".W1").click(function(){
     $(".Accro1").slideToggle(""); 

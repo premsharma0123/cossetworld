@@ -69,6 +69,14 @@
                      }
                  }
                 }
+                .R1{
+                    .insta{
+                        img{
+                            max-width: 5%;
+                            vertical-align: middle; 
+                        }
+                    }
+                }
               .L_cmn01{
                     p{
                         text-transform: $cap;
@@ -744,7 +752,7 @@
                     overflow: $hide;
                     left: 70px;
                     img{
-                        max-width: 64%;
+                        max-width: 68%;
                     }
                 }
                 h2{
@@ -1189,14 +1197,14 @@
            }
        }
    }
-// ---end--here---//
-
-// ---wts-app-sticky---//
+// ---end--here---//    
+}
+ // ---wts-app-sticky---//
 
 .wtsapp-sticky-wrp{
     position: fixed;
     top: 50%;
-    right: 8px;
+    right: 0px;
     z-index: 100;
     text-align: right;
     width: 200px;
@@ -1222,9 +1230,29 @@
     }
 
 }
- 
+
+.social-menu{
+    i{
+        font-size: 1.2em;
+        font-weight: $bld;
+    }
+    a{
+        height: 40px;
+        width: 40px;
+        margin: 1px 0;
+    }
+    .S1{
+        background: #3B5998;
+    }
 }
- 
+
+
+
+
+
+
+
+
 
 // ---------------------------Slimming----------page----------
 
@@ -2173,6 +2201,29 @@
 }
  
 // -------*******----Botex_Wrapper-------*********----end---here-----------//
+
+// ------------******** ------- Contact_US_Wrapper------*******---------------//
+.Contact_US_Wrapper{
+    .Contact_US-Banner{
+       background: url(../image/contact-banner.png) no-repeat!important;
+       background-size: cover!important;
+       background-position: $mid;  
+    } 
+     .main-Contact_Wrp{
+         background: inherit!important;
+         .Contact01{
+             text-align: center;
+            p{
+               font-size: 1em;
+               line-height: 1.5;
+               word-spacing: 1px;
+            }
+         }
+     }
+}
+ 
+// -------*******---- Contact_US_Wrapper-------*********----end---here-----------//
+
 
 
 .main-bar{

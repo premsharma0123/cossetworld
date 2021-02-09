@@ -105,6 +105,11 @@ header .top-social-bar .child-wrp .L1 p:last-child {
   font-weight: normal;
 }
 
+header .top-social-bar .child-wrp .R1 .insta img {
+  max-width: 5%;
+  vertical-align: middle;
+}
+
 header .top-social-bar .child-wrp .L_cmn01 p {
   text-transform: capitalize;
   font-weight: bold;
@@ -1215,7 +1220,7 @@ main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 fig
 }
 
 main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 figure img {
-  max-width: 64%;
+  max-width: 68%;
 }
 
 main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 h2 {
@@ -1836,18 +1841,33 @@ main footer .copyright_wrp .copy_content p {
   }
 }
 
-main .wtsapp-sticky-wrp {
+.wtsapp-sticky-wrp {
   position: fixed;
   top: 50%;
-  right: 8px;
+  right: 0px;
   z-index: 100;
   text-align: right;
   width: 200px;
   height: 60px;
 }
 
-main .wtsapp-sticky-wrp a img {
+.wtsapp-sticky-wrp a img {
   max-width: 100%;
+}
+
+.social-menu i {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.social-menu a {
+  height: 40px;
+  width: 40px;
+  margin: 1px 0;
+}
+
+.social-menu .S1 {
+  background: #3B5998;
 }
 
 .Slimming_Wrapper p {
@@ -2916,6 +2936,26 @@ main .wtsapp-sticky-wrp a img {
   background: url(../image/Botox-banner.png) no-repeat !important;
   background-size: cover !important;
   background-position: center;
+}
+
+.Contact_US_Wrapper .Contact_US-Banner {
+  background: url(../image/contact-banner.png) no-repeat !important;
+  background-size: cover !important;
+  background-position: center;
+}
+
+.Contact_US_Wrapper .main-Contact_Wrp {
+  background: inherit !important;
+}
+
+.Contact_US_Wrapper .main-Contact_Wrp .Contact01 {
+  text-align: center;
+}
+
+.Contact_US_Wrapper .main-Contact_Wrp .Contact01 p {
+  font-size: 1em;
+  line-height: 1.5;
+  word-spacing: 1px;
 }
 
 .main-bar {
