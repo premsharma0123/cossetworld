@@ -15,11 +15,11 @@
     height: 215px;
   }
   main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
-    left: -64px !important;
+    left: -53px !important;
     top: -60px !important;
   }
   main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
-    right: -67px !important;
+    right: -56px !important;
     bottom: -61px !important;
   }
   main header .Nav-wrp nav .nav-item ul .drop_down {
