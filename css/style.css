@@ -2021,9 +2021,9 @@ main footer .copyright_wrp .copy_content p {
   overflow: hidden;
   position: relative;
   background: url(../image/banner-slim01.png) no-repeat;
-  background-position-x: 424px;
-  background-position-y: -7px;
-  background-size: calc(100% + -29%);
+  background-position-x: right;
+  background-position-y: center;
+  background-size: contain;
 }
 
 .Slimming_Wrapper .Slimming-Banner .Banner_Content {
@@ -2414,13 +2414,13 @@ main footer .copyright_wrp .copy_content p {
   transition: all 0.3s ease-in-out;
 }
 
-.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse2 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse3 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse4 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse5 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse6 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse7 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse8 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse9 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse10 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse11 h3 {
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse2 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse3 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse4 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse5 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse6 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse7 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse8 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse9 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse10 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse11 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse12 h3, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse13 h3 {
   display: none !important;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
-.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse2 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse3 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse4 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse5 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse6 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse7 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse8 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse9 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse10 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse11 h4 {
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse2 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse3 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse4 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse5 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse6 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse7 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse8 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse9 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse10 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse11 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse12 h4, .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse13 h4 {
   display: block;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -2465,7 +2465,8 @@ main footer .copyright_wrp .copy_content p {
 }
 
 .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-heading h2 sup {
-  font-size: 12px;
+  font-size: 11px;
+  vertical-align: top;
 }
 
 .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-heading h3 {
@@ -2559,6 +2560,11 @@ main footer .copyright_wrp .copy_content p {
   color: #F73624;
 }
 
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-right h3 sup {
+  font-size: 11px;
+  vertical-align: top;
+}
+
 .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-right p {
   padding: 0 0 1.6rem;
   font-size: 1em;
@@ -2566,6 +2572,66 @@ main footer .copyright_wrp .copy_content p {
   letter-spacing: 1px;
   line-height: 1.8;
   word-spacing: 2px;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Spt-thrpy .Spot-cnt {
+  width: 100%;
+  padding: .5rem 0;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Spt-thrpy .Spot-cnt p {
+  padding: 0 0 1.6rem;
+  font-size: 1em;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  word-spacing: 2px;
+  font-family: 'Roboto';
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Spt-thrpy .Spot-cnt h3 {
+  font-size: 1.2em;
+  color: #000;
+  line-height: 1.5;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Spt-thrpy .Spot-cnt ul {
+  margin: 1rem 0 0 2rem;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Spt-thrpy .Spot-cnt ul li {
+  list-style-type: disc;
+  padding: .5rem 0;
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  word-spacing: 1px;
+  font-family: 'Roboto';
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .spot-area-wrp {
+  text-align: center;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .spot-area-wrp h2 {
+  font-size: 1.5em;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  text-transform: capitalize;
+  font-weight: bold;
+  padding: 0 0 1.3rem;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .spot-area-wrp h2 span {
+  color: #F73624;
+}
+
+.Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .spot-area-wrp figure img {
+  max-width: 50%;
 }
 
 @-webkit-keyframes boxshadow {
@@ -3089,6 +3155,47 @@ main footer .copyright_wrp .copy_content p {
   background: url(../image/Botox-banner.png) no-repeat !important;
   background-size: cover !important;
   background-position: center;
+}
+
+.permanentMakeup_Wrapper .Permanent-makeup-Banner {
+  background: url(../image/permanent.png) no-repeat !important;
+  background-size: cover !important;
+  background-position: center;
+}
+
+.permanentMakeup_Wrapper .Permanent-makeup-Banner .Banner_Content .Banner_child p {
+  color: #000 !important;
+}
+
+.permanentMakeup_Wrapper .Permanent-makeup-Banner .Banner_Content .Banner_child ul li a {
+  color: #000 !important;
+  font-weight: 500;
+}
+
+.permanentMakeup_Wrapper .Main-premanent_wrp .permanent-service .Slim_content h2 {
+  font-size: 1.2em;
+  padding: 1rem 0;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+.permanentMakeup_Wrapper .Main-premanent_wrp .permanent-service .Slim_content ul {
+  margin: 1rem 0  0 2rem;
+}
+
+.permanentMakeup_Wrapper .Main-premanent_wrp .permanent-service .Slim_content ul li {
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding: .7rem 0;
+  list-style-type: disc;
+}
+
+.permanentMakeup_Wrapper .Main-premanent_wrp .Weight-Content-wrp {
+  display: block !important;
 }
 
 .Contact_US_Wrapper .Contact_US-Banner {

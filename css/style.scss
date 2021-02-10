@@ -1356,11 +1356,11 @@
         overflow: $hide; 
         position: $rel; 
         background: url(../image/banner-slim01.png)$no-rpt;
-        background-position-x: 424px;
+        background-position-x: right;//424px;
         // background-position-y: -111px;
         // background-size: calc(100% + -28%);
-        background-position-y: -7px;
-        background-size: calc(100% + -29%);
+        background-position-y:center; //-7px;
+        background-size: contain;//calc(100% + -29%);
       //  border: 2px solid;
         .Banner_Content{
             @include flex;
@@ -1610,7 +1610,7 @@
         }
     }
     .collapse2,.collapse3,.collapse4,.collapse5,.collapse6,.collapse7
-    ,.collapse8,.collapse9,.collapse10,.collapse11{
+    ,.collapse8,.collapse9,.collapse10,.collapse11,.collapse12,.collapse13{
         h3{
             display: none!important;
             transition: $transition;
@@ -1639,7 +1639,8 @@
                 // color: #fff!important;
             }
             sup{
-                font-size: 12px;
+                font-size: 11px;
+                vertical-align: top;
             }
         } 
         h3{ 
@@ -1652,7 +1653,7 @@
                 opacity: .88;
                 transition: $transition;
                 transform: rotate(360deg);
-            }
+            } 
         }
         h4{
             // display: none;
@@ -1705,6 +1706,10 @@
                     font-size: 1.5em;
                     text-transform: $cap;
                     padding: 0 0 1rem;
+                    sup{
+                        font-size: 11px;
+                        vertical-align: top;
+                    }
                 }
                 p{
                     padding: 0 0 1.6rem;
@@ -1717,6 +1722,57 @@
             }
         }
     }
+      
+    .Spt-thrpy{ 
+        .Spot-cnt{
+            width: 100%;
+            padding: .5rem 0 ;
+            p{
+                padding: 0 0 1.6rem;
+                font-size: 1em;
+                text-transform: $cap;
+                letter-spacing: 1px;
+                line-height: 1.8;
+                word-spacing: 2px;
+                font-family: 'Roboto';
+            }
+            h3{
+                font-size: 1.2em;
+                color: #000;
+                line-height: 1.5;
+                word-spacing: 1px;
+                letter-spacing: 1px;
+                font-weight:$bld;
+            }
+            ul{
+                margin: 1rem 0 0 2rem;
+                li{
+                    list-style-type: disc;
+                    padding: .5rem 0;
+                    font-size: 1em;
+                    letter-spacing: 1px;
+                    text-transform: $cap;
+                    word-spacing: 1px;
+                    font-family: 'Roboto';
+                }
+            }
+        }
+    } 
+    // ---Spot--reduction--//
+    .spot-area-wrp{ 
+            text-align: center;
+                h2{
+                @include heading;
+                padding: 0 0 1.3rem;
+                }
+             figure{
+                 img{
+                    max-width: 50%;
+                   
+                }
+            } 
+        }
+    // ---end----here---
     @keyframes boxshadow {
             0%, 100%{
                 box-shadow: 0 10px 4px 1px #000;
@@ -2296,6 +2352,62 @@
 }
  
 // -------*******----Botex_Wrapper-------*********----end---here-----------//
+
+// ------------******** -------Botex_Wrapper------*******---------------//
+.permanentMakeup_Wrapper{
+    .Permanent-makeup-Banner{
+       background: url(../image/permanent.png) no-repeat!important;
+       background-size: cover!important;
+       background-position: $mid; 
+       .Banner_Content{
+           .Banner_child{
+               p{
+                color: #000!important;
+               }
+               ul{
+                   li{
+                       a{
+                           color: #000!important;
+                           font-weight: 500;
+                       }
+                   }
+               }
+           }
+        }
+    } 
+    // pMain-premanent_wrp
+   .Main-premanent_wrp{
+       .permanent-service{ 
+               .Slim_content{
+                   h2{
+                       font-size: 1.2em;
+                       padding: 1rem 0;
+                       font-weight:$bld;
+                       line-height: 1.5;
+                       letter-spacing: 1px;
+                       word-spacing: 1px;
+                   }
+                   ul{
+                       margin: 1rem 0  0 2rem;
+                       li{
+                           font-size: 1rem;
+                           font-weight: 500;
+                           letter-spacing: 1px;
+                           word-spacing: 1px;
+                           padding: .7rem 0;
+                           list-style-type: disc;
+                       }
+                   }
+               } 
+          }
+          .Weight-Content-wrp{
+              display: block!important;
+          }
+     }     
+}
+ 
+// -------*******----Botex_Wrapper-------*********----end---here-----------//
+
 
 // ------------******** ------- Contact_US_Wrapper------*******---------------//
 .Contact_US_Wrapper{
