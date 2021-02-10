@@ -1848,31 +1848,25 @@ main footer .copyright_wrp .copy_content p {
   }
 }
 
-.wtsapp-sticky-wrp {
-  position: fixed;
-  top: 50%;
-  right: 0px;
-  z-index: 2;
-  text-align: right;
-  width: 200px;
+.wtsapp-sticky-wrp a {
+  width: 60px;
   height: 60px;
+  bottom: 20px;
+  right: 10px;
+  background-color: #25d366;
+  position: fixed;
+  color: #FFF;
+  text-align: right;
+  z-index: 99;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  -webkit-box-shadow: 2px 2px 3px #999;
+          box-shadow: 2px 2px 3px #999;
 }
 
-.wtsapp-sticky-wrp a img {
-  max-width: 100%;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  -webkit-transform: scale(0.99);
-          transform: scale(0.99);
-}
-
-.wtsapp-sticky-wrp a img:hover {
-  -webkit-filter: drop-shadow(1px 1px 3px black);
-          filter: drop-shadow(1px 1px 3px black);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+.wtsapp-sticky-wrp .my-float {
+  margin-top: 16px;
 }
 
 .social-menu {
