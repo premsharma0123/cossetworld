@@ -31,7 +31,7 @@
     margin: 1.4rem 0 1.4rem;
   }
   main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 figure img {
-    max-width: 75%;
+    max-width: 84%;
   }
   header .Nav-wrp nav .nav-item .Unorder_wrp .drop5 {
     left: 67% !important;
@@ -1049,6 +1049,22 @@
   }
   main .Testimonial_Wrapper .Testimonial_Content ul .Tst_cmn02 {
     margin: 0.5rem 1rem 1rem;
+  }
+  main footer .copyright_wrp .copy_content p {
+    margin: .3rem 0 0;
+    padding: .5rem 0;
+    font-size: 11px;
+  }
+  .BT-top a {
+    width: 42px;
+    height: 42px;
+  }
+  .BT-top a i {
+    font-size: 14px;
+  }
+  .BT-top {
+    right: 18px;
+    bottom: 46px;
   }
 }
 /*# sourceMappingURL=media.css.map */
