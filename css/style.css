@@ -4070,12 +4070,6 @@ main footer .copyright_wrp .copy_content p {
     height: 381px;
     padding: 4rem 0 0;
   }
-  header .top-social-bar .child-wrp .L1 p:last-child {
-    width: 50%;
-  }
-  header .top-social-bar .child-wrp .L1 p:first-child {
-    width: 40%;
-  }
   main header .top-social-bar .child-wrp .L_cmn01 p {
     font-size: 13px;
   }
@@ -4179,6 +4173,12 @@ main footer .copyright_wrp .copy_content p {
     margin: .3rem 0 0;
     padding: .5rem 0;
     font-size: 11px;
+  }
+  main .Service_wrapper .Service_heading h2 {
+    width: 100%;
+    padding: 0 0 .7rem;
+    font-size: 1.8em;
+    font-size: 1.4em;
   }
   .BT-top a {
     width: 42px;
