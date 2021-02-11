@@ -2033,6 +2033,8 @@ main footer .copyright_wrp .copy_content p {
   opacity: .77;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  -webkit-box-shadow: 0 0 3px 3px #fff;
+          box-shadow: 0 0 3px 3px #fff;
 }
 
 .BT-top a:hover .fa-angle-up {
@@ -4104,6 +4106,15 @@ main footer .copyright_wrp .copy_content p {
   .En-left.En-cmn01 {
     margin: 0 2.5rem 0 0;
     /* width: 100%; */
+  }
+  .wtsapp-sticky-wrp a {
+    width: 46px;
+    height: 46px;
+    -webkit-box-shadow: 0px 0px 2px 2px #4caf50;
+            box-shadow: 0px 0px 2px 2px #4caf50;
+  }
+  .wtsapp-sticky-wrp a .my-float {
+    font-size: 33px;
   }
 }
 
