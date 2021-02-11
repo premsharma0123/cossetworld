@@ -243,7 +243,7 @@ jQuery('.main-bar').click(function(e) {
   $('.slider1').owlCarousel({
   loop: true,
   margin: 0,
-  autoplay: true,
+ // autoplay: true,
   nav: true,
   autoplayTimeout: 4000,
   smartSpeed: 1500,
