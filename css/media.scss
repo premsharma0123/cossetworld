@@ -57,6 +57,10 @@
     .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child h1 {
         font-size: 4em; 
     }
+    .Slimming_Wrapper .Slimming-Banner {
+        height: 600px;
+        width: 100%; 
+    }
     // ---sliming---end--here---
 }
 
@@ -100,6 +104,14 @@
         padding: 1rem 1.9rem;
         font-size: 1.1em; 
     }
+    .wtsapp-sticky-wrp a{
+        width: 50px;
+        height: 50px;
+    }
+    .wtsapp-sticky-wrp a .my-float {
+        font-size: 35px;
+    }
+     
 }
 @media only screen  and(max-width:1200px){
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
@@ -410,7 +422,8 @@
     }
     // ---Sliming-----Page----//
     .Slimming_Wrapper .Slimming-Banner {
-        height: 49vh;
+        // height: 49vh;
+        height: 460px;
         width: 100%; 
     }
     .Slimming_Wrapper .Main-content-Wrapper .Slim_Service .slim-heading {
@@ -536,6 +549,7 @@
     // Slimming---page----//
     .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child h1 {
         font-size: 3em;
+        text-shadow: 1px 1px 5px #00000057;
     }
     .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child p {
       padding: 0.5rem 4rem .5em 0;  
@@ -546,7 +560,8 @@
        font-size: 1.1em; 
    }
    .Slimming_Wrapper .Slimming-Banner {
-      height: 43vh;
+    //   height: 43vh;
+      height: 421px;
       width: 100%;
     }
     .Slimming_Wrapper .Main-content-Wrapper .Slim_Service .slim-heading {
@@ -584,6 +599,12 @@
     }
     .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-left figure img {
         max-width: 90%; 
+    }
+    main header .Nav-wrp nav .nav-item ul li a {
+        font-size: 15px!important;
+    }
+    main header .Nav-wrp nav .nav-item ul .drop_down li a{
+        font-size: 15px!important;
     }
     // --end---here----
 }
@@ -734,7 +755,7 @@
 
     // ---Sliminnng---page--//
     .Slimming_Wrapper .Slimming-Banner .Banner_Content{
-        padding: 1rem 0 0;
+        padding: 3rem 0 0;
     }
     .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child h1 {
         font-size: 2em;
@@ -744,9 +765,12 @@
         font-size: 1em;
     }
     .Slimming_Wrapper .Slimming-Banner {
-        height: 39vh;
+        height: 316px;
         width: 100%;
     } 
+    .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child {
+        width: 60% !important;
+    }
     .Slimming_Wrapper .Main-content-Wrapper .Slim_Service .slim-heading h2 {
         font-size: 1.50em;
     }
@@ -770,6 +794,49 @@
     .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-right h3 {
         font-size: 1.190em;
         padding: 0 0 .7rem;
+    }
+    .Slimming_Wrapper .Enquery_Wrp .Enquery-content .En-cmn01 h2 {
+        font-size: 1.4em;
+        line-height: 1.7;
+    }
+    .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
+        left: -29px;
+        top: -63px; 
+    }
+    .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
+        right: -29px;
+        bottom: -63px; 
+    }
+    .Slimming_Wrapper .Slimming-grid_wrp .Slim-Grid-heading h2 {
+        font-size: 1.6em;
+    }
+    .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .bottom_Bar h2 {
+         font-size: 1.18em; 
+    }
+    .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt h2 {
+        font-size: 1.3em; 
+    }
+    .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt p {
+        font-size: 14px; 
+    }
+    .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt a:hover {
+       font-size: 15px;
+       padding: .7rem 1.1rem;
+    }
+    .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt a{
+        font-size: 15px;
+        padding: .7rem 1.1rem;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .spot-area-wrp figure img {
+        max-width: 100%;
+    }
+    .Slimming_Wrapper .Enquery_Wrp .Enquery-content{
+        padding: 1rem 1rem;
+        justify-content: center;
+    }
+    .En-left.En-cmn01 {
+        margin: 0 2.5rem 0 0;
+        /* width: 100%; */
     }
     // ---end---here-----//
 }
@@ -1026,6 +1093,95 @@
     main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content {
         height: 407px;
     }
+    // ----Sliming----page----//
+    .Slimming_Wrapper .Slimming-Banner {
+        height: 256px;
+        width: 100%;
+    }
+    .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child h1 {
+        font-size: 1.59em;
+        text-shadow: 1px 1px 2px #00000057;
+    }
+    .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child p {
+        padding: 0.5rem 4rem .5em 0;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+    .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child .breadcrumb li a {
+        font-size: 15px;
+    }
+    .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child {
+        width: 70% !important;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Slim_Service .slim-heading h2 {
+        font-size: 1.3em;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Slim_Service .Slim_content p {
+        padding: 0 0 1rem;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-heading h2 {
+        font-size: 1.05em;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-right h3 {
+        font-size: 1.04em;
+        padding: 0 0 .7rem;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-right p {
+        letter-spacing: .5px;
+        line-height: 1.7;
+        font-size: 14px;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-left {
+        width: 100%;
+        text-align: center;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-left figure img {
+        max-width: 54%;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-right {
+        width: 100%;
+        padding: 3rem 0 1rem;
+    }
+    .Slimming_Wrapper .Slimming-Banner .Banner_Content {
+        padding: 2rem 0 0;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .spot-area-wrp h2 {
+        font-size: 1.4em; 
+        padding: 0 0 1.2rem;
+    }
+    .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
+        left: -112px;
+        top: -63px;
+    }
+    .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
+        right: -112px;
+        bottom: -63px;
+    }
+    .Slimming_Wrapper .Enquery_Wrp .Enquery-content .En-cmn01 h2 {
+        font-size: 1.1em;
+        line-height: 1.6;
+    }
+    .Slimming_Wrapper .Enquery_Wrp .Enquery-content{
+        padding: 1rem 1rem;
+        justify-content: center;
+    }
+    .Slimming_Wrapper .Enquery_Wrp .Enquery-content .En-cmn01 h2 i.fas.fa-chevron-right {
+        vertical-align: revert;
+        font-size: 16px;
+    }
+    .En-cmn01 {
+        margin: 0 .3rem 0 0!important;
+        /* width: 100%; */
+    }
+    main header .Nav-wrp nav .nav-item ul li a {
+        font-size: 14px!important;
+    }
+    main header .Nav-wrp nav .nav-item ul .drop_down li a {
+        font-size: 14px!important; 
+    }
+    //------end--here---//
 }
 
 @media only screen and (max-width:480px){
@@ -1187,6 +1343,63 @@
     main footer .footer_content .Ft04 li p:first-child{
         justify-content: center;
     } 
+    // -----Slimming---ppage---//
+    .Slimming_Wrapper .Slimming-Banner {
+        height: 219px;
+        width: 100%;
+    }
+    .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child h1 {
+        font-size: 1.29em;
+        text-shadow: 1px 1px 2px #00000057;
+    }
+    .Slimming_Wrapper .Slimming-Banner .Banner_Content {
+        padding: 1rem 0 0;
+    }
+    .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child p {
+        padding: 0.5rem 4rem .5em 0;
+        font-size: 13px;
+        line-height: 1.7;
+    }
+    .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child .breadcrumb {
+        padding: .5rem 0 0;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Slim_Service .slim-heading {
+        padding: 1.2rem 0 1.2rem;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Slim_Service .slim-heading h2 {
+        font-size: 1.2em;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Slim_Service .Slim_content p {
+        padding: 0 0 .5rem;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-right h3 {
+        font-size: 1.04em;
+        padding: 0 0 .9rem;
+        text-align: center;
+    }
+    .Slimming_Wrapper .Enquery_Wrp .Enquery-content .En-cmn01 h2 {
+        font-size: 1.1em;
+        line-height: 1.6;
+        padding: .4rem 0;
+    }
+    .En-left.En-cmn01 {
+        margin: 0 0.0rem 0 0!important;
+        /* width: 100%; */
+    }
+    .Slimming_Wrapper .Slimming-grid_wrp .Slim-Grid-heading h2 {
+        font-size: 1.5em;
+    }
+    .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
+        left: -70px;
+        top: -63px;
+    }
+    .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
+        right: -70px;
+        bottom: -63px;
+    }
+    // sliming---end----here---//
 }
 
 @media only screen and(max-width:375px){
@@ -1194,23 +1407,30 @@
         width: 60%;
     }
     main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child h1 {
-        font-size: 1.1em;
+        // font-size: 1.1em;
+        font-size: 14px;
         font-weight: 550;
     }  
     main .Banner_Wrapper .banner-child .banner-sub-child {
-        height: 249px;
+        // height: 249px;
+        height: 194px;
     }
     main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content {
-        height: 211px;
-        padding: 1rem 0 0;
+        // height: 211px;
+        height: 185px;
+        padding: 0rem 0 0;
+        // padding: 1rem 0 0;
     }
     main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child a {
-        padding: .7rem .8rem;
+        // padding: .7rem .8rem;
+        // margin: .1rem 0 0;
+        // font-size: 13px;
+        padding: .6rem .7rem;
         margin: .1rem 0 0;
-        font-size: 13px;
+        font-size: 11px;
     } 
     main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child p {
-        font-size: 13px;
+        font-size: 11px;//13px;
         padding: .5rem 0 .8rem;
         line-height: 1.6;
     } 
@@ -1220,9 +1440,8 @@
         font-size: 3em !important;
     }
     main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child p {
-        font-size: 13px;
-        padding: .5rem 0 .8rem;
-        line-height: 1.6;
+          padding: .5rem 0 .8rem;
+          line-height: 1.6;
     }
     main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child a i.fas.fa-chevron-right {
         font-size: 11px;
@@ -1366,4 +1585,80 @@
     main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child {
         width: 70%;
     }
+    .wtsapp-sticky-wrp a {
+        width: 41px;
+        height: 40px;
+        bottom: 124px; 
+        box-shadow: 0px 0px 2px 2px #4caf50;
+    }
+    .wtsapp-sticky-wrp a .my-float {
+        font-size: 28px;
+    }
+    // -----Slimming--page-----//
+    .Slimming_Wrapper .Slimming-Banner {
+        height: 180px;
+        width: 100%;
+    }
+    .Slimming_Wrapper .Slimming-Banner .Banner_Content {
+        padding: 1rem 0 0;
+    }
+    .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child h1 {
+        font-size: 1em;
+        text-shadow: 1px 1px 1px #00000057;
+    }
+    .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child .breadcrumb li a {
+        font-size: 14px;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Slim_Service .slim-heading h2 {
+        font-size: 1em;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Slim_Service .slim-heading {
+        padding: 1rem 0;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Slim_Service .Slim_content p {
+        padding: 0 0 .5rem;
+        font-size: 13px;
+        line-height: 1.6;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-right p {
+        letter-spacing: .5px;
+        line-height: 1.7;
+        font-size: 13px;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-right {
+        padding: 2rem 0 1rem;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-heading h2 {
+        font-size: 1em;
+    }
+    .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-left figure img {
+        max-width: 60%;
+    }
+    .Slimming_Wrapper .Slimming-grid_wrp .Slim-Grid-heading h2 {
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .Slimming_Wrapper .Enquery_Wrp .Enquery-content {
+        padding: .5rem .5rem; 
+    }
+    .Slimming_Wrapper .Enquery_Wrp { 
+        margin: 1rem 0;
+    }
+    .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
+        left: -22px;
+        top: -63px;
+    }
+    .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
+        right: -22px;
+        bottom: -63px;
+    } 
+    .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child p {
+        padding: 0.5rem 3rem .5em 0;
+        font-size: 11px;
+        line-height: 1.7;
+    }
+    main header .Nav-wrp nav .nav-item ul .drop_down li a {
+        font-size: 14px!important;
+    }
+    // ---end---here---
 }

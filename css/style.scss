@@ -1234,8 +1234,8 @@
     a{ 
         width: 55px;
         height: 55px;
-        bottom: 39px;
-        left: 10px;
+        bottom: 118px;
+        right: 20px;
         background-color: #25d366;
         position: fixed;
         color: #FFF;
@@ -1243,14 +1243,28 @@
         z-index: 99;
         border-radius: 50px;
         text-align: center;
-        /* font-size: 30px; */
-        -webkit-box-shadow: 2px 2px 3px #999;
-        box-shadow: 2px 2px 3px #999;
+        box-shadow: 0px 0px 3px 3px #4caf50;
         @include flex;
+        animation: boxshadow1 3s linear infinite;
+        overflow: hidden; transition: $transition;
         .my-float{ 
-            font-size: 38px;
+            font-size: 38px; transition: $transition;
+            &:hover{
+                transition: $transition;
+                 transform: scale(1.1);
             }
+        }
     } 
+    @keyframes boxshadow1 {
+        0%,100%{
+            box-shadow: 0px 0px 3px 3px #4caf50;
+            transition: $transition;
+        }
+        50%{
+            box-shadow: 0px 0px 4px 5px #226124;
+            transition: $transition;
+        }
+    }
     // a{
     //     img{
     //         max-width: 100%;
@@ -1324,7 +1338,7 @@
 
 .BT-top {
     right: 23px;
-    bottom: 62px;
+    bottom: 38px;
     position: fixed;
     z-index: 3;
     display: $none;
