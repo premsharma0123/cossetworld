@@ -987,6 +987,8 @@
   }
   .Filler_Wrapper .Main-Filler-content .Filler-Treatment .Filler-content figure img {
     max-width: 64%;
+    -webkit-animation: imganime 3s linear infinite;
+            animation: imganime 3s linear infinite;
   }
   .Thread_Wrapper .Filler-Banner {
     background-position-y: 0 !important;
@@ -2055,7 +2057,7 @@
     bottom: -63px;
   }
   .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child p {
-    padding: 0.5rem 3rem .5em 0;
+    padding: 0.5rem 3rem 0.5em 0 !important;
     font-size: 11px;
     line-height: 1.7;
   }

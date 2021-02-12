@@ -1017,6 +1017,7 @@
     }
     .Filler_Wrapper .Main-Filler-content .Filler-Treatment .Filler-content figure img {
         max-width: 64%;
+        animation: imganime 3s linear infinite;
     }
     // ---end---here-----Filllers----
       // -----Thread----page------// 
@@ -2113,7 +2114,7 @@
         bottom: -63px;
     } 
     .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child p {
-        padding: 0.5rem 3rem .5em 0;
+        padding: 0.5rem 3rem .5em 0!important;
         font-size: 11px;
         line-height: 1.7;
     }
@@ -2191,7 +2192,7 @@
         font-size: 1.3em;
     }
     // -----Hair---End------Laser-----page---------here---------//
-    
+
     // -----scalp----page-----//
     .Scalp_Wrapper .Slimming-Banner .Banner_Content .Banner_child .breadcrumb {
         padding: 0.1rem 0 0;
