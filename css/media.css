@@ -1028,6 +1028,21 @@
     -webkit-animation: imganime 3s linear infinite;
             animation: imganime 3s linear infinite;
   }
+  .Contact_US_Wrapper .main-Contact_Wrp .Contact01 p {
+    font-size: 15px;
+    text-align: justify;
+  }
+  .Contact_US_Wrapper .main-Contact_Wrp .Contact01 p br {
+    display: none;
+  }
+  main .Appointment_Form_wrp::after {
+    width: 100%;
+    height: 131%;
+    top: -128px;
+  }
+  main .Appointment_Form_wrp .Form_wrp form .form_content .Frm_cmn01 select {
+    background: transparent;
+  }
 }
 
 @media only screen and (max-width: 576px) {

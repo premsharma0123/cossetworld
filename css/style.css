@@ -2438,6 +2438,11 @@ main footer .copyright_wrp .copy_content p {
   text-align: justify;
 }
 
+.Slimming_Wrapper .Main-content-Wrapper .Slim_Service .Slim_content p b {
+  font-weight: bold;
+  color: #000;
+}
+
 .Slimming_Wrapper .Main-content-Wrapper .Commn_wrp .Weight-heading h4 {
   display: none;
 }
@@ -3285,11 +3290,11 @@ main footer .copyright_wrp .copy_content p {
 }
 
 .Privacy-Wrapper .Privacy-content-wrp .slim-heading h2 {
-  font-size: 1.8em !important;
+  font-size: 1.8em;
 }
 
 .Privacy-Wrapper .Privacy-content-wrp .Privacy_wrp .Benefit-heading h2 {
-  font-size: 1.8em !important;
+  font-size: 1.8em;
 }
 
 .main-bar {
@@ -4325,6 +4330,21 @@ main footer .copyright_wrp .copy_content p {
   .HairLaser-Wrapper .hairLaser_wrp .hair-Laser01 .subhair-trt-wrp .hair_trt-cmn01 .hair-cnt04 figure img {
     -webkit-animation: imganime 3s linear infinite;
             animation: imganime 3s linear infinite;
+  }
+  .Contact_US_Wrapper .main-Contact_Wrp .Contact01 p {
+    font-size: 15px;
+    text-align: justify;
+  }
+  .Contact_US_Wrapper .main-Contact_Wrp .Contact01 p br {
+    display: none;
+  }
+  main .Appointment_Form_wrp::after {
+    width: 100%;
+    height: 131%;
+    top: -128px;
+  }
+  main .Appointment_Form_wrp .Form_wrp form .form_content .Frm_cmn01 select {
+    background: transparent;
   }
 }
 

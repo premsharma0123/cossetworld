@@ -1065,6 +1065,21 @@
         animation: imganime 3s linear infinite;
     }
     // ------hair--Laser---end---hair---
+    // -----contact--us---page------
+    .Contact_US_Wrapper .main-Contact_Wrp .Contact01 p{
+        br{display: none;}
+        font-size: 15px;
+        text-align: justify;
+    }
+    main .Appointment_Form_wrp::after {
+        width: 100%;
+        height: 131%; 
+        top: -128px; 
+    }
+    main .Appointment_Form_wrp .Form_wrp form .form_content .Frm_cmn01 select {
+        background: transparent;
+    }
+    // ----end---here-------///
 }
 
 @media only screen and (max-width: 576px){
@@ -1536,6 +1551,7 @@
         }
     }
     // ----Permanent-----End------MakeUp-----Here---
+    
 }
 
 @media only screen and (max-width:480px){

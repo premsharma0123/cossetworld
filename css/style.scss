@@ -1613,6 +1613,10 @@
                     word-spacing: 2px;
                     font-family: 'Roboto';
                     text-align: justify;
+                    b{
+                        font-weight: bold;
+                        color: #000;
+                    }
                 }
             }
         }
@@ -2492,13 +2496,13 @@
     .Privacy-content-wrp{
         .slim-heading{
             h2{
-                font-size: 1.8em!important;
+                font-size: 1.8em;
             }
         }
         .Privacy_wrp{
             .Benefit-heading{
                 h2{
-                    font-size: 1.8em!important;
+                    font-size: 1.8em;
                 }
             }
         }
