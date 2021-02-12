@@ -250,7 +250,7 @@ $Arimo:'Arimo';
         position: absolute;
         @include flex;
         background: #f736249c;
-        z-index: 4;
+        z-index: 1;
         opacity: 0;
         transition: $transition;
         .Hvr_cnt{
