@@ -2435,6 +2435,7 @@ main footer .copyright_wrp .copy_content p {
   line-height: 1.8;
   word-spacing: 2px;
   font-family: 'Roboto';
+  text-align: justify;
 }
 
 .Slimming_Wrapper .Main-content-Wrapper .Commn_wrp .Weight-heading h4 {
@@ -2800,6 +2801,7 @@ main footer .copyright_wrp .copy_content p {
   letter-spacing: 1px;
   line-height: 1.8;
   word-spacing: 2px;
+  text-align: justify;
 }
 
 .Filler_Wrapper .Main-Filler-content .Filler-Treatment .filler-heading h2 {
@@ -2851,13 +2853,14 @@ main footer .copyright_wrp .copy_content p {
   word-spacing: 1px;
   font-size: 1em;
   position: relative;
+  font-family: 'Roboto';
 }
 
 .Organic_Wrapper .Org_wrp .Organic-Cnt ul li::before {
   content: '';
   width: 10px;
   height: 10px;
-  background: #000;
+  background: #F73624;
   border-radius: 50%;
   position: absolute;
   top: 9px;
@@ -3111,7 +3114,7 @@ main footer .copyright_wrp .copy_content p {
 }
 
 .Cosmo_Wrapper .Banner_Content .Banner_child h1 {
-  font-size: 3em !important;
+  font-size: 3em;
 }
 
 .Cosmo_Wrapper .Banner_Content .Banner_child p {
@@ -3125,7 +3128,7 @@ main footer .copyright_wrp .copy_content p {
 }
 
 .BodyTreatment_Wrapper .BodyTrt-banner .Banner_child h1 {
-  font-size: 3em !important;
+  font-size: 3em;
 }
 
 .BodyTreatment_Wrapper .BodyTrt-banner .Banner_child p {
@@ -3234,7 +3237,20 @@ main footer .copyright_wrp .copy_content p {
   letter-spacing: 1px;
   word-spacing: 1px;
   padding: .7rem 0;
-  list-style-type: disc;
+  list-style-type: none;
+  font-family: 'Roboto';
+  position: relative;
+}
+
+.permanentMakeup_Wrapper .Main-premanent_wrp .permanent-service .Slim_content ul li::before {
+  content: '';
+  width: 9px;
+  height: 9px;
+  background: #F73624;
+  left: -24px;
+  top: 15px;
+  border-radius: 50%;
+  position: absolute;
 }
 
 .permanentMakeup_Wrapper .Main-premanent_wrp .Weight-Content-wrp {
@@ -3333,6 +3349,9 @@ main footer .copyright_wrp .copy_content p {
     height: 600px;
     width: 100%;
   }
+  .Organic_Wrapper .Main-Filler-content .Filler-Treatment .Filler-content figure img {
+    max-width: 62%;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
@@ -3381,6 +3400,10 @@ main footer .copyright_wrp .copy_content p {
   }
   .wtsapp-sticky-wrp a .my-float {
     font-size: 35px;
+  }
+  .Slimming_Wrapper .Slimming-Banner {
+    height: 559px;
+    width: 100%;
   }
 }
 
@@ -3733,6 +3756,78 @@ main footer .copyright_wrp .copy_content p {
   .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-heading h4 {
     font-size: 1.1em;
   }
+  .Prp_Wrapper .Prp-Banner .Banner_Content .Banner_child {
+    width: 77% !important;
+  }
+  .Prp_Wrapper .Main-Prp-content .Prp_wrp .Benefit-heading h2 {
+    font-size: 1.70em;
+  }
+  .Filler_Wrapper .Main-Filler-content .Filler-Treatment .filler-heading h2 {
+    font-size: 1.70em;
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .lft figure:nth-child(1) img {
+    max-width: 86% !important;
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .hair-cnt01 figure img {
+    max-width: 78% !important;
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .lft figure:nth-child(1) {
+    -webkit-transform: translateX(73px);
+    transform: translateX(12px);
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .hair-cnt01 figure.grl-aftr {
+    -webkit-transform: translate(-109px, 0px);
+    transform: translate(-109px, -46px);
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .hair-cnt01 figure.grl-bfor {
+    top: -226px;
+    right: 111px;
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content {
+    padding: 4rem 0 1rem;
+  }
+  .Filler_Wrapper .Slimming-Banner .Banner_Content {
+    padding: 2rem 0 0;
+  }
+  .Filler_Wrapper .Filler-Banner {
+    background-position-y: -134px !important;
+  }
+  .Filler_Wrapper .Main-Filler-content .Benefit_Wrapper .Benefit-heading h2 {
+    font-size: 1.6em;
+  }
+  .Filler_Wrapper .Main-Filler-content .Benefit_Wrapper .Benefit-content p {
+    padding: 0 0 1rem;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .Filler_Wrapper .Main-Filler-content .Filler-Treatment .filler-heading h2 {
+    padding: 0 0 .4rem;
+  }
+  .Filler_Wrapper .Main-Filler-content .Filler-Treatment .Filler-content figure img {
+    max-width: 54%;
+  }
+  .Thread_Wrapper .Filler-Banner {
+    background-position-y: 0 !important;
+  }
+  .Organic_Wrapper .Filler-Banner {
+    background-position-y: 0 !important;
+  }
+  .Organic_Wrapper .Slimming-Banner .Banner_Content .Banner_child h1 {
+    font-size: 3.5em;
+  }
+  .Organic_Wrapper .Org_wrp .Organic-Cnt ul li {
+    padding: 0 0 .7rem 1.6rem;
+    font-size: 1em;
+  }
+  .Organic_Wrapper .Org_wrp .Organic-Cnt ul li::before {
+    width: 8px;
+    height: 8px;
+    top: 10px;
+    left: 5px;
+  }
+  .Organic_Wrapper .Org_wrp .Organic-Cnt ul {
+    padding: 0.5rem 0;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -3818,7 +3913,7 @@ main footer .copyright_wrp .copy_content p {
     text-shadow: 1px 1px 5px #00000057;
   }
   .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child p {
-    padding: 0.5rem 4rem .5em 0;
+    padding: 0.5rem 4rem 0.5em 0 !important;
     font-size: 15px;
     line-height: 1.7;
   }
@@ -3871,6 +3966,22 @@ main footer .copyright_wrp .copy_content p {
   main header .Nav-wrp nav .nav-item ul .drop_down li a {
     font-size: 15px !important;
   }
+  .Filler_Wrapper .Main-Filler-content .Benefit_Wrapper .Benefit-heading h2 {
+    font-size: 1.4em;
+  }
+  .Filler_Wrapper .Main-content-Wrapper .Slim_Service .Slim_content p {
+    padding: 0 0 1rem;
+  }
+  .Filler_Wrapper .Main-Filler-content .Benefit_Wrapper .Benefit-content p {
+    padding: 0 0 .5rem;
+  }
+  .Filler_Wrapper .Main-Filler-content .Filler-Treatment .filler-heading h2 {
+    padding: 1rem 0 .4rem;
+  }
+  .Filler_Wrapper .Main-Filler-content .Filler-Service .Slim_content h2 {
+    padding: 0 0 1rem;
+    font-size: 1.4em;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -3882,6 +3993,12 @@ main footer .copyright_wrp .copy_content p {
   }
   header .top-social-bar .child-wrp .L_cmn01 {
     width: 100%;
+  }
+  header .top-social-bar {
+    display: none;
+  }
+  header .Nav-wrp {
+    padding: .5rem 0 .2rem;
   }
   header .top-social-bar .child-wrp .L1 {
     -ms-flex-pack: distribute !important;
@@ -4115,6 +4232,90 @@ main footer .copyright_wrp .copy_content p {
   }
   .wtsapp-sticky-wrp a .my-float {
     font-size: 33px;
+  }
+  .HairTransplant_Wrapper .Slimming-Banner .Banner_Content .Banner_child {
+    width: 100% !important;
+  }
+  .HairTransplant_Wrapper .Slimming-Banner .Banner_Content {
+    padding: 2rem 0 0;
+  }
+  .Prp_Wrapper .Main-Prp-content .Prp_wrp .Benefit-heading h2 {
+    font-size: 1.50em;
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .hair-trn-Cnt01 p {
+    text-align: left !important;
+    padding: 0px 15rem 0 0;
+    line-height: 1.7;
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .hair-cnt01 figure.grl-bfor {
+    top: -175px;
+    right: 56px;
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .hair-cnt01 figure.grl-aftr {
+    -webkit-transform: translate(-55px, -46px);
+            transform: translate(-55px, -46px);
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .hair-trn-Cnt01 p {
+    font-size: 15px;
+  }
+  .Filler_Wrapper .Filler-Banner {
+    background-position-y: -110px !important;
+  }
+  .Filler_Wrapper .Main-Filler-content .Benefit_Wrapper .Benefit-heading h2 {
+    font-size: 1.3em;
+    padding: .9rem 0 .9rem;
+    font-family: 'AlegreyaRegular';
+  }
+  .Filler_Wrapper .Main-content-Wrapper .Slim_Service .Slim_content {
+    padding: 0rem 0 0rem;
+  }
+  .Filler_Wrapper .Main-Filler-content .Filler-Treatment .filler-heading h2 {
+    padding: .5rem 0 .4rem;
+    font-size: 1.4em;
+  }
+  .Filler_Wrapper .Main-content-Wrapper .Slim_Service .Slim_content p {
+    padding: 0 0 .6rem;
+  }
+  .Filler_Wrapper .Main-Filler-content .Filler-Treatment .Filler-content figure img {
+    max-width: 64%;
+  }
+  .Thread_Wrapper .Filler-Banner {
+    background-position-y: 0 !important;
+  }
+  .Organic_Wrapper .Filler-Banner {
+    background-position-y: 0 !important;
+  }
+  .Organic_Wrapper .Org_wrp .Organic-Cnt ul li br {
+    display: none !important;
+  }
+  .Cosmo_Wrapper .Slimming-Banner .Banner_Content .Banner_child {
+    width: 71% !important;
+  }
+  .HairLaser-Wrapper .hairLaser_wrp .hair-Laser01 .subhair-trt-wrp {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .HairLaser-Wrapper .hairLaser_wrp .hair-Laser01 .subhair-trt-wrp .hair_trt-cmn01 > figure img {
+    display: none;
+  }
+  .HairLaser-Wrapper .hairLaser_wrp .hair-Laser01 .subhair-trt-wrp .hair-Rgt {
+    text-align: center !important;
+  }
+  .HairLaser-Wrapper .hairLaser_wrp .hair-Laser01 .subhair-trt-wrp .hair_trt-cmn01 {
+    width: 100%;
+  }
+  .HairLaser-Wrapper .hairLaser_wrp .hair-Laser01 .subhair-trt-wrp .hair_trt-cmn01 .hair-cnt04 {
+    padding: 0rem 0 1rem;
+  }
+  .HairLaser-Wrapper .hairLaser_wrp .hair-Laser01 .subhair-trt-wrp .hair_trt-cmn01 h2 {
+    font-size: 1.6em;
+    padding: 0 0 0rem;
+  }
+  .HairLaser-Wrapper .hairLaser_wrp .hair-Laser01 .subhair-trt-wrp .hair_trt-cmn01 .hair-cnt04 figure img {
+    -webkit-animation: imganime 3s linear infinite;
+            animation: imganime 3s linear infinite;
   }
 }
 
@@ -4391,7 +4592,7 @@ main footer .copyright_wrp .copy_content p {
     text-shadow: 1px 1px 2px #00000057;
   }
   .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child p {
-    padding: 0.5rem 4rem .5em 0;
+    padding: 0.5rem 4rem 0.5em 0 !important;
     font-size: 14px;
     line-height: 1.7;
   }
@@ -4470,6 +4671,95 @@ main footer .copyright_wrp .copy_content p {
   }
   main header .Nav-wrp nav .nav-item ul .drop_down li a {
     font-size: 14px !important;
+  }
+  .HairTransplant_Wrapper .Slimming-Banner .Banner_Content .Banner_child {
+    width: 100% !important;
+  }
+  .HairTransplant_Wrapper .Slimming-Banner .Banner_Content {
+    padding: 1rem 0 0;
+  }
+  .HairTransplant_Wrapper .Slimming-Banner .Banner_Content .Banner_child .breadcrumb {
+    padding: 0rem 0 0;
+  }
+  .Prp_Wrapper .Main-Prp-content .Prp_wrp .Benefit-heading h2 {
+    font-size: 1.3em;
+  }
+  .Filler_Wrapper .Main-Filler-content .Filler-Treatment .filler-heading h2 {
+    font-size: 1.3em;
+    padding: 0 0 0rem;
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .hair-trn-Cnt01 p {
+    padding: 0px 7rem 0 0;
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .hair-cnt01 figure img {
+    max-width: 100% !important;
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .hair-cnt01 figure.grl-bfor {
+    top: -134px;
+    right: 2px;
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .lft figure:nth-child(1) img {
+    max-width: 100% !important;
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .hair-cnt01 figure img {
+    max-width: 90% !important;
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .hair-cnt01 figure.grl-aftr {
+    -webkit-transform: translate(-26px, -37px);
+            transform: translate(-26px, -37px);
+  }
+  .Thread_Wrapper .Thread-Treatment {
+    padding: 0rem 0 0;
+  }
+  .HairTransplant_Wrapper .Main-content-Wrapper .Slim_Service .Slim_content p {
+    padding: 0 0 .5rem;
+  }
+  .Filler_Wrapper .Main-Filler-content .Benefit_Wrapper .Benefit-content p {
+    padding: 0 0 1.3rem;
+    font-size: 15px;
+  }
+  .Filler_Wrapper .Main-content-Wrapper .Slim_Service .Slim_content p {
+    padding: 0 0 .5rem;
+  }
+  .Filler_Wrapper .Filler-Banner {
+    background-position-y: -79px !important;
+  }
+  .Filler_Wrapper .Main-Filler-content .Filler-Service .Slim_content h2 {
+    padding: 0 0 .5rem;
+    font-size: 1.3em;
+  }
+  .Filler_Wrapper .Main-Filler-content .Benefit_Wrapper .Benefit-heading h2 {
+    font-size: 1.2em;
+    padding: 0 0 0.2rem;
+  }
+  .Filler_Wrapper .Main-Filler-content .Benefit_Wrapper .Benefit-content p {
+    padding: 0 0 .5rem;
+    font-size: 14px;
+  }
+  .Thread_Wrapper .Filler-Banner {
+    background-position-y: 0 !important;
+  }
+  .Thread_Wrapper .Thread-Treatment .Thread-cnt01 figure img {
+    max-width: 100% !important;
+  }
+  .Organic_Wrapper .Filler-Banner {
+    background-position-y: 0 !important;
+  }
+  .Organic_Wrapper .Org_wrp .Organic-Cnt ul li {
+    padding: 0 0 .7rem 1.6rem;
+    font-size: 15px;
+  }
+  .Cosmo_Wrapper .Slimming-Banner .Banner_Content .Banner_child {
+    width: 76% !important;
+  }
+  .Thread_Wrapper .Thread-left-wrp .key-wrp .key01 h3 {
+    font-size: 1em;
+    padding: .6rem 0 .6rem;
+  }
+  .Cosmo_Wrapper .Main-Filler-content .Benefit_Wrapper .Benefit-heading h2 {
+    font-size: 1.2em;
+    padding: 0 0 0.2rem;
+    text-align: center !important;
   }
 }
 
@@ -4644,7 +4934,7 @@ main footer .copyright_wrp .copy_content p {
     padding: 1rem 0 0;
   }
   .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child p {
-    padding: 0.5rem 4rem .5em 0;
+    padding: 0.5rem 4rem 0.5em 0 !important;
     font-size: 13px;
     line-height: 1.7;
   }
@@ -4661,6 +4951,7 @@ main footer .copyright_wrp .copy_content p {
     padding: 0 0 .5rem;
     font-size: 14px;
     line-height: 1.6;
+    word-spacing: 1px;
   }
   .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-right h3 {
     font-size: 1.04em;
@@ -4686,6 +4977,71 @@ main footer .copyright_wrp .copy_content p {
   .Slimming_Wrapper .Slimming-grid_wrp .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
     right: -70px;
     bottom: -63px;
+  }
+  .Prp_Wrapper .Prp-Banner .Banner_Content .Banner_child p {
+    padding: .5rem 8rem .5rem 0 !important;
+  }
+  .Prp_Wrapper .Main-Prp-content .Prp_wrp .Benefit-heading h2 {
+    font-size: 1.2em;
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content {
+    padding: 2rem 0 1rem;
+  }
+  .Filler_Wrapper .Main-Filler-content .Benefit_Wrapper .Benefit-content p {
+    padding: 0 0 1rem;
+    font-size: 14px;
+  }
+  .Filler_Wrapper .Filler-Banner {
+    background-position-y: -60px !important;
+  }
+  .Filler_Wrapper .Main-Filler-content .Filler-Service .Slim_content h2 {
+    padding: 0 0 .5rem;
+    font-size: 1.2em;
+  }
+  .Filler_Wrapper .Main-Filler-content .Benefit_Wrapper .Benefit-heading h2 {
+    font-size: 1.2em;
+    text-align: center !important;
+  }
+  .Filler_Wrapper .Main-Filler-content .Benefit_Wrapper .Benefit-content p {
+    padding: 0 0 .5rem;
+    font-size: 14px;
+  }
+  .Filler_Wrapper .Main-Filler-content .Filler-Treatment .Filler-content figure img {
+    max-width: 80%;
+  }
+  .Thread_Wrapper .Filler-Banner {
+    background-position-y: 0 !important;
+  }
+  .Thread_Wrapper .Thread-Treatment .Thread-cnt01 figure img {
+    max-width: 100% !important;
+  }
+  .Thread_Wrapper .Thread-left-wrp .key-wrp .key01 h3 {
+    font-size: 1em;
+    padding: 0 0 .5rem;
+  }
+  .Organic_Wrapper .Filler-Banner {
+    background-position-y: 0 !important;
+  }
+  .MicroDerma_Wrapper .MicroDerma-Banner .Banner_Content .Banner_child p {
+    padding: .5rem 1rem .5rem 0 !important;
+  }
+  .MicroDerma_Wrapper .Main-Filler-content .Benefit_Wrapper .Benefit-heading h2 {
+    font-size: 1.2em;
+    text-align: center !important;
+  }
+  .Organic_Wrapper .Org_wrp .Organic-Cnt ul li::before {
+    width: 7px;
+    height: 7px;
+  }
+  .Cosmo_Wrapper .Prp-Banner .Banner_Content .Banner_child p {
+    padding: .5rem 3rem .5rem 0 !important;
+  }
+  .HairLaser-Wrapper .hairLaser_wrp .hair-Laser01 .subhair-trt-wrp .hair_trt-cmn01 h2 {
+    font-size: 1.5em;
+    padding: 0 0 0rem;
+  }
+  .HairPigment_Wrapper .Prp-Banner .Banner_Content .Banner_child p {
+    padding: .5rem 1rem .5rem 0 !important;
   }
 }
 
@@ -4933,6 +5289,64 @@ main footer .copyright_wrp .copy_content p {
   }
   main header .Nav-wrp nav .nav-item ul .drop_down li a {
     font-size: 14px !important;
+  }
+  .Prp_Wrapper .Prp-Banner .Banner_Content .Banner_child p {
+    padding: .5rem 2rem .2rem 0 !important;
+  }
+  .HairTransplant_Wrapper .Hair-transplant .Banner_child h4 {
+    font-size: 1em;
+  }
+  .Slimming_Wrapper .Main-content-Wrapper .Slim_Service .slim-heading h2 {
+    font-size: 1em;
+  }
+  .Prp_Wrapper .Main-Prp-content .Prp_wrp .Benefit-heading h2 {
+    font-size: 1em;
+  }
+  .Filler_Wrapper .Main-Filler-content .Benefit_Wrapper .Benefit-content p {
+    padding: 0 0 .4rem;
+  }
+  .Thread_Wrapper .Thread-left-wrp .key-wrp .key01 h3 {
+    font-size: 1em;
+    padding: 0 0 .4rem;
+  }
+  .Filler_Wrapper .Main-Filler-content .Filler-Treatment .filler-heading h2 {
+    font-size: 1em;
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .hair-trn-Cnt01 p {
+    padding: 0px 1rem 0 0;
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .hair-cnt01 figure img {
+    max-width: 87% !important;
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .hair-cnt01 figure.grl-aftr {
+    -webkit-transform: translate(-26px, 0px);
+            transform: translate(-26px, 0px);
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .hair-cnt01 figure.grl-bfor {
+    top: -44px;
+    right: -3px;
+  }
+  .HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .lft figure:nth-child(1) {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+  .Filler_Wrapper .Filler-Banner {
+    background-position-y: -37px !important;
+  }
+  .Filler_Wrapper .Main-Filler-content .Filler-Service .Slim_content h2 {
+    font-size: 1em;
+  }
+  .Filler_Wrapper .Main-Filler-content .Benefit_Wrapper .Benefit-heading h2 {
+    font-size: 1em;
+  }
+  .Thread_Wrapper .Filler-Banner {
+    background-position-y: 0 !important;
+  }
+  .Organic_Wrapper .Filler-Banner {
+    background-position-y: 0 !important;
+  }
+  .HairLaser-Wrapper .hairLaser_wrp .hair-Laser01 .subhair-trt-wrp .hair_trt-cmn01 h2 {
+    font-size: 1.3em;
   }
 }
 /*# sourceMappingURL=style.css.map */

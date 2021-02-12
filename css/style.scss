@@ -39,7 +39,10 @@
         color:#787878;
         text-decoration: none;
     }
-
+     
+    // p{
+    //     text-align: justify;
+    // }
     @import "mixin";
     
     .container{
@@ -1609,6 +1612,7 @@
                     line-height: 1.8;
                     word-spacing: 2px;
                     font-family: 'Roboto';
+                    text-align: justify;
                 }
             }
         }
@@ -1903,6 +1907,7 @@
                     letter-spacing: 1px;
                     line-height: 1.8;
                     word-spacing: 2px;
+                    text-align: justify;
                 }
             }
         }
@@ -1960,11 +1965,12 @@
                      word-spacing: 1px;
                      font-size: 1em;
                      position: relative;
+                     font-family: 'Roboto';
                      &::before{
                         content: '';
                         width: 10px;
                         height: 10px;
-                        background: #000;
+                        background: $red;
                         border-radius: 50%;
                         position: absolute;
                         top: 9px;
@@ -2279,7 +2285,7 @@
     .Banner_Content{
         .Banner_child{
             h1{
-              font-size: 3em!important;
+              font-size: 3em;
             }
             p{
                  color: #000!important;
@@ -2304,7 +2310,7 @@
     .BodyTrt-banner{
         .Banner_child{
             h1{
-              font-size: 3em!important;
+              font-size: 3em;
             }
             p{
                  color: #000!important;
@@ -2432,7 +2438,19 @@
                            letter-spacing: 1px;
                            word-spacing: 1px;
                            padding: .7rem 0;
-                           list-style-type: disc;
+                           list-style-type: $none;
+                           font-family: 'Roboto';
+                           position: relative;
+                           &::before{
+                                content: '';
+                                width: 9px;
+                                height: 9px;
+                                background: $red;
+                                left: -24px;
+                                top: 15px;
+                                border-radius: 50%;
+                                position: absolute;
+                           }
                        }
                    }
                } 
