@@ -1507,6 +1507,13 @@
         text-align: center!important;
     }
     // ----End--here---Cosmo----
+    
+    // -------Permanent---Makeup---//
+    .permanentMakeup_Wrapper .Main-premanent_wrp .permanent-service .Slim_content ul li {
+        font-size: 15px; 
+        padding: .7rem 0; 
+    } 
+    // ----Permanent-----End------MakeUp-----Here---
 }
 
 @media only screen and (max-width:480px){
@@ -1812,6 +1819,13 @@
       padding: .5rem 1rem .5rem 0 !important;
     }
     // -----Hair---End------Pigment-----page---------here---------//
+
+    // -----Permanent---MakeUp---------//
+    .permanentMakeup_Wrapper .Main-premanent_wrp .permanent-service .Slim_content h2 {
+        font-size: 1.1em;
+        padding: 1rem 0; 
+    }
+    // --Permanent-----MakeUP---End-------Herer--------//
 }
 
 @media only screen and(max-width:375px){

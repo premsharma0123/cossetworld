@@ -1470,6 +1470,10 @@
     padding: 0 0 0.2rem;
     text-align: center !important;
   }
+  .permanentMakeup_Wrapper .Main-premanent_wrp .permanent-service .Slim_content ul li {
+    font-size: 15px;
+    padding: .7rem 0;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -1751,6 +1755,10 @@
   }
   .HairPigment_Wrapper .Prp-Banner .Banner_Content .Banner_child p {
     padding: .5rem 1rem .5rem 0 !important;
+  }
+  .permanentMakeup_Wrapper .Main-premanent_wrp .permanent-service .Slim_content h2 {
+    font-size: 1.1em;
+    padding: 1rem 0;
   }
 }
 
