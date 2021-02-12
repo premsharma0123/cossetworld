@@ -803,9 +803,7 @@
                 a{
                     padding: 1rem 2rem;
                     color: #fff;
-                    background: linear-gradient(
-                165deg
-                ,#f73624 46%, #000000eb );
+                    background: linear-gradient( 165deg ,#f73624 46%, #000000eb );
                     font-size: 1.4em;
                     display: inline-block;
                     margin: 1.4rem 0 0;
@@ -816,6 +814,10 @@
                         //box-shadow: 0px 1px 1px 1px #000;
                         transition: $transition;
                         box-shadow: inset 0px 0px 9px 0px #000;
+                    }
+                    &:hover{
+                        background: linear-gradient( 165deg , #000000eb, #f73624 46% );
+                        transition: $transition;
                     }
                 }
             }
@@ -1237,7 +1239,7 @@
     a{ 
         width: 55px;
         height: 55px;
-        bottom: 118px;
+        bottom: 26px;
         right: 20px;
         background-color: #25d366;
         position: fixed;
@@ -1251,7 +1253,7 @@
         animation: boxshadow1 3s linear infinite;
         overflow: hidden; transition: $transition;
         .my-float{ 
-            font-size: 38px; transition: $transition;
+            font-size: 43px;transition: $transition;
             &:hover{
                 transition: $transition;
                  transform: scale(1.1);
@@ -1340,7 +1342,7 @@
 // --bottom--top---top===
 
 .BT-top {
-    right: 23px;
+    left: 26px;
     bottom: 38px;
     position: fixed;
     z-index: 3;
@@ -1386,6 +1388,10 @@
 .Slimming_Wrapper{
     p{
         font-family: 'Roboto';
+        b{
+            font-weight: bold;
+            color: #000;
+        }
     }
      .Nav-wrp{
          position: $rel;
@@ -1412,7 +1418,7 @@
             .Banner_child{
                 width: 50%!important;
                 h1{
-                    font-size:5em;
+                    font-size:4em;
                     color: $red;
                     line-height: 1.5;
                     letter-spacing: 1px;
@@ -1429,6 +1435,7 @@
                     word-spacing: 1px;
                     line-height: 1.8;
                     letter-spacing: 1px;
+                    display: none;
                 }
                 .breadcrumb{
                     padding: 1rem 0 0;
@@ -1773,7 +1780,7 @@
             width: 100%;
             padding: .5rem 0 ;
             p{
-                padding: 0 0 1.6rem;
+                padding: .5rem 0 0;
                 font-size: 1em;
                 text-transform: $cap;
                 letter-spacing: 1px;
@@ -1799,6 +1806,8 @@
                     text-transform: $cap;
                     word-spacing: 1px;
                     font-family: 'Roboto';
+                    list-style-type: decimal; 
+                    line-height: 1.6;
                 }
             }
         }
@@ -1960,10 +1969,10 @@
      .Org_wrp{
          .Organic-Cnt{
              ul{
-                 padding: 1.5rem 0;
+                 padding: .5rem 0;
                  li{
                      display: block;
-                     padding: 0 0 1rem 2rem;
+                     padding: 0 0 .6rem 2rem;
                      text-transform: $cap;
                      line-height: 1.7;
                      letter-spacing: 1px;
@@ -2080,6 +2089,7 @@
                 width: 63%!important;
                 p{
                     padding: 1rem 16rem 1rem 0!important;
+                    display: $none;
                 }
             }
         } 
@@ -2518,7 +2528,30 @@
 }
 
 // ------------******** -------Privacy---end--Here-----*******---------------//
-
+.chat_img {
+    position: fixed;
+    right: -69px;
+    bottom: 172px;
+    z-index: 42; 
+    transition: $transition;
+    display: $none;
+     img {
+        width: 41%;
+    }
+    #close02 {
+        position: absolute;
+        width: 33%;
+        color: tan;
+        cursor: pointer; 
+        transition: $transition;
+        top: -22px;
+        right: 44px;
+        &:hover {  
+            transition: $transition;
+            color: #000; 
+        }
+    }
+}
 
 
 .main-bar{

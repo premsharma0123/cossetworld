@@ -22,7 +22,9 @@ $(".permanentMakeup").click(function(){
   $(".drop1,.drop2,.drop3,.drop4").hide("fast");
   // $("").slideUp("");
 })
-
+$(".right-sticky").click(function(){
+  $(this).hide('')
+})
 // ---social---icon----//
 $(".Banner_Wrapper,.Slimming-Banner").click(function(){
   $(".drop_down").slideUp("fast");

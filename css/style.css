@@ -1267,6 +1267,12 @@ main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 a:a
           box-shadow: inset 0px 0px 9px 0px #000;
 }
 
+main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 a:hover {
+  background: linear-gradient(165deg, #000000eb, #f73624 46%);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 main .Testimonial_Wrapper {
   padding: 2rem 0 1rem;
   position: relative;
@@ -1843,7 +1849,7 @@ main footer .copyright_wrp .copy_content p {
 .wtsapp-sticky-wrp a {
   width: 55px;
   height: 55px;
-  bottom: 118px;
+  bottom: 26px;
   right: 20px;
   background-color: #25d366;
   position: fixed;
@@ -1873,7 +1879,7 @@ main footer .copyright_wrp .copy_content p {
 }
 
 .wtsapp-sticky-wrp a .my-float {
-  font-size: 38px;
+  font-size: 43px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -1999,7 +2005,7 @@ main footer .copyright_wrp .copy_content p {
 }
 
 .BT-top {
-  right: 23px;
+  left: 26px;
   bottom: 38px;
   position: fixed;
   z-index: 3;
@@ -2054,6 +2060,11 @@ main footer .copyright_wrp .copy_content p {
   font-family: 'Roboto';
 }
 
+.Slimming_Wrapper p b {
+  font-weight: bold;
+  color: #000;
+}
+
 .Slimming_Wrapper .Nav-wrp {
   position: relative;
 }
@@ -2092,7 +2103,7 @@ main footer .copyright_wrp .copy_content p {
 }
 
 .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child h1 {
-  font-size: 5em;
+  font-size: 4em;
   color: #F73624;
   line-height: 1.5;
   letter-spacing: 1px;
@@ -2111,6 +2122,7 @@ main footer .copyright_wrp .copy_content p {
   word-spacing: 1px;
   line-height: 1.8;
   letter-spacing: 1px;
+  display: none;
 }
 
 .Slimming_Wrapper .Slimming-Banner .Banner_Content .Banner_child .breadcrumb {
@@ -2629,7 +2641,7 @@ main footer .copyright_wrp .copy_content p {
 }
 
 .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Spt-thrpy .Spot-cnt p {
-  padding: 0 0 1.6rem;
+  padding: .5rem 0 0;
   font-size: 1em;
   text-transform: capitalize;
   letter-spacing: 1px;
@@ -2659,6 +2671,8 @@ main footer .copyright_wrp .copy_content p {
   text-transform: capitalize;
   word-spacing: 1px;
   font-family: 'Roboto';
+  list-style-type: decimal;
+  line-height: 1.6;
 }
 
 .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .spot-area-wrp {
@@ -2854,12 +2868,12 @@ main footer .copyright_wrp .copy_content p {
 }
 
 .Organic_Wrapper .Org_wrp .Organic-Cnt ul {
-  padding: 1.5rem 0;
+  padding: .5rem 0;
 }
 
 .Organic_Wrapper .Org_wrp .Organic-Cnt ul li {
   display: block;
-  padding: 0 0 1rem 2rem;
+  padding: 0 0 .6rem 2rem;
   text-transform: capitalize;
   line-height: 1.7;
   letter-spacing: 1px;
@@ -2969,6 +2983,7 @@ main footer .copyright_wrp .copy_content p {
 
 .Prp_Wrapper .Prp-Banner .Banner_Content .Banner_child p {
   padding: 1rem 16rem 1rem 0 !important;
+  display: none;
 }
 
 .Prp_Wrapper .Main-Prp-content .Prp_wrp .Benefit-heading h2 {
@@ -3295,6 +3310,37 @@ main footer .copyright_wrp .copy_content p {
 
 .Privacy-Wrapper .Privacy-content-wrp .Privacy_wrp .Benefit-heading h2 {
   font-size: 1.8em;
+}
+
+.chat_img {
+  position: fixed;
+  right: -69px;
+  bottom: 172px;
+  z-index: 42;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  display: none;
+}
+
+.chat_img img {
+  width: 41%;
+}
+
+.chat_img #close02 {
+  position: absolute;
+  width: 33%;
+  color: tan;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  top: -22px;
+  right: 44px;
+}
+
+.chat_img #close02:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #000;
 }
 
 .main-bar {
@@ -3840,6 +3886,17 @@ main footer .copyright_wrp .copy_content p {
   .Organic_Wrapper .Org_wrp .Organic-Cnt ul {
     padding: 0.5rem 0;
   }
+  .chat_img img {
+    width: 33%;
+  }
+  .chat_img {
+    right: -86px;
+    bottom: 172px;
+  }
+  .chat_img #close02 {
+    top: -22px;
+    right: 60px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -4346,6 +4403,17 @@ main footer .copyright_wrp .copy_content p {
   main .Appointment_Form_wrp .Form_wrp form .form_content .Frm_cmn01 select {
     background: transparent;
   }
+  .chat_img img {
+    width: 30%;
+  }
+  .chat_img {
+    right: -95px;
+    bottom: 168px;
+  }
+  .chat_img #close02 {
+    top: -22px;
+    right: 72px;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -4840,6 +4908,17 @@ main footer .copyright_wrp .copy_content p {
       transition: all 0.3s ease-in-out;
     }
   }
+  .chat_img {
+    right: -102px;
+    bottom: 172px;
+  }
+  .chat_img #close02 {
+    top: -22px;
+    right: 76px;
+  }
+  .chat_img img {
+    width: 29%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -5058,7 +5137,7 @@ main footer .copyright_wrp .copy_content p {
     bottom: -63px;
   }
   .Prp_Wrapper .Prp-Banner .Banner_Content .Banner_child p {
-    padding: .5rem 8rem .5rem 0 !important;
+    padding: .5rem 5rem .5rem 0 !important;
   }
   .Prp_Wrapper .Main-Prp-content .Prp_wrp .Benefit-heading h2 {
     font-size: 1.2em;
@@ -5134,6 +5213,44 @@ main footer .copyright_wrp .copy_content p {
   }
   .Scalp_Wrapper .Prp-Banner .Banner_Content .Banner_child p {
     padding: .5rem 2rem .5rem 0 !important;
+  }
+  .wtsapp-sticky-wrp a {
+    width: 55px;
+    height: 55px;
+    bottom: 26px;
+    right: 18px;
+  }
+  .chat_img {
+    right: -102px;
+    bottom: 138px;
+  }
+  @-webkit-keyframes boxshadow1 {
+    0%, 100% {
+      -webkit-box-shadow: 0px 0px 2px 2px #4caf50;
+              box-shadow: 0px 0px 2px 2px #4caf50;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+    50% {
+      -webkit-box-shadow: 0px 0px 3px 3px #deffdf;
+              box-shadow: 0px 0px 3px 3px #deffdf;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+  @keyframes boxshadow1 {
+    0%, 100% {
+      -webkit-box-shadow: 0px 0px 2px 2px #4caf50;
+              box-shadow: 0px 0px 2px 2px #4caf50;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+    50% {
+      -webkit-box-shadow: 0px 0px 3px 3px #deffdf;
+              box-shadow: 0px 0px 3px 3px #deffdf;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
   }
 }
 

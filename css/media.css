@@ -537,6 +537,17 @@
   .Organic_Wrapper .Org_wrp .Organic-Cnt ul {
     padding: 0.5rem 0;
   }
+  .chat_img img {
+    width: 33%;
+  }
+  .chat_img {
+    right: -86px;
+    bottom: 172px;
+  }
+  .chat_img #close02 {
+    top: -22px;
+    right: 60px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -1043,6 +1054,17 @@
   main .Appointment_Form_wrp .Form_wrp form .form_content .Frm_cmn01 select {
     background: transparent;
   }
+  .chat_img img {
+    width: 30%;
+  }
+  .chat_img {
+    right: -95px;
+    bottom: 168px;
+  }
+  .chat_img #close02 {
+    top: -22px;
+    right: 72px;
+  }
 }
 
 @media only screen and (max-width: 576px) {
@@ -1537,6 +1559,17 @@
       transition: all 0.3s ease-in-out;
     }
   }
+  .chat_img {
+    right: -102px;
+    bottom: 172px;
+  }
+  .chat_img #close02 {
+    top: -22px;
+    right: 76px;
+  }
+  .chat_img img {
+    width: 29%;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -1755,7 +1788,7 @@
     bottom: -63px;
   }
   .Prp_Wrapper .Prp-Banner .Banner_Content .Banner_child p {
-    padding: .5rem 8rem .5rem 0 !important;
+    padding: .5rem 5rem .5rem 0 !important;
   }
   .Prp_Wrapper .Main-Prp-content .Prp_wrp .Benefit-heading h2 {
     font-size: 1.2em;
@@ -1831,6 +1864,44 @@
   }
   .Scalp_Wrapper .Prp-Banner .Banner_Content .Banner_child p {
     padding: .5rem 2rem .5rem 0 !important;
+  }
+  .wtsapp-sticky-wrp a {
+    width: 55px;
+    height: 55px;
+    bottom: 26px;
+    right: 18px;
+  }
+  .chat_img {
+    right: -102px;
+    bottom: 138px;
+  }
+  @-webkit-keyframes boxshadow1 {
+    0%, 100% {
+      -webkit-box-shadow: 0px 0px 2px 2px #4caf50;
+              box-shadow: 0px 0px 2px 2px #4caf50;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+    50% {
+      -webkit-box-shadow: 0px 0px 3px 3px #deffdf;
+              box-shadow: 0px 0px 3px 3px #deffdf;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+  @keyframes boxshadow1 {
+    0%, 100% {
+      -webkit-box-shadow: 0px 0px 2px 2px #4caf50;
+              box-shadow: 0px 0px 2px 2px #4caf50;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+    50% {
+      -webkit-box-shadow: 0px 0px 3px 3px #deffdf;
+              box-shadow: 0px 0px 3px 3px #deffdf;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
   }
 }
 

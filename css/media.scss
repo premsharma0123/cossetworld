@@ -560,6 +560,9 @@
         padding: 0.5rem 0;
     }
     // ------End---here-----Organic--------//
+    .chat_img img { width: 33%;   }
+    .chat_img {   right: -86px; bottom: 172px;  }
+    .chat_img #close02 {  top: -22px;  right: 60px; }
 }
 
 @media  only screen  and (max-width:992px){
@@ -1080,6 +1083,17 @@
         background: transparent;
     }
     // ----end---here-------///
+    .chat_img img {
+        width: 30%;
+    }
+    .chat_img { 
+        right: -95px;
+        bottom: 168px; 
+    }
+    .chat_img #close02 { 
+        top: -22px;
+        right: 72px;
+    }
 }
 
 @media only screen and (max-width: 576px){
@@ -1551,7 +1565,18 @@
         }
     }
     // ----Permanent-----End------MakeUp-----Here---
-    
+    .chat_img { 
+        right: -102px;
+        bottom: 172px; 
+    }
+    .chat_img #close02 { 
+        top: -22px;
+        right: 76px;
+    }
+    .chat_img img {
+        width: 29%;
+    }
+
 }
 
 @media only screen and (max-width:480px){
@@ -1774,7 +1799,7 @@
 
     // ------hair----transplant----//
     .Prp_Wrapper .Prp-Banner .Banner_Content .Banner_child p {
-        padding: .5rem 8rem .5rem 0 !important;
+        padding: .5rem 5rem .5rem 0 !important;
     }  
     .Prp_Wrapper .Main-Prp-content .Prp_wrp .Benefit-heading h2 {
         font-size: 1.2em;
@@ -1877,6 +1902,28 @@
         padding: .5rem 2rem .5rem 0 !important;
     }
     // -----Sclp------page----end---here----
+    .wtsapp-sticky-wrp a {
+        width: 55px;
+        height: 55px;   
+        bottom: 26px;
+        right: 18px;
+    }
+    .chat_img { 
+        right: -102px;
+        bottom: 138px; 
+    }
+    
+    
+    @keyframes boxshadow1 {
+        0%,100%{
+            box-shadow: 0px 0px 2px 2px #4caf50;
+            transition: $transition;
+        }
+        50%{
+            box-shadow: 0px 0px 3px 3px #deffdf;
+            transition: $transition;
+        }
+    }
 }
 
 @media only screen and(max-width:375px){
