@@ -2684,12 +2684,16 @@ main footer .copyright_wrp .copy_content p {
             box-shadow: 0 10px 4px 1px #000;
     -webkit-transform: scale(0.99);
             transform: scale(0.99);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
   50% {
     -webkit-box-shadow: 0 14px 5px 2px #000;
             box-shadow: 0 14px 5px 2px #000;
     -webkit-transform: scale(1.01);
             transform: scale(1.01);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
 }
 
@@ -2699,12 +2703,16 @@ main footer .copyright_wrp .copy_content p {
             box-shadow: 0 10px 4px 1px #000;
     -webkit-transform: scale(0.99);
             transform: scale(0.99);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
   50% {
     -webkit-box-shadow: 0 14px 5px 2px #000;
             box-shadow: 0 14px 5px 2px #000;
     -webkit-transform: scale(1.01);
             transform: scale(1.01);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
 }
 
@@ -3233,7 +3241,6 @@ main footer .copyright_wrp .copy_content p {
 
 .permanentMakeup_Wrapper .Main-premanent_wrp .permanent-service .Slim_content ul li {
   font-size: 1rem;
-  font-weight: 500;
   letter-spacing: 1px;
   word-spacing: 1px;
   padding: .7rem 0;
@@ -4765,6 +4772,52 @@ main footer .copyright_wrp .copy_content p {
     font-size: 15px;
     padding: .7rem 0;
   }
+  .permanentMakeup_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss {
+    width: 100%;
+    padding: 1rem 0 0rem;
+  }
+  .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss .Weight-content .W-left figure img {
+    max-width: 65%;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 5px 3px 1px #000;
+            box-shadow: 0 5px 3px 1px #000;
+  }
+  @-webkit-keyframes boxshadow {
+    0%, 100% {
+      -webkit-box-shadow: 0 9px 3px 1px #000;
+              box-shadow: 0 9px 3px 1px #000;
+      -webkit-transform: scale(0.99);
+              transform: scale(0.99);
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+    50% {
+      -webkit-box-shadow: 0 12px 4px 1px #000;
+              box-shadow: 0 12px 4px 1px #000;
+      -webkit-transform: scale(1.01);
+              transform: scale(1.01);
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+  }
+  @keyframes boxshadow {
+    0%, 100% {
+      -webkit-box-shadow: 0 9px 3px 1px #000;
+              box-shadow: 0 9px 3px 1px #000;
+      -webkit-transform: scale(0.99);
+              transform: scale(0.99);
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+    50% {
+      -webkit-box-shadow: 0 12px 4px 1px #000;
+              box-shadow: 0 12px 4px 1px #000;
+      -webkit-transform: scale(1.01);
+              transform: scale(1.01);
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+    }
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -5051,6 +5104,12 @@ main footer .copyright_wrp .copy_content p {
     font-size: 1.1em;
     padding: 1rem 0;
   }
+  .PrpFace_Wrapper .Prp-Banner .Banner_Content .Banner_child p {
+    padding: .5rem 2rem .5rem 0 !important;
+  }
+  .PrpFace_Wrapper .Filler-Banner {
+    background-size: 100% 100% !important;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -5075,7 +5134,7 @@ main footer .copyright_wrp .copy_content p {
   }
   main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child p {
     font-size: 11px;
-    padding: .5rem 0 .8rem;
+    padding: .5rem 1.5rem .8rem 0;
     line-height: 1.6;
   }
   main .Banner_Wrapper .banner-child .owl-next, main .Banner_Wrapper .banner-child .owl-prev, main .Banner_Wrapper .banner-child .owl-prev {
@@ -5084,7 +5143,7 @@ main footer .copyright_wrp .copy_content p {
     font-size: 3em !important;
   }
   main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child p {
-    padding: .5rem 0 .8rem;
+    padding: .5rem 1.5rem .8rem 0;
     line-height: 1.6;
   }
   main .Banner_Wrapper .banner-child .banner-sub-child .Banner_Content .Banner_child a i.fas.fa-chevron-right {
@@ -5092,11 +5151,11 @@ main footer .copyright_wrp .copy_content p {
     padding: 0 0 0 .1rem;
   }
   main .Banner_Wrapper .banner-child .owl-dots .owl-dot {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
   }
   main .Banner_Wrapper .banner-child .owl-dots {
-    bottom: 14px;
+    bottom: 7px;
     left: 35%;
   }
   main header .top-social-bar .child-wrp .L_cmn01 p {

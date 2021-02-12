@@ -1818,10 +1818,12 @@
             0%, 100%{
                 box-shadow: 0 10px 4px 1px #000;
                 transform: scale(.99);
+                transition: $transition;
             }
             50%{
                 box-shadow: 0 14px 5px 2px #000;
                 transform: scale(1.01);
+                transition: $transition;
             }
     }
     // ----end---here----//
@@ -2433,8 +2435,7 @@
                    ul{
                        margin: 1rem 0  0 2rem;
                        li{
-                           font-size: 1rem;
-                           font-weight: 500;
+                           font-size: 1rem; 
                            letter-spacing: 1px;
                            word-spacing: 1px;
                            padding: .7rem 0;
