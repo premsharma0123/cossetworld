@@ -2557,10 +2557,6 @@ main footer .copyright_wrp .copy_content p {
   display: none;
 }
 
-.Slimming_Wrapper .Main-content-Wrapper .Commn_wrp .Weight-Content-wrp {
-  display: none;
-}
-
 .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .collapse h3 {
   display: none !important;
   -webkit-transition: all 0.3s ease-in-out;
