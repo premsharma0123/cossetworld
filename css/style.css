@@ -2078,7 +2078,7 @@ main footer .copyright_wrp .copy_content p {
 .Slimming_Wrapper .breadcumb-wrp {
   width: 100%;
   padding: 1rem .5rem;
-  background: #000;
+  background: #F73624;
   display: none;
 }
 
@@ -2140,7 +2140,7 @@ main footer .copyright_wrp .copy_content p {
 
 .Slimming_Wrapper .breadcumb-wrp .sub-breadc-cnt ul li a i {
   padding: 0 .3rem;
-  color: #F73624;
+  color: #fff;
 }
 
 .Slimming_Wrapper .breadcumb-wrp .sub-breadc-cnt ul li a i.fa.fa-phone {

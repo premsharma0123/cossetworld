@@ -1399,7 +1399,7 @@
     .breadcumb-wrp{ 
         width: 100%;
         padding: 1rem .5rem;
-        background: #000;//$red;
+        background:  $red;
         display: none;
         .sub-breadc-cnt{
             @include flex;
@@ -1426,7 +1426,7 @@
                         }
                         i{
                             padding: 0 .3rem ;
-                            color: $red;
+                            color: $white;
                         }
                         i.fa.fa-phone {
                             transform: translate(5px, 1px) rotate(
