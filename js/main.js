@@ -42,13 +42,14 @@ $(".show-social").click(function(){
 
 //------Accordion ----------//
 $(".listAnckr1").click(function(){
-  debugger
+  // debugger
    $(".Accro1").slideDown("");
-   $(".Weight-Content-wrp").css("display","block");
-})
-$(".W1").load(function(){
-   $(this).addClass("OnActive");
+   $(".Weight-Content-wrp").css("display","block!important");
 });
+
+// $(".W1").load(function(){
+//    $(this).addClass("OnActive");
+// });
 
 // -----
 
@@ -306,3 +307,4 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 };
 //end--here--//
+ 

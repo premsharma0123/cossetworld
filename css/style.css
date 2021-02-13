@@ -121,6 +121,11 @@ header .top-social-bar .child-wrp .L_cmn01 p {
   color: #fff;
 }
 
+header .top-social-bar .child-wrp .L_cmn01 p a {
+  color: #fff;
+  font-family: 'RobotoBold';
+}
+
 header .top-social-bar .child-wrp .L_cmn01 p i {
   padding: 0.5rem 0.5rem;
   font-size: 1.1em;
