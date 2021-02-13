@@ -271,7 +271,7 @@ jQuery('.main-bar').click(function(e) {
   autoplay: true,
   nav: true,
   autoplayTimeout: 4000,
-  smartSpeed: 1500,
+  smartSpeed: 2500,
   singleItem: true,
   animateIn: 'fadeIn',
   animateOut: 'fadeOut',
