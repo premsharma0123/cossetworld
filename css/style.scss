@@ -357,7 +357,7 @@
                                        }
                                     }
                                     .sub-drop02{
-                                    width: 60%;
+                                    width: 63%;
                                     li a{
                                         font-family: 'RalewayRegular';
                                     }
@@ -1183,13 +1183,19 @@
                     }
                     #Submit2{
                         width: 100%;
-                        background: #000;
+                        background: linear-gradient(to top, #222, #555, #555, #c4c4c4f0 153%);
                         color: $white;
                         font-size: 1.2em;
                         text-transform: $upper;
                         border: $none;
                         margin: 1rem 0 0;
+                        transition: $transition;
+                        border-radius: 100px;
                         cursor: pointer;
+                        &:hover{
+                            transition: $transition;
+                             opacity: .77;
+                        }
                     }
                 }
               }
@@ -1386,6 +1392,58 @@
 // --------------*****************Slimming----- ----------------//
 
 .Slimming_Wrapper{
+      
+    .breadcumb-wrp{ 
+        width: 100%;
+        padding: 1rem .5rem;
+        background: #000;//$red;
+        display: none;
+        .sub-breadc-cnt{
+            @include flex;
+            justify-content: $between;
+            width: 100%;
+            ul{
+                width: 45%; 
+                @include flex;
+                li{
+                    font-family: 'Roboto';
+                    list-style-type: $none;
+                    color: $white;
+                    a{
+                        font-family: 'Roboto';
+                        margin: 0 .3rem;
+                        color: $white;
+                        transition: $transition;
+                        letter-spacing: 1px;
+                        word-spacing: 1px;
+                        line-height: 1.5;
+                        &:hover{
+                            opacity: .77;
+                            transition: $transition;
+                        }
+                        i{
+                            padding: 0 .3rem ;
+                            color: $red;
+                        }
+                        i.fa.fa-phone {
+                            transform: translate(5px, 1px) rotate(
+                        101deg
+                        );
+                        }
+                    }
+                }
+                .page-active{
+                    a{
+                        // text-decoration: underline;
+                        color: rgba(247, 247, 247, 0.945);
+                        padding-bottom: 0 0 .3rem;
+                        border-bottom: 1px solid;
+                    }
+                }
+            }
+       } 
+    }
+      
     p{
         font-family: 'Roboto';
         b{
@@ -1490,7 +1548,8 @@
             .Grid_wrp{
               display: grid; 
               grid-template-rows: auto 1fr auto;
-              grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))!important;
+            //   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr))!important;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)) !important;
               grid-gap: 10px;
               padding: 10px; 
                 .Grid-item_cmn01{
@@ -1538,9 +1597,9 @@
                 } 
             }
             .Grid-item1{ 
-              background: url(../image/grid011.png)$no-rpt;
+              background: url(../image/Permanent-Makeup1.png)$no-rpt;
               background-size: cover;
-              background-position:right;
+              background-position:$mid;
               height: 300px;
             }
           .Grid-item2 {
@@ -2283,6 +2342,9 @@
        background-size: cover!important;
        background-position: $mid;  
     } 
+    #SkinTreat{
+        display: $none;
+    }
 }
 
 

@@ -158,49 +158,58 @@ $(".heading-btn").click(function(){
 
 $(".list1").hover(function(){
   $(".Sub_Hvr_wrp1").css('display','block'); 
-  $(".Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp5.Sub_Hvr_wrp6,.Sub_Hvr_wrp7,.Sub_Hvr_wrp8,.Sub_Hvr_wrp9")
+  $(".Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp5.Sub_Hvr_wrp6,.Sub_Hvr_wrp7,.Sub_Hvr_wrp8,.Sub_Hvr_wrp9,.Sub_Hvr_wrp10,.Sub_Hvr_wrp11")
   .css('display','none');
 })
 $(".list2").hover(function(){
-  $(".Sub_Hvr_wrp1,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp5,.Sub_Hvr_wrp6,.Sub_Hvr_wrp7,.Sub_Hvr_wrp8,.Sub_Hvr_wrp9").css('display','none');
+  $(".Sub_Hvr_wrp1,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp5,.Sub_Hvr_wrp6,.Sub_Hvr_wrp7,.Sub_Hvr_wrp8,.Sub_Hvr_wrp9,.Sub_Hvr_wrp10,.Sub_Hvr_wrp11").css('display','none');
   $(".Sub_Hvr_wrp2").css('display','block');
 })
 $(".list3").hover(function(){
-  $(".Sub_Hvr_wrp1,.Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp5,.Sub_Hvr_wrp6,.Sub_Hvr_wrp7,.Sub_Hvr_wrp8,.Sub_Hvr_wrp9")
+  $(".Sub_Hvr_wrp1,.Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp5,.Sub_Hvr_wrp6,.Sub_Hvr_wrp7,.Sub_Hvr_wrp8,.Sub_Hvr_wrp9,.Sub_Hvr_wrp10,.Sub_Hvr_wrp11")
   .css('display','none'); 
   $(".Sub_Hvr_wrp3").css('display','block');
 })
 $(".list4").hover(function(){
-  $(".Sub_Hvr_wrp1,.Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp5,.Sub_Hvr_wrp6,.Sub_Hvr_wrp7,.Sub_Hvr_wrp8,.Sub_Hvr_wrp9")
+  $(".Sub_Hvr_wrp1,.Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp5,.Sub_Hvr_wrp6,.Sub_Hvr_wrp7,.Sub_Hvr_wrp8,.Sub_Hvr_wrp9,.Sub_Hvr_wrp10,.Sub_Hvr_wrp11")
   .css('display','none'); 
   $(".Sub_Hvr_wrp4").css('display','block');
 })
 $(".list5").hover(function(){
-  $(".Sub_Hvr_wrp1,.Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp6,.Sub_Hvr_wrp7,.Sub_Hvr_wrp8,.Sub_Hvr_wrp9")
+  $(".Sub_Hvr_wrp1,.Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp6,.Sub_Hvr_wrp7,.Sub_Hvr_wrp8,.Sub_Hvr_wrp9,.Sub_Hvr_wrp10,.Sub_Hvr_wrp11")
   .css('display','none'); 
   $(".Sub_Hvr_wrp5").css('display','block');
 })
 $(".list6").hover(function(){
-  $(".Sub_Hvr_wrp1,.Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp5,.Sub_Hvr_wrp7,.Sub_Hvr_wrp8,.Sub_Hvr_wrp9")
+  $(".Sub_Hvr_wrp1,.Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp5,.Sub_Hvr_wrp7,.Sub_Hvr_wrp8,.Sub_Hvr_wrp9,.Sub_Hvr_wrp10,.Sub_Hvr_wrp11")
   .css('display','none'); 
   $(".Sub_Hvr_wrp6").css('display','block');
 })
 $(".list7").hover(function(){
-  $(".Sub_Hvr_wrp1,.Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp6,.Sub_Hvr_wrp8,.Sub_Hvr_wrp9")
+  $(".Sub_Hvr_wrp1,.Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp6,.Sub_Hvr_wrp8,.Sub_Hvr_wrp9,.Sub_Hvr_wrp10,.Sub_Hvr_wrp11")
   .css('display','none'); 
   $(".Sub_Hvr_wrp7").css('display','block');
 })
 $(".list8").hover(function(){
-  $(".Sub_Hvr_wrp1,.Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp6,.Sub_Hvr_wrp7,.Sub_Hvr_wrp9")
+  $(".Sub_Hvr_wrp1,.Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp6,.Sub_Hvr_wrp7,.Sub_Hvr_wrp9,.Sub_Hvr_wrp10,.Sub_Hvr_wrp11")
   .css('display','none'); 
   $(".Sub_Hvr_wrp8").css('display','block');
 })
 $(".list9").hover(function(){
-  $(".Sub_Hvr_wrp1,.Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp6,.Sub_Hvr_wrp7,.Sub_Hvr_wrp8")
+  $(".Sub_Hvr_wrp1,.Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp6,.Sub_Hvr_wrp7,.Sub_Hvr_wrp8,.Sub_Hvr_wrp10,.Sub_Hvr_wrp11")
   .css('display','none'); 
   $(".Sub_Hvr_wrp9").css('display','block');
 })
-
+$(".list10").hover(function(){
+  $(".Sub_Hvr_wrp1,.Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp6,.Sub_Hvr_wrp7,.Sub_Hvr_wrp8,.Sub_Hvr_wrp9,.Sub_Hvr_wrp11")
+  .css('display','none'); 
+  $(".Sub_Hvr_wrp10").css('display','block');
+})
+$(".list11").hover(function(){
+  $(".Sub_Hvr_wrp1,.Sub_Hvr_wrp2,.Sub_Hvr_wrp3,.Sub_Hvr_wrp4,.Sub_Hvr_wrp6,.Sub_Hvr_wrp7,.Sub_Hvr_wrp8,.Sub_Hvr_wrp9,.Sub_Hvr_wrp10")
+  .css('display','none'); 
+  $(".Sub_Hvr_wrp11").css('display','block');
+})
   // add & Remove class
   $(".list-cmn01").hover(function () {
     if(!$(this).hasClass('list-active'))
