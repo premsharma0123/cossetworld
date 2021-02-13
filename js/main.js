@@ -41,6 +41,16 @@ $(".show-social").click(function(){
 })
 
 //------Accordion ----------//
+$(".listAnckr1").click(function(){
+  debugger
+   $(".Accro1").slideDown("");
+   $(".Weight-Content-wrp").css("display","block");
+})
+$(".W1").load(function(){
+   $(this).addClass("OnActive");
+});
+
+// -----
 
 $(".W1").click(function(){
     $(".Accro1").slideToggle(""); 

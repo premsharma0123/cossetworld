@@ -2066,6 +2066,10 @@ main footer .copyright_wrp .copy_content p {
   transition: all 0.3s ease-in-out;
 }
 
+.Slimming_Wrapper .Grid-item4 {
+  display: none !important;
+}
+
 .Slimming_Wrapper .breadcumb-wrp {
   width: 100%;
   padding: 1rem .5rem;

@@ -1392,7 +1392,9 @@
 // --------------*****************Slimming----- ----------------//
 
 .Slimming_Wrapper{
-      
+      .Grid-item4{
+          display: none!important;
+      }
     .breadcumb-wrp{ 
         width: 100%;
         padding: 1rem .5rem;
