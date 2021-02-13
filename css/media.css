@@ -2291,5 +2291,11 @@
     line-height: 1.5;
     display: block;
   }
+  .Slimming_Wrapper .breadcumb-wrp {
+    width: 100%;
+    padding: .5rem .5rem;
+    background: #F73624;
+    display: none;
+  }
 }
 /*# sourceMappingURL=media.css.map */
