@@ -3500,6 +3500,15 @@ main footer .copyright_wrp .copy_content p {
   display: block !important;
 }
 
+.BodyTreatment_Wrapper .Grid-item5 {
+  display: block !important;
+}
+
+.BodyTreatment_Wrapper .hair-trn-Cnt01 p {
+  padding: 0 0 0 0 !important;
+  text-align: justify;
+}
+
 .main-bar {
   display: none;
 }

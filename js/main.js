@@ -243,9 +243,15 @@ $(".list11").hover(function(){
 //   $( "#resizable" ).resizable();
 // } );
 
-
+$(".header").load("header.html");
 })
 
+$(function(){
+  $("[data-load]").each(function(){
+      $(this).load($(this).data("load"), function(){
+      });
+  });
+})
 //  -----mouse---movement-----
 
   //     $('.Treatment_Wrapper ').mousemove(function(e) {
