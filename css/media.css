@@ -731,6 +731,10 @@
 }
 
 @media only screen and (max-width: 767px) {
+  header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down li a {
+    width: 100%;
+    height: 100%;
+  }
   header .top-social-bar .child-wrp {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
@@ -1680,7 +1684,7 @@
     top: 29px;
   }
   .myHeader {
-    top: 79px;
+    top: 84px;
   }
   main .Service_wrapper .Service_content .Grid-item1 {
     background-position: revert;
@@ -2240,7 +2244,7 @@
     padding: 0 0 .4rem;
   }
   .Thread_Wrapper .Thread-left-wrp .key-wrp .key01 h3 {
-    font-size: 1em;
+    font-size: 15px;
     padding: 0 0 .4rem;
   }
   .Filler_Wrapper .Main-Filler-content .Filler-Treatment .filler-heading h2 {
@@ -2272,6 +2276,7 @@
   }
   .Filler_Wrapper .Main-Filler-content .Benefit_Wrapper .Benefit-heading h2 {
     font-size: 1em;
+    padding: .7rem 0;
   }
   .Thread_Wrapper .Filler-Banner {
     background-position-y: 0 !important;

@@ -7,7 +7,7 @@
 
 body {
   font-size: 15px;
-  color: #2c3e50;
+  color: #000000;
   background: #fff;
   font-family: 'RalewayRegular';
   line-height: 1.5;
@@ -284,6 +284,8 @@ header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down li a {
   display: inline-block;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  width: 100%;
+  height: 100%;
 }
 
 header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down li a:hover {
@@ -2596,8 +2598,8 @@ main footer .copyright_wrp .copy_content p {
   width: 100%;
   margin-bottom: 1.5rem;
   border-radius: 5px;
-  background: #ffffff87;
-  border: 1px solid #00000038;
+  background: #ffffff;
+  border: 1px solid #0000000f;
 }
 
 .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-heading h2 {
@@ -2785,6 +2787,8 @@ main footer .copyright_wrp .copy_content p {
 
 .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .spot-area-wrp figure img {
   max-width: 50%;
+  -webkit-animation: imganime 3s linear infinite;
+          animation: imganime 3s linear infinite;
 }
 
 @-webkit-keyframes boxshadow {
@@ -2876,9 +2880,9 @@ main footer .copyright_wrp .copy_content p {
 }
 
 .Filler_Wrapper .Filler-Banner {
-  background: url(../image/banner-filler.png) no-repeat !important;
+  background: url(../image/banner-filler1.png) no-repeat !important;
   background-size: cover !important;
-  background-position-y: -200px !important;
+  background-position-y: cover !important;
 }
 
 .Filler_Wrapper .Main-Filler-content .Filler-Service .Slim_content h2 {
@@ -2945,6 +2949,8 @@ main footer .copyright_wrp .copy_content p {
 
 .Filler_Wrapper .Main-Filler-content .Filler-Treatment .Filler-content figure img {
   max-width: 50%;
+  -webkit-animation: imganime 3s linear infinite;
+          animation: imganime 3s linear infinite;
 }
 
 .Organic_Wrapper .Organic-Banner {
@@ -3182,6 +3188,8 @@ main footer .copyright_wrp .copy_content p {
 
 .HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .hair-cnt01 figure img {
   max-width: 64% !important;
+  -webkit-animation: imganime 3s linear infinite;
+          animation: imganime 3s linear infinite;
 }
 
 .HairTransplant_Wrapper .Hair-Trt-Bfr .Hair-Bfr-content .hair-cnt01 figure.grl-aftr {
@@ -3313,6 +3321,8 @@ main footer .copyright_wrp .copy_content p {
 
 .HairLaser-Wrapper .hairLaser_wrp .hair-Laser01 .subhair-trt-wrp .hair_trt-cmn01 .hair-cnt04 figure img {
   max-width: 100%;
+  -webkit-animation: imganime 3s linear infinite;
+          animation: imganime 3s linear infinite;
 }
 
 .HairLaser-Wrapper .hairLaser_wrp .hair-Laser01 .subhair-trt-wrp .hair-Rgt {
@@ -3469,7 +3479,7 @@ main footer .copyright_wrp .copy_content p {
   display: none !important;
 }
 
-.HairLaser-Wrapper .Grid-item3, .HairPigment_Wrapper, .Scalp_Wrapper .Grid-item5,
+.HairLaser-Wrapper .Grid-item3, .HairPigment_Wrapper, .Scalp_Wrapper .Grid-item3,
 .HairTransplant_Wrapper .Grid-item3, .PrpHair_Wrapper .Grid-item3 {
   display: block !important;
 }
@@ -3484,6 +3494,10 @@ main footer .copyright_wrp .copy_content p {
 
 .permanentMakeup_Wrapper .Grid-item1 {
   display: none !important;
+}
+
+.permanentMakeup_Wrapper .Grid-item3 {
+  display: block !important;
 }
 
 .main-bar {
@@ -4223,6 +4237,10 @@ main footer .copyright_wrp .copy_content p {
 }
 
 @media only screen and (max-width: 767px) {
+  header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down li a {
+    width: 100%;
+    height: 100%;
+  }
   header .top-social-bar .child-wrp {
     -webkit-box-pack: center !important;
         -ms-flex-pack: center !important;
@@ -5172,7 +5190,7 @@ main footer .copyright_wrp .copy_content p {
     top: 29px;
   }
   .myHeader {
-    top: 79px;
+    top: 84px;
   }
   main .Service_wrapper .Service_content .Grid-item1 {
     background-position: revert;
@@ -5732,7 +5750,7 @@ main footer .copyright_wrp .copy_content p {
     padding: 0 0 .4rem;
   }
   .Thread_Wrapper .Thread-left-wrp .key-wrp .key01 h3 {
-    font-size: 1em;
+    font-size: 15px;
     padding: 0 0 .4rem;
   }
   .Filler_Wrapper .Main-Filler-content .Filler-Treatment .filler-heading h2 {
@@ -5764,6 +5782,7 @@ main footer .copyright_wrp .copy_content p {
   }
   .Filler_Wrapper .Main-Filler-content .Benefit_Wrapper .Benefit-heading h2 {
     font-size: 1em;
+    padding: .7rem 0;
   }
   .Thread_Wrapper .Filler-Banner {
     background-position-y: 0 !important;
