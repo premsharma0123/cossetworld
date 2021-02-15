@@ -1606,9 +1606,9 @@
               height: 300px;
             }
           .Grid-item2 {
-              background: url(../image/grid02.png)$no-rpt;
+              background: url(../image/Gridskin.png)$no-rpt;
               background-size: cover;
-              background-position: revert;
+              background-position: $mid;
               height: 300px; 
           }
           .Grid-item3 { background: url(../image/grid05.png)$no-rpt;
@@ -1623,7 +1623,7 @@
            }
           .Grid-item5 {  background: url(../image/grid04.png)$no-rpt;
               background-size: cover;
-              background-position: center;
+              background-position: $mid;
               height: 300px;    
            } 
          }    
@@ -2631,6 +2631,37 @@
 .Filler_Wrapper .Grid-item3{
     display: none!important;
 }
+.BodyTreatment_Wrapper .Grid-item2,.SkinTreatment_Wrapper .Grid-item2{
+    display: none!important;
+}
+
+.BodyTreatment_Wrapper .Grid-item3 ,.SkinTreatment_Wrapper .Grid-item3 {
+    display: block !important;
+}
+.BodyTreatment_Wrapper .Grid-item5{
+    display: block !important;
+}
+ 
+.HairLaser-Wrapper .Grid-item5,.HairPigment_Wrapper .Grid-item5, .Scalp_Wrapper .Grid-item5
+,.HairTransplant_Wrapper .Grid-item5,.PrpHair_Wrapper .Grid-item5{
+    display: none!important;
+}
+.HairLaser-Wrapper .Grid-item3,.HairPigment_Wrapper, .Scalp_Wrapper .Grid-item5,
+.HairTransplant_Wrapper .Grid-item3,.PrpHair_Wrapper .Grid-item3{
+    display: block !important;
+}
+.Botox_Wrapper .Grid-item3{
+ display: none!important;
+}
+.Botox_Wrapper .Grid-item5{
+    display: block!important;
+}
+
+.permanentMakeup_Wrapper .Grid-item1{
+    display: none!important;
+}
+
+
 
 .main-bar{
     display: none;
