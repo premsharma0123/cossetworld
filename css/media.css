@@ -2295,5 +2295,21 @@
     width: 100%;
     padding: .5rem .5rem;
   }
+  .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Spt-thrpy .Spot-cnt h3 {
+    font-size: 15px;
+  }
+  .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Spt-thrpy .Spot-cnt ul li {
+    font-size: 15px;
+  }
+  .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Spt-thrpy .Spot-cnt p {
+    font-size: 15px;
+  }
+  .Slimming_Wrapper .Main-content-Wrapper .Weight-Loss_Wrapper .Weight-Loss {
+    padding: 0rem 0 0rem;
+  }
+  .permanentMakeup_Wrapper .Main-premanent_wrp .permanent-service .Slim_content ul li {
+    font-size: 14px;
+    line-height: 1.5;
+  }
 }
 /*# sourceMappingURL=media.css.map */
