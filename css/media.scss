@@ -5,11 +5,11 @@
         font-size: 1em!important;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
-        left: -58px;
+        left: 2px;
         top: -215px;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
-        right: -62px;
+        right: 2px;
         bottom: -213px;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
@@ -21,11 +21,11 @@
         font-weight: 550;
     }
     main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
-        left: -53px !important;
+        left: -35px !important;
         top: -60px !important;
     }
     main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
-        right: -56px !important;
+        right: -35px !important;
         bottom: -61px !important;
     }
     main header .Nav-wrp nav .nav-item ul .drop_down{
@@ -91,19 +91,19 @@
         font-size: 15px!important;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
-        left: -39px;
+        left: 22px;
         top: -215px;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
-        right: -41px;
+        right: 22px;
         bottom: -213px;
     }
     main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
-        left: -42px !important;
-        top: -60px !important;
+        left: -15px !important;
+        top: -61px !important;
     }
     main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
-        right: -45px !important;
+        right: -15px !important;
         bottom: -61px !important;
     }
     main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 figure img {
@@ -364,11 +364,11 @@
             "d d e e  ";
     }
     main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
-        left: -83px !important;
+        left: -59px  !important;
         top: -62px !important;
     }   
     main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
-        right: -83px !important;
+        right: -59px  !important;
         bottom: -64px !important;
     }
     header .Nav-wrp nav .nav-item .Unorder_wrp .drop_down{
@@ -379,11 +379,11 @@
         height: 150px;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
-        left: -79px;
+        left: -21px;
         top: -214px;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
-        right: -81px;
+        right: -21px;
         bottom: -210px;
     }
     main .Appointment_Wrapper .Appointment_child .Appointment_Content {
@@ -796,8 +796,8 @@
         padding: .1rem 0 .5rem;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
-        left: -21px;
-        top: -218px;
+        left: 19px;
+        top: -206px;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
         width: 110px;
@@ -808,15 +808,15 @@
         height: 110px;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
-        right: -23px;
-        bottom: -215px;
+        right: 19px;
+        bottom: -206px;
     }
     main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
-        left: -21px !important;
+        left: -2px !important;
         top: -62px !important;
     }
     main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
-        right: -24px !important;
+        right: -2px !important;
         bottom: -63px !important;
     }
     main .Appointment_Wrapper .Appointment_child .Appointment_Content .Apt_Cmn01 figure img {
@@ -1210,7 +1210,7 @@
             "e e e e ";
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
-        left: -103px;
+        left: -48px;
         top: -214px;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
@@ -1222,15 +1222,15 @@
         height: 180px;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
-        right: -105px;
+        right: -48px;
         bottom: -215px;
     }
     main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
-        left: -105px !important;
+        left: -81px  !important;
         top: -62px !important;
     }
     main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
-        right: -108px !important;
+        right: -81px  !important;
         bottom: -63px !important;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt a {
@@ -1666,7 +1666,14 @@
 }
 
 @media only screen and (max-width:480px){
-
+    main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content::before {
+        width: 150px;
+        height: 150px; 
+    }
+    main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content::after {
+        width: 150px;
+        height: 150px; 
+    }
     // map---
     .map {
         width: 100%;
@@ -1741,11 +1748,11 @@
         font-size: 13px;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
-        left: -62px;
+        left: -8px;
         top: -114px;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
-        right: -58px;
+        right: -8px;
         bottom: -215px;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
@@ -1761,11 +1768,11 @@
         bottom: -112px;
     } 
     main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
-        left: -62px !important;
+        left: -40px !important;
         top: -62px !important;
     }
     main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
-        right: -64px !important;
+        right: -40px !important;
         bottom: -64px !important;
     } 
     
@@ -2032,11 +2039,11 @@
 
 @media only screen and(max-width:414px){
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
-        left: -32px;
+        left: 21px;
         top: -114px;
     } 
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
-        right: -35px;
+        right:  21px;
         bottom: -112px;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::after {
@@ -2047,10 +2054,33 @@
         width: 130px;
         height: 130px;
     }
-    
+    main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
+        left: -14px !important;
+        top: -62px !important;
+    }
+    main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
+        right: -14px !important;
+        bottom: -64px !important;
+    }
 }
 
 @media only screen and(max-width:375px){
+    main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content::before {
+        width: 100px;
+        height: 100px; 
+    }
+    main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content::after {
+        width: 100px;
+        height: 100px; 
+    }
+    main .Service_wrapper .Service_content .Grid__hvr0001:hover .grid-hvr-content::before{
+        width: 100px;
+        height: 100px; 
+    }
+    main .Service_wrapper .Service_content .Grid__hvr0001:hover .grid-hvr-content::after{
+        width: 100px;
+        height: 100px; 
+    }
     header .Nav-wrp nav .logo {
         width: 60%;
     }
@@ -2113,8 +2143,8 @@
         font-size: 13px;
     } 
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::before {
-        left: -17px;
-        top: -81px;
+        left:  14px ;
+        top: -79px;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
         width: 100px;
@@ -2125,8 +2155,8 @@
         height: 100px;
     }
     main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01 .grid-hvr-content .Hvr_cnt::after {
-        right: -19px;
-        bottom: -86px; 
+        right:  14px ;
+        bottom: -79px; 
     }
     main .Service_wrapper .Service_content .Grid-item1{
         height: 340px;
@@ -2136,12 +2166,12 @@
         font-size: 14px;
     }
     main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::before {
-        left: -17px !important;
-        top: -66px !important;
+        left: -4px !important;
+        top: -72px !important;
     }
     main .Service_wrapper .Service_content .Grid__hvr0001 .grid-hvr-content .Hvr_cnt::after {
-        right: -18px !important;
-        bottom: -64px !important;
+        right: -4px !important;
+        bottom: -72px !important;
     }
     main .About_Wrapper .About_Content .Abt_cmn01 h2 {
         font-size: 1.4em;

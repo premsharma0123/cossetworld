@@ -126,8 +126,7 @@ $Arimo:'Arimo';
     &:hover{
         .grid-hvr-content{
             opacity: 1;
-            transition: $transition;
-            .Hvr_cnt{
+            transition: $transition; 
                 &::before{
                     width: 90px;
                     height: 90px;
@@ -137,8 +136,7 @@ $Arimo:'Arimo';
                     width: 90px;
                     height: 90px;
                     transition: all .5s ease-in-out;
-                }
-            }
+                } 
         }
         .bottom_Bar{
            opacity: 0;
@@ -154,31 +152,31 @@ $Arimo:'Arimo';
         z-index: 4;
         opacity: 0;
         transition: $transition;
+        position: relative;
+        &::before{
+            content: '';
+            width: 0px;
+            height: 0px;
+            position: absolute;
+            left: 17px; 
+            top:  17px;
+            border-top: 2px solid #fff;
+            border-left: 2px solid #fff;
+            transition: all .5s ease-in-out;
+        }
+        &::after{
+           content: '';
+           width: 0px;
+           height: 0px;
+           position: absolute;
+           right: 17px;
+           bottom: 17px;//-156px;
+           border-bottom: 2px solid #fff;
+           border-right: 2px solid #fff;
+           transition: all .5s ease-in-out;
+       }
         .Hvr_cnt{
-            text-align: center;
-            position: relative;
-            &::before{
-                content: '';
-                width: 0px;
-                height: 0px;
-                position: absolute;
-                left: -30px; 
-                top: -63px;
-                border-top: 2px solid #fff;
-                border-left: 2px solid #fff;
-                transition: all .5s ease-in-out;
-            }
-            &::after{
-               content: '';
-               width: 0px;
-               height: 0px;
-               position: absolute;
-               right: -30px;
-               bottom: -63px;//-156px;
-               border-bottom: 2px solid #fff;
-               border-right: 2px solid #fff;
-               transition: all .5s ease-in-out;
-           }
+            text-align: center;  
             h2{
                 font-size: 1.5em;
                 line-height: 1.5;
@@ -225,8 +223,7 @@ $Arimo:'Arimo';
     &:hover{
         .grid-hvr-content{
             opacity: 1;
-            transition: $transition;
-            .Hvr_cnt{
+            transition: $transition; 
                 &::before{
                     width: 245px;
                     height: 245px;
@@ -236,8 +233,7 @@ $Arimo:'Arimo';
                     width: 245px;
                     height: 245px;
                     transition: all .5s ease-in-out;
-                }
-            }
+                } 
         }
         .bottom_Bar{
            opacity: 0;
@@ -253,31 +249,31 @@ $Arimo:'Arimo';
         z-index: 1;
         opacity: 0;
         transition: $transition;
+        position: relative;
+        &::before{
+            content: '';
+            width: 0px;
+            height: 0px;
+            position: absolute;
+            left: 23px;
+            top: 23px;
+            border-top: 2px solid #fff;
+            border-left: 2px solid #fff;
+            transition: all .5s ease-in-out;
+        }
+        &::after{
+           content: '';
+           width: 0px;
+           height: 0px;
+           position: absolute;
+           right: 23px;
+           bottom: 23px;//-156px;
+           border-bottom: 2px solid #fff;
+           border-right: 2px solid #fff;
+           transition: all .5s ease-in-out;
+       }
         .Hvr_cnt{
-            text-align: center;
-            position: relative;
-            &::before{
-                content: '';
-                width: 0px;
-                height: 0px;
-                position: absolute;
-                left: -100px;
-                top: -213px;
-                border-top: 2px solid #fff;
-                border-left: 2px solid #fff;
-                transition: all .5s ease-in-out;
-            }
-            &::after{
-               content: '';
-               width: 0px;
-               height: 0px;
-               position: absolute;
-               right: -100px;
-               bottom: -213px;//-156px;
-               border-bottom: 2px solid #fff;
-               border-right: 2px solid #fff;
-               transition: all .5s ease-in-out;
-           }
+            text-align: center;  
             h2{
                 font-size: 1.3em;
                 line-height: 1.5;
@@ -320,7 +316,7 @@ $Arimo:'Arimo';
 }
 @mixin grid-Hvr2 {
     &:hover{
-        .Hvr_cnt{
+        .grid-hvr-content{
             &::before{
                 width: 131px!important;
                 height: 131px!important;
@@ -333,15 +329,14 @@ $Arimo:'Arimo';
             }
         }
     }
-    .grid-hvr-content{
-        .Hvr_cnt{
+    .grid-hvr-content{ 
             &::before{
-                left: -100px!important;
-                top: -60px!important;
+                left: 18px !important;
+                top: 15px!important;
             }
             &::after{
-               right: -100px!important;
-               bottom:  -61px !important;//-213px;
+               right: 18px !important;
+               bottom:  18px !important;//-213px;
            }
             h2{
                 font-size: 1.9em;
@@ -379,7 +374,6 @@ $Arimo:'Arimo';
                &::before{
                    background: #fff;
                }
-           }
-        }
+           } 
     }
 }
