@@ -135,6 +135,9 @@
 }
 
 @media only screen and (max-width: 1200px) {
+  main header .Nav-wrp nav .nav-item ul li a {
+    font-size: 14px !important;
+  }
   main .Service_wrapper .Service_content .Grid_wrp .Grid-item_cmn01:hover .grid-hvr-content .Hvr_cnt::before {
     width: 185px;
     height: 185px;
